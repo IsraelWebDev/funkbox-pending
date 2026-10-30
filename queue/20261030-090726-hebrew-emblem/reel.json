@@ -13,7 +13,7 @@
  },
  "copy": "copy.json",
  "audio": {
-  "music": "assets/march.mp3",
+  "music": "assets/niggun.mp3",
   "bpm": 116,
   "snap_cuts_to_beats": true,
   "voiceover": false,
