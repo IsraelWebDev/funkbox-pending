@@ -1,0 +1,10 @@
+{
+  "observation": "The owner tried image AIs to change Hebrew text on an emblem and gave up: exact non-Latin text is a real, unmet need. Doing it took hand-written SVG outside funkbox, because funkbox's poster tools ship no Hebrew font and have no skewed or block lettering.",
+  "suggestion": "Make funkbox posters right-to-left ready: bundle an OFL Hebrew font (e.g. Rubik or Heebo), test RTL shaping in poster_render and image_edit, and add text-on-path and skewed text blocks so emblem-style lettering can be done with poster_* tools.",
+  "evidence": [
+    "owner request in the funkbox session, 2026-10-30",
+    "this promo's emblem was built with SVG, not poster_*"
+  ],
+  "effort": "medium",
+  "would_enable": "A how-to promo: an emblem or poster with Hebrew text made entirely with funkbox's poster tools."
+}
