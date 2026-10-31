@@ -1,0 +1,94 @@
+{
+ "version": 1,
+ "name": "emblem-b",
+ "canvas": {
+  "width": 1400,
+  "height": 1440,
+  "background": "#ffffff"
+ },
+ "copy": "emblem.copy.json",
+ "brand": {
+  "primary": "#ec334b",
+  "secondary": "#1b224b",
+  "text": "#1b224b",
+  "font_display": "Rubik:800",
+  "font_caption": "Exo 2:700",
+  "font_fallback": "Rubik:800"
+ },
+ "layers": [
+  {
+   "id": "art",
+   "type": "svg",
+   "path": "emblem-b.art.svg",
+   "x": 0,
+   "y": 0,
+   "width": 1.0
+  },
+  {
+   "id": "title",
+   "type": "text",
+   "copy_id": "top",
+   "style": "display",
+   "size": 0.0528,
+   "x": 0.2784,
+   "y": 0.3182,
+   "max_width": 0.4387,
+   "align": "center",
+   "color": "#2b2416",
+   "wrap": false
+  },
+  {
+   "id": "eng",
+   "type": "text",
+   "copy_id": "army",
+   "style": "caption",
+   "size": 0.0217,
+   "x": 0.3644,
+   "y": 0.629,
+   "max_width": 0.3286,
+   "align": "center",
+   "color": "#4b5320",
+   "wrap": false,
+   "skew_y": -28,
+   "runs": [
+    {
+     "match": "Army of Hashem for Israel",
+     "font": "Exo 2:700:italic"
+    },
+    {
+     "match": "of ",
+     "scale": 2.6,
+     "all": false,
+     "font": "Rubik Mono One"
+    },
+    {
+     "match": "of",
+     "scale": 1.0,
+     "all": false,
+     "font": "Exo 2:700:italic"
+    }
+   ]
+  },
+  {
+   "id": "motto",
+   "type": "text",
+   "copy_id": "motto",
+   "style": "caption",
+   "size": 0.0626,
+   "x": 0.2439,
+   "y": 0.7661,
+   "max_width": 0.5112,
+   "align": "center",
+   "color": "#e1c679",
+   "wrap": false,
+   "arc": 0.5769
+  }
+ ],
+ "export": {
+  "formats": [
+   "png",
+   "svg"
+  ]
+ },
+ "min_text": 0.016
+}

@@ -15,11 +15,11 @@
     {
       "id": "emblem",
       "type": "image",
-      "path": "../emblem/renders/emblem-a-draft32.png",
+      "path": "../emblem/renders/emblem-a.png",
       "fit": "contain",
       "x": 0.5,
-      "y": 0.67,
-      "scale": 0.78
+      "y": 0.69,
+      "scale": 0.8
     }
   ],
   "export": {

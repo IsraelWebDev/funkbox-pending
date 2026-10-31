@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "name": "card-score",
+  "casual": true,
+  "canvas": {
+    "preset": "story",
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "id": "bg",
+      "type": "solid",
+      "color": "#ffffff"
+    },
+    {
+      "id": "emblem",
+      "type": "image",
+      "path": "../emblem/renders/emblem-a.png",
+      "fit": "contain",
+      "x": 0.5,
+      "y": 0.52,
+      "scale": 0.6
+    },
+    {
+      "id": "sheet",
+      "type": "image",
+      "path": "../emblem/compare/compare-a.compare.png",
+      "fit": "contain",
+      "x": 0.5,
+      "y": 0.84,
+      "scale": 1.0
+    }
+  ],
+  "export": {
+    "formats": [
+      "png"
+    ]
+  }
+}

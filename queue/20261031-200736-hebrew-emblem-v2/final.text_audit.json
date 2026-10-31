@@ -15,12 +15,12 @@
       "copy_id": "hook",
       "first_frame": 3,
       "last_frame": 93,
-      "text": "REBUILT FROM\nSHAPES AND\nTYPED HEBREW",
+      "text": "TRACED TO\nVECTORS, TEXT\nKEPT LIVE",
       "complete_frame": 3,
       "drawn_lines": [
-        "REBUILT FROM",
-        "SHAPES AND",
-        "TYPED HEBREW"
+        "TRACED TO",
+        "VECTORS, TEXT",
+        "KEPT LIVE"
       ],
       "text_exact": true,
       "frames": [
@@ -30,37 +30,38 @@
     },
     {
       "kind": "caption",
-      "shot": "draft1",
+      "shot": "lift",
       "slot": "caption",
       "instance": "main",
-      "copy_id": "d1",
-      "first_frame": 97,
+      "copy_id": "lift",
+      "first_frame": 99,
       "last_frame": 187,
-      "text": "DRAFT 1:\n72/100 AGAINST\nTHE REFERENCE",
-      "complete_frame": 97,
+      "text": "STEP 1: LIFT THE\nLETTERING OUT",
+      "complete_frame": 130,
       "drawn_lines": [
-        "DRAFT 1:",
-        "72/100 AGAINST",
-        "THE REFERENCE"
+        "STEP 1: LIFT THE",
+        "LETTERING OUT"
       ],
       "text_exact": true,
       "frames": [
-        97,
+        99,
         187
       ]
     },
     {
       "kind": "caption",
-      "shot": "draft32",
+      "shot": "live",
       "slot": "caption",
       "instance": "main",
-      "copy_id": "d32",
+      "copy_id": "live",
       "first_frame": 193,
       "last_frame": 280,
-      "text": "DRAFT 32: 79/100",
-      "complete_frame": 209,
+      "text": "STEP 2: LIVE,\nEXACT TEXT\nBACK ON TOP",
+      "complete_frame": 230,
       "drawn_lines": [
-        "DRAFT 32: 79/100"
+        "STEP 2: LIVE,",
+        "EXACT TEXT",
+        "BACK ON TOP"
       ],
       "text_exact": true,
       "frames": [
@@ -70,22 +71,21 @@
     },
     {
       "kind": "caption",
-      "shot": "svg",
+      "shot": "score",
       "slot": "caption",
       "instance": "main",
-      "copy_id": "svg",
-      "first_frame": 286,
+      "copy_id": "score",
+      "first_frame": 284,
       "last_frame": 374,
-      "text": "SAVED AS SVG:\nSHARP AT\nANY SIZE",
-      "complete_frame": 318,
+      "text": "97/100 AGAINST\nTHE REFERENCE",
+      "complete_frame": 284,
       "drawn_lines": [
-        "SAVED AS SVG:",
-        "SHARP AT",
-        "ANY SIZE"
+        "97/100 AGAINST",
+        "THE REFERENCE"
       ],
       "text_exact": true,
       "frames": [
-        286,
+        284,
         374
       ]
     },
@@ -97,12 +97,11 @@
       "copy_id": "mash",
       "first_frame": 378,
       "last_frame": 487,
-      "text": "PLUS 2 MASHUPS:\n85/100 AND\n84/100",
+      "text": "2 MASHUPS:\n97/100 EACH",
       "complete_frame": 378,
       "drawn_lines": [
-        "PLUS 2 MASHUPS:",
-        "85/100 AND",
-        "84/100"
+        "2 MASHUPS:",
+        "97/100 EACH"
       ],
       "text_exact": true,
       "frames": [
@@ -175,10 +174,10 @@
       "copy_id": "end_sub",
       "first_frame": 591,
       "last_frame": 666,
-      "text": "SHAPES + TYPED TEXT",
+      "text": "TRACE + LIVE TEXT",
       "complete_frame": 591,
       "drawn_lines": [
-        "SHAPES + TYPED TEXT"
+        "TRACE + LIVE TEXT"
       ],
       "text_exact": true,
       "frames": [

@@ -1,11 +1,11 @@
 {
-  "observation": "Rebuilding this emblem with poster tools hit four walls. (1) Text has a floor of 3.2% of the canvas height, so the star mashups could not set 'Army of Hashem for Israel' at the 2.3% their layout needs; the shield had to be built full size, exported as SVG and placed as an svg layer. (2) That svg layer drops clip-path, so funkbox's own SVG of a clipped poster comes back unclipped: the field spilled past the shield until it was redrawn as exact paths. (3) No word spacing: opening a gap in the band text for the post took a monospace-font run on one space, scaled 2.6x, undone on 'of' by a second run. (4) One text layer shares one baseline and on_path turns off skew, so the three block letters at different heights needed a stepped baseline path computed outside funkbox; against hand-drawn letterforms the faithful emblem stopped at 79-82/100.",
-  "suggestion": "Make an exported SVG round-trip: the svg layer should honour clipPath (and text stroke widths) from funkbox's own export, and poster text layers should take their own minimum size (e.g. 1% of the canvas or 12 px) instead of the reel caption floor, so a shield drawn once can be placed at any size inside another poster with its small lettering intact.",
+  "observation": "Tracing beat drawing by a wide margin for this emblem: a traced artwork with the lettering lifted out and three live text layers scored 97.4-97.9/100, where hand-built shapes and fonts stopped at 79 and drawn glyphs plus poster_fit at 88.6. The words stay audited text. Two rough edges: (1) lift_text 'auto' also lifts small art of the text colour (leaves, shading), so the mashups needed per-area colours ({color, within}); (2) poster_fit takes about 110 s per emblem on 2 CPU cores (about 110 preview renders and compares of roughly a second each).",
+  "suggestion": "Let poster_fit try the candidates of one round in parallel and stop a parameter early once both directions fail twice, and let lift_text skip shapes that are not on a line of similar shapes (a lone leaf has no neighbours), so 'auto' works without areas.",
   "evidence": [
-    "emblem/renders/emblem-c-draft1.png (clips lost through the svg layer)",
-    "emblem/tune-a*.json and emblem/compare/*.compare.json (draft scores)",
-    "emblem/emblem-a-draft32.poster.json (runs on the band text; stepped on_path for the letters)"
+    "emblem/compare/compare-a.compare.json (97.9), compare-b (97.4), compare-c (97.4)",
+    "emblem/trace/trace-*.text.json (found lines)",
+    "promo/FACTS.md F24"
   ],
   "effort": "small",
-  "would_enable": "A how-to promo: draw an emblem once, then drop it into a poster, a badge and a story at different sizes, every word still typed and audited."
+  "would_enable": "A one-call recreate of any badge or logo with its words as live text, in about a minute instead of two."
 }

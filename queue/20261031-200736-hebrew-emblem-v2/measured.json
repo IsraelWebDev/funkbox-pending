@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-01",
-  "measured_at": "2026-10-31T19:56:42Z",
+  "day": "20261031-200736-hebrew-emblem-v2",
+  "measured_at": "2026-10-31T22:15:20Z",
   "facts": {
     "M-machine": {
       "value": {
@@ -12,8 +12,8 @@
       "say": "a 2-core CPU with no GPU (software OpenGL)"
     },
     "M-tools": {
-      "value": 42,
-      "say": "Claude drives it through 42 MCP tools"
+      "value": 48,
+      "say": "Claude drives it through 48 MCP tools"
     },
     "M-presets": {
       "value": 8,
@@ -24,12 +24,26 @@
       "say": "10 shader effects to layer"
     },
     "M-tests": {
-      "value": 564,
-      "say": "564 automated tests in the repo"
+      "value": 595,
+      "say": "595 automated tests in the repo"
     },
     "M-commits": {
-      "value": [],
-      "say": "changes since the last promo: none"
+      "value": [
+        "50c565a image_trace: lift lettering out of the artwork, return its lines, write a starter poster with live text",
+        "f66f4b6 Shapes: fill only inside each shape's bounding box (6x faster for traced SVGs)",
+        "6bc3fba Lettering fonts and poster_fit: drawn letters that stay exact text, and tuning to a reference",
+        "cfeaca7 funkbox 4.2.0",
+        "1a9e2a2 Video tools and a shared reel timeline",
+        "0dfa194 Voiceover: a real pause between sentences inside one line",
+        "10e8092 Voiceover: Kokoro-82M as the default voice, Piper as the fallback",
+        "4ad6ec9 Right-to-left text on Pillow without libraqm (Windows)",
+        "3461b31 sf2: docstring wording (hygiene check)",
+        "964ebaa sf2: interpolate across the loop point to the loop start (no click at the wrap)",
+        "ea15e55 Music: scores played by a numpy SoundFont player (GeneralUser GS)",
+        "1ee998c Animated posters: motion block and poster_animate",
+        "ee59ff8 image_trace: trace a picture into a vector SVG of flat colours"
+      ],
+      "say": "changes since the last promo: image_trace: lift lettering out of the artwork, return its lines, write a starter poster with live text; Shapes: fill only inside each shape's bounding box (6x faster for traced SVGs); Lettering fonts and poster_fit: drawn letters that stay exact text, and tuning to a reference; funkbox 4.2.0; Video tools and a shared reel timeline; Voiceover: a real pause between sentences inside one line; Voiceover: Kokoro-82M as the default voice, Piper as the fallback; Right-to-left text on Pillow without libraqm (Windows); sf2: docstring wording (hygiene check); sf2: interpolate across the loop point to the loop start (no click at the wrap); Music: scores played by a numpy SoundFont player (GeneralUser GS); Animated posters: motion block and poster_animate; image_trace: trace a picture into a vector SVG of flat colours"
     },
     "M-video": {
       "value": {
@@ -49,10 +63,10 @@
     },
     "M-render": {
       "value": {
-        "seconds": 59.8,
+        "seconds": 50.4,
         "frames": 667
       },
-      "say": "this video rendered in 60 seconds on a 2-core CPU with no GPU (software OpenGL)"
+      "say": "this video rendered in 50 seconds on a 2-core CPU with no GPU (software OpenGL)"
     }
   }
 }
