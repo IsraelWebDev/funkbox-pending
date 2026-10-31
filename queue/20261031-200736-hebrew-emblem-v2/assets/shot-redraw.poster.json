@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "name": "shot-redraw",
+  "casual": true,
+  "canvas": {
+    "preset": "story",
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "id": "bg",
+      "type": "solid",
+      "color": "#ffffff"
+    },
+    {
+      "id": "emblem",
+      "type": "image",
+      "path": "../emblem/reference/A-faithful.png",
+      "fit": "contain",
+      "x": 0.5,
+      "y": 0.69,
+      "scale": 0.8
+    }
+  ],
+  "export": {
+    "formats": [
+      "png"
+    ]
+  }
+}

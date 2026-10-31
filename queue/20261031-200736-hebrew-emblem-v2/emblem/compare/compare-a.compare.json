@@ -1,39 +1,39 @@
 {
   "scores": {
     "overall": 97.6,
-    "structure": 96.4,
-    "colour": 97.3,
-    "layout": 99.4
+    "structure": 96.3,
+    "colour": 97.4,
+    "layout": 99.5
   },
   "cells": [
     {
       "row": 2,
       "col": 1,
       "where": "lower middle centre-left",
-      "score": 93.0,
-      "colour": 94.5,
-      "structure": 89.8,
-      "layout": 95.8,
+      "score": 93.4,
+      "colour": 94.9,
+      "structure": 89.9,
+      "layout": 96.6,
       "differs": "shape"
     },
     {
       "row": 2,
       "col": 2,
       "where": "lower middle centre-right",
-      "score": 93.6,
-      "colour": 95.2,
-      "structure": 88.6,
-      "layout": 98.6,
+      "score": 94.1,
+      "colour": 96.8,
+      "structure": 88.1,
+      "layout": 99.5,
       "differs": "shape"
     },
     {
       "row": 3,
       "col": 1,
       "where": "bottom centre-left",
-      "score": 95.7,
-      "colour": 95.3,
-      "structure": 93.5,
-      "layout": 98.9,
+      "score": 95.4,
+      "colour": 95.2,
+      "structure": 93.1,
+      "layout": 98.7,
       "differs": "shape"
     },
     {
@@ -74,7 +74,7 @@
       "colour": 97.6,
       "structure": 97.6,
       "layout": 98.8,
-      "differs": "colour"
+      "differs": "shape"
     },
     {
       "row": 0,

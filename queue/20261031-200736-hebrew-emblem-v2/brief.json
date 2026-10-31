@@ -8,30 +8,50 @@
     "behind-the-scenes: this video's render time and the trace and fit timings"
   ],
   "trend": null,
-  "angle": "The emblem's journey in one video: the original Tzivos Hashem emblem; a redraw (the extra letter ל, the longer Hebrew line) traced to vectors by funkbox's image_trace with the lettering lifted out; the finished emblem with new live text that the text audit checks exactly, the English words set cleanly inside their bars; before/after; then two owner-approved mashups (owner_approval.json).",
-  "hook": "From the original to new live text",
+  "angle": "The emblem's journey: the original Tzivos Hashem emblem; the redraw (extra letter ל, longer Hebrew line) as the target; three early funkbox rebuild attempts from shapes and typed Hebrew that scored 40-41/100 against it (poster_compare); then tracing the redraw to vectors with image_trace, lifting the lettering out, and setting new live text on top (97/100 against the target, text audit exact, the English set inside its bars in a condensed italic so it reads larger); before/after; then two owner-approved mashups (owner_approval.json).",
+  "hook": "Three wrong tries, then trace it",
   "novelty": "The first promo about tracing: the artwork comes from a reference picture, and only the words are rebuilt as live text. The last emblem promo was about fixing text in artwork made outside funkbox.",
   "claims": [
     {
       "text": "FROM THE ORIGINAL...",
-      "fact": "F24 (emblem/reference/original.png, the organisation's original emblem, shown as the starting point)"
+      "fact": "F24 (emblem/reference/original.png: the organisation's original emblem, shown as the starting point, not funkbox's work)"
     },
     {
-      "text": "...REDRAWN AND TRACED, TEXT LIFTED OUT...",
-      "fact": "F24 (redraw: refs/hebrew-emblem-v2/A-faithful.png, copied at emblem/reference/A-faithful.png, made outside funkbox; trace: emblem/trace/trace-a.trace.png, trace-a.text.json)"
+      "text": "...REDRAWN: THE TARGET...",
+      "fact": "F23 (emblem/reference/A-faithful.png: hand-made redraw, made outside funkbox, used as the picture poster_compare scores against)"
     },
     {
-      "text": "...TO NEW TEXT, LIVE AND EXACT",
-      "fact": "F24 F13 (emblem/renders/emblem-a.text_audit.json, final.text_audit.json)"
+      "text": "REBUILD TRY 3: 41/100",
+      "fact": "F23 (emblem/compare/compare-wrong-3.compare.json: overall 41.1)"
+    },
+    {
+      "text": "TRY 2: 40/100",
+      "fact": "F23 (emblem/compare/compare-wrong-2.compare.json: overall 40.2)"
+    },
+    {
+      "text": "TRY 1: 41/100",
+      "fact": "F23 (emblem/compare/compare-wrong-1.compare.json: overall 41.9, rounded down)"
+    },
+    {
+      "text": "SO: TRACE IT, LIFT THE TEXT OUT...",
+      "fact": "F24 (emblem/trace/trace-a.trace.png and trace-a.text.json)"
+    },
+    {
+      "text": "...NEW LIVE TEXT: 97/100 VS THE TARGET",
+      "fact": "F24 F13 F23 (emblem/renders/emblem-a.text_audit.json; emblem/compare/compare-a.compare.json: overall 97.6, rounded down)"
     },
     {
       "text": "BEFORE / AFTER",
-      "fact": "F24 (original.png beside emblem/renders/emblem-a.png)"
+      "fact": "F24 (emblem/reference/original.png beside emblem/renders/emblem-a.png)"
     },
     {
       "text": "PLUS 2 MASHUPS",
       "fact": "F24 (emblem/renders/emblem-b.png, emblem-c.png; owner_approval.json)"
+    },
+    {
+      "text": "TRACE + LIVE TEXT",
+      "fact": "F24"
     }
   ],
-  "note_for_reviewer": "What is whose: shot 1 is the original emblem (emblem/reference/original.png), not funkbox's work, captioned as the original. The redraw with the extra letter and longer Hebrew line was hand-made outside funkbox (emblem/reference/A-faithful.png); the caption says 'redrawn and traced' and claims only the trace for funkbox. The artwork in shots 2-6 is image_trace's vector trace of the redraw (and of the two mashup pictures in refs/hebrew-emblem-v2/) with the lettering lifted out (emblem/trace/). Every word on the emblems is a funkbox text layer from emblem/emblem.copy.json; emblem/renders/*.text_audit.json shows them exact. No scores are claimed on screen (emblem/compare/ has them for the record: 97.6, 97.3, 97.1). The emblem redraws an existing organisation's emblem; the two IDF-insignia mashups (shots mash-b, mash-c) are covered by owner_approval.json, which approves that content only."
+  "note_for_reviewer": "What is whose: shot 1 is the organisation's original emblem (emblem/reference/original.png), captioned as the original, not funkbox's work. Shot 2 is a hand-made redraw (extra letter ל, longer Hebrew line) made outside funkbox (emblem/reference/A-faithful.png), captioned as the target; it is the picture poster_compare scores everything against. Shots 3-5 are three early funkbox poster drafts, shown in the order try 3, try 2, try 1 (shapes + typed Hebrew, kept as emblem/drafts/wrong-1..3.png); their scores are poster_compare against the redraw, written out in emblem/compare/compare-wrong-*.compare.json (41.9, 40.2, 41.1; shown rounded down). The artwork in the later shots is image_trace's vector trace of the redraw (and of the two mashup pictures in refs/hebrew-emblem-v2/) with the lettering lifted out (emblem/trace/). Every word on the emblems is a funkbox text layer from emblem/emblem.copy.json; emblem/renders/*.text_audit.json shows them exact. The 97/100 is compare-a.compare.json (97.6, rounded down). The English is set in Barlow Condensed italic inside its bars (two separate layers, one per bar). The emblem redraws an existing organisation's emblem; the two IDF-insignia mashups (shots mash-b, mash-c) are covered by owner_approval.json, which approves that content only."
 }

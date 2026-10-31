@@ -25,7 +25,7 @@
    "source": {
     "image": "assets/shot-orig.png"
    },
-   "duration": "beats:5",
+   "duration": "beats:3",
    "transition_in": "cut",
    "motion": {
     "type": "none"
@@ -38,11 +38,79 @@
    }
   },
   {
-   "id": "simple",
+   "id": "redraw",
+   "source": {
+    "image": "assets/shot-redraw.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "crossfade",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "redraw",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "try3",
+   "source": {
+    "image": "assets/shot-try3.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "t3",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "try2",
+   "source": {
+    "image": "assets/shot-try2.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "t2",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "try1",
+   "source": {
+    "image": "assets/shot-try1.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "t1",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "trace",
    "source": {
     "image": "assets/shot-lift.png"
    },
-   "duration": "beats:5",
+   "duration": "beats:4",
    "transition_in": "flash",
    "motion": {
     "type": "none"
@@ -59,7 +127,7 @@
    "source": {
     "image": "assets/shot-a.png"
    },
-   "duration": "beats:5",
+   "duration": "beats:4",
    "transition_in": "crossfade",
    "motion": {
     "type": "none"
@@ -76,7 +144,7 @@
    "source": {
     "image": "assets/card-before-after.png"
    },
-   "duration": "beats:5",
+   "duration": "beats:3",
    "transition_in": "push",
    "motion": {
     "type": "none"
@@ -93,7 +161,7 @@
    "source": {
     "image": "assets/shot-b.png"
    },
-   "duration": "beats:6",
+   "duration": "beats:4",
    "transition_in": "zoom-punch",
    "motion": {
     "type": "kenburns"
@@ -110,7 +178,7 @@
    "source": {
     "image": "assets/shot-c.png"
    },
-   "duration": "beats:4",
+   "duration": "beats:3",
    "transition_in": "cut",
    "motion": {
     "type": "kenburns"

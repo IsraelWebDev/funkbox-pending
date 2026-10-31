@@ -1,8 +1,9 @@
 {
-  "observation": "Tracing with lifted text recreated this emblem at 97.1-97.6/100 against the pictures it was traced from, with every word live and audited. Fitting text to the reference copied the reference's flaws: the reference's 'Hashem for Israel' ran past the end of its bar, and poster_fit reproduced that faithfully. Setting the English words cleanly inside their bars took a script outside funkbox (find the straight run of the bar, shrink the text until it fits with a margin, centre it).",
-  "suggestion": "Give text layers a 'fit_inside' option: a region of the artwork (a colour plus a point, or a traced shape) the words must stay inside with a margin, sized down to fit and centred along it; poster_fit could then respect it instead of chasing a flawed reference.",
+  "observation": "Rebuilding this emblem from shapes and typed text stalled around 40/100 in the early tries, while tracing the redraw with lifted text reached 97.6/100 with every word still live and audited. Two rough edges: poster_fit copies the reference's flaws (the reference's English ran past the end of its bar), and setting the English cleanly inside its bars took a script outside funkbox (find the straight run of the bar, size the text down until it fits with a margin, centre it); the first fit used a regular italic that came out small, a condensed italic filled the bars about 40% better.",
+  "suggestion": "Give text layers a 'fit_inside' option: a region of the artwork (a colour plus a point, or a traced shape) the words must stay inside with a margin, sized to the largest that fits and centred along it, with condensed faces tried when one is allowed; poster_fit could then respect it instead of chasing a flawed reference.",
   "evidence": [
     "emblem/compare/compare-a.compare.json (97.6)",
+    "emblem/compare/compare-wrong-1..3.compare.json (41.9, 40.2, 41.1)",
     "emblem/emblem-a.poster.json layers eng1/eng2",
     "emblem/trace/trace-a.text.json"
   ],

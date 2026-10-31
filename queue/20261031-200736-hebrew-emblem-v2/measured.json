@@ -1,6 +1,6 @@
 {
   "day": "20261031-200736-hebrew-emblem-v2",
-  "measured_at": "2026-10-31T22:47:51Z",
+  "measured_at": "2026-10-31T23:22:47Z",
   "facts": {
     "M-machine": {
       "value": {
@@ -47,26 +47,26 @@
     },
     "M-video": {
       "value": {
-        "seconds": 22.23,
+        "seconds": 24.13,
         "width": 1080,
         "height": 1920,
         "fps": 30.0
       },
-      "say": "22 seconds, 1080x1920"
+      "say": "24 seconds, 1080x1920"
     },
     "M-audit": {
       "value": {
-        "strings": 9,
+        "strings": 13,
         "ok": true
       },
-      "say": "the text audit checked 9 on-screen strings: all exact"
+      "say": "the text audit checked 13 on-screen strings: all exact"
     },
     "M-render": {
       "value": {
-        "seconds": 54.1,
-        "frames": 667
+        "seconds": 61.7,
+        "frames": 724
       },
-      "say": "this video rendered in 54 seconds on a 2-core CPU with no GPU (software OpenGL)"
+      "say": "this video rendered in 62 seconds on a 2-core CPU with no GPU (software OpenGL)"
     }
   }
 }

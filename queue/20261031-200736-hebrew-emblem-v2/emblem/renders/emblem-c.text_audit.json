@@ -27,12 +27,12 @@
       "Army of"
     ],
     "font": "caption",
-    "px": 18,
+    "px": 30,
     "box": [
-      548,
-      694,
+      541,
+      689,
       1260,
-      20
+      33
     ],
     "geometry": {
       "skew_y": -27.6
@@ -48,12 +48,12 @@
       "Hashem for Israel"
     ],
     "font": "caption",
-    "px": 18,
+    "px": 30,
     "box": [
-      756,
-      569,
+      739,
+      571,
       1260,
-      20
+      33
     ],
     "geometry": {
       "skew_y": -27.8
