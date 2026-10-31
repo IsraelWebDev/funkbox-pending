@@ -1,0 +1,273 @@
+{
+  "reel": "funkbox-hebrew-emblem-v4",
+  "copy_deck": "copy.json",
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 92,
+      "text": "FIX ONE EMBLEM'S TEXT.\nIN HEBREW.",
+      "complete_frame": 39,
+      "drawn_lines": [
+        "FIX ONE EMBLEM'S",
+        "TEXT.",
+        "IN HEBREW."
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        92
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "ai",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "ai",
+      "first_frame": 98,
+      "last_frame": 170,
+      "text": "THE HEBREW\nHAS TO BE EXACT",
+      "complete_frame": 124,
+      "drawn_lines": [
+        "THE HEBREW",
+        "HAS TO BE EXACT"
+      ],
+      "text_exact": true,
+      "frames": [
+        98,
+        170
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "typed",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "typed",
+      "first_frame": 176,
+      "last_frame": 278,
+      "text": "HERE THE TEXT IS TYPED,\nNOT GUESSED",
+      "complete_frame": 212,
+      "drawn_lines": [
+        "HERE THE TEXT IS",
+        "TYPED,",
+        "NOT GUESSED"
+      ],
+      "text_exact": true,
+      "frames": [
+        176,
+        278
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "d1",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "d1",
+      "first_frame": 284,
+      "last_frame": 356,
+      "text": "DRAFT 1: RIGHT WORDS,\nWRONG STYLE",
+      "complete_frame": 318,
+      "drawn_lines": [
+        "DRAFT 1: RIGHT",
+        "WORDS,",
+        "WRONG STYLE"
+      ],
+      "text_exact": true,
+      "frames": [
+        284,
+        356
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "d2",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "d2",
+      "first_frame": 362,
+      "last_frame": 433,
+      "text": "DRAFT 2: SLANTED,\nLIKE THE ORIGINAL",
+      "complete_frame": 398,
+      "drawn_lines": [
+        "DRAFT 2: SLANTED,",
+        "LIKE THE ORIGINAL"
+      ],
+      "text_exact": true,
+      "frames": [
+        362,
+        433
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "d3",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "d3",
+      "first_frame": 439,
+      "last_frame": 511,
+      "text": "DRAFT 3: THE TSADI'S\nLONG FOOT",
+      "complete_frame": 470,
+      "drawn_lines": [
+        "DRAFT 3: THE",
+        "TSADI'S",
+        "LONG FOOT"
+      ],
+      "text_exact": true,
+      "frames": [
+        439,
+        511
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "trace",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "trace",
+      "first_frame": 517,
+      "last_frame": 620,
+      "text": "THEN TRACED TO\nMATCH THE ORIGINAL",
+      "complete_frame": 551,
+      "drawn_lines": [
+        "THEN TRACED TO",
+        "MATCH THE",
+        "ORIGINAL"
+      ],
+      "text_exact": true,
+      "frames": [
+        517,
+        620
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "exact",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "exact",
+      "first_frame": 626,
+      "last_frame": 713,
+      "text": "EVERY LETTER\nEXACTLY AS TYPED",
+      "complete_frame": 656,
+      "drawn_lines": [
+        "EVERY LETTER",
+        "EXACTLY AS TYPED"
+      ],
+      "text_exact": true,
+      "frames": [
+        626,
+        713
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "mash-b",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "mash",
+      "first_frame": 719,
+      "last_frame": 775,
+      "text": "PLUS TWO MASHUPS",
+      "complete_frame": 735,
+      "drawn_lines": [
+        "PLUS TWO",
+        "MASHUPS"
+      ],
+      "text_exact": true,
+      "frames": [
+        719,
+        775
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 838,
+      "last_frame": 942,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 838,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        838,
+        942
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 838,
+      "last_frame": 942,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 838,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        838,
+        942
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 848,
+      "last_frame": 942,
+      "text": "funkbox",
+      "complete_frame": 861,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        848,
+        942
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 867,
+      "last_frame": 942,
+      "text": "EXACT TEXT. EVERY TIME.",
+      "complete_frame": 867,
+      "drawn_lines": [
+        "EXACT TEXT. EVERY",
+        "TIME."
+      ],
+      "text_exact": true,
+      "frames": [
+        867,
+        942
+      ]
+    }
+  ]
+}

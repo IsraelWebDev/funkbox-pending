@@ -1,0 +1,63 @@
+{
+  "day": "2026-10-31",
+  "measured_at": "2026-10-31T18:27:56Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "GLUnavailable: could not create an OpenGL 3.3 context; egl: libEGL.so not loaded  (headless Linux: FUNK_GL_BACKEND=egl)",
+        "gpu": true
+      },
+      "say": "a 4-core machine, graphics: GLUnavailable: could not create an OpenGL 3.3 context; egl: libEGL.so not loaded"
+    },
+    "M-tools": {
+      "value": 42,
+      "say": "Claude drives it through 42 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "0dfa194 Voiceover: a real pause between sentences inside one line",
+        "10e8092 Voiceover: Kokoro-82M as the default voice, Piper as the fallback",
+        "4ad6ec9 Right-to-left text on Pillow without libraqm (Windows)",
+        "3461b31 sf2: docstring wording (hygiene check)",
+        "964ebaa sf2: interpolate across the loop point to the loop start (no click at the wrap)",
+        "ea15e55 Music: scores played by a numpy SoundFont player (GeneralUser GS)",
+        "1ee998c Animated posters: motion block and poster_animate",
+        "ee59ff8 image_trace: trace a picture into a vector SVG of flat colours",
+        "60d29d5 Typography: letter spacing, styled runs, text along any path",
+        "5b1138f poster_sizes: one poster, many canvases",
+        "ddb42b8 poster_compare: score a render against a reference picture",
+        "634ecda Vector export: SVG and PDF with text as HarfBuzz-shaped outlines",
+        "b2463eb posters: curved paths, fill rules, SVG import, and clipping to a shape",
+        "e332b6c posters: shape layers, text along an arc, slanted/rotated text, one-line text",
+        "6af0914 fonts by name, a glyph check, a fallback font, and Hebrew out of the box"
+      ],
+      "say": "changes since the last promo: Voiceover: a real pause between sentences inside one line; Voiceover: Kokoro-82M as the default voice, Piper as the fallback; Right-to-left text on Pillow without libraqm (Windows); sf2: docstring wording (hygiene check); sf2: interpolate across the loop point to the loop start (no click at the wrap); Music: scores played by a numpy SoundFont player (GeneralUser GS); Animated posters: motion block and poster_animate; image_trace: trace a picture into a vector SVG of flat colours; Typography: letter spacing, styled runs, text along any path; poster_sizes: one poster, many canvases; poster_compare: score a render against a reference picture; Vector export: SVG and PDF with text as HarfBuzz-shaped outlines; posters: curved paths, fill rules, SVG import, and clipping to a shape; posters: shape layers, text along an arc, slanted/rotated text, one-line text; fonts by name, a glyph check, a fallback font, and Hebrew out of the box"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 31.43,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "31 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 13,
+        "ok": true
+      },
+      "say": "the text audit checked 13 on-screen strings: all exact"
+    }
+  }
+}
