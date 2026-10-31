@@ -1,0 +1,6 @@
+{"bpm": 96, "key": "D", "scale": "freygish", "bars": 8, "swing": 0.08, "reverb": 0.3,
+ "tracks": [
+  {"name": "clarinet", "program": 71, "octave": 4, "velocity": 100, "notes": "^1/8 ^2 ^3 ^4 | ^5/4. ^4/8 ^3/4 ^2 | ^3/8 ^4 ^5 ^6 ^5/4 ^4 | ^3/8 ^2 ^1/4 ^2/2 | ^5/8 ^6 ^5 ^4 ^3/4 ^4 | ^5/4. ^6/8 ^5/2 | ^4/8 ^3 ^2 ^3 ^4/4 ^3/8 ^2 | ^1/1"},
+  {"name": "accordion", "program": 21, "octave": 3, "velocity": 64, "pan": -0.3, "notes": "[^1 ^3 ^5]/2 [^1 ^3 ^5] | [^7, ^2 ^4]/2 [^1 ^3 ^5]"},
+  {"name": "bass", "program": 32, "octave": 2, "velocity": 90, "notes": "^1/4 ^5, ^1 ^5, | ^7,/4 ^4, ^1 ^5,"},
+  {"name": "drums", "drums": true, "velocity": 80, "pattern": {"kick": "x.......x.......", "snare": "....x.......x...", "tamb": "..x...x...x...x."}}]}
