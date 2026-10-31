@@ -2,16 +2,10 @@
  "brand_name": "funkbox",
  "lines": {
   "hook": {
-   "text": "TRACED TO\nVECTORS, TEXT\nKEPT LIVE"
-  },
-  "lift": {
-   "text": "STEP 1: LIFT THE\nLETTERING OUT"
-  },
-  "live": {
-   "text": "STEP 2: LIVE,\nEXACT TEXT\nBACK ON TOP"
+   "text": "FROM THE\nORIGINAL..."
   },
   "score": {
-   "text": "97/100 AGAINST\nTHE REFERENCE"
+   "text": "97/100 AGAINST\nTHE ORIGINAL"
   },
   "mash": {
    "text": "2 MASHUPS:\n97/100 EACH"
@@ -24,6 +18,12 @@
   },
   "url": {
    "text": "github.com/IsraelWebDev/funkbox"
+  },
+  "simple": {
+   "text": "...TO A VECTOR\nTRACE, TEXT\nLIFTED OUT..."
+  },
+  "final": {
+   "text": "...TO LIVE,\nEXACT TEXT\nBACK ON TOP"
   }
  }
 }

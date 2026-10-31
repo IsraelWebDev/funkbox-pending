@@ -9,24 +9,24 @@
   ],
   "trend": null,
   "angle": "A Hebrew emblem traced to vectors with funkbox's image_trace: the lettering is lifted out of the artwork, then set back on top as live text layers that the text audit checks exactly, and poster_fit lines them up. Scored against the reference with poster_compare: 97.9/100; the two mashups 97.4/100 each. Owner-approved mashups: see owner_approval.json.",
-  "hook": "Traced to vectors, text kept live",
+  "hook": "From the original to live text",
   "novelty": "The first promo about tracing: the artwork comes from a reference picture, and only the words are rebuilt as live text. The last emblem promo was about fixing text in artwork made outside funkbox.",
   "claims": [
     {
-      "text": "TRACED TO VECTORS, TEXT KEPT LIVE",
-      "fact": "F24 (emblem/emblem-a.poster.json: an svg art layer from image_trace plus 3 text layers)"
+      "text": "FROM THE ORIGINAL...",
+      "fact": "F24 (the reference picture, emblem/reference/A-faithful.png, shown as what is traced; labelled 'the original')"
     },
     {
-      "text": "STEP 1: LIFT THE LETTERING OUT",
+      "text": "...TO A VECTOR TRACE, TEXT LIFTED OUT...",
       "fact": "F24 (emblem/trace/trace-a.trace.png and trace-a.text.json)"
     },
     {
-      "text": "STEP 2: LIVE, EXACT TEXT BACK ON TOP",
+      "text": "...TO LIVE, EXACT TEXT BACK ON TOP",
       "fact": "F24 F13 (emblem/renders/emblem-a.text_audit.json, final.text_audit.json)"
     },
     {
-      "text": "97/100 AGAINST THE REFERENCE",
-      "fact": "F23 (emblem/compare/compare-a.compare.json: overall 97.9)"
+      "text": "97/100 AGAINST THE ORIGINAL",
+      "fact": "F23 (emblem/compare/compare-a.compare.json: overall 97.9 against emblem/reference/A-faithful.png)"
     },
     {
       "text": "2 MASHUPS: 97/100 EACH",
@@ -37,5 +37,5 @@
       "fact": "F24"
     }
   ],
-  "note_for_reviewer": "What is traced and what is new: the artwork of each emblem is image_trace's vector trace of the reference picture in the state repo's refs/hebrew-emblem-v2/ (hand-made, not by funkbox), with the lettering lifted out (emblem/trace/: preview and found text lines; the trace settings are in each emblem-*.poster.json's art layer file emblem-*.art.svg). The words are funkbox text layers from emblem/emblem.copy.json, positioned with poster_fit; emblem/renders/*.text_audit.json shows them exact. The video does not claim the artwork was drawn by funkbox. The emblem redraws an existing organisation's emblem; the two IDF-insignia mashups (shots mash-b, mash-c) are covered by owner_approval.json, which approves that content only."
+  "note_for_reviewer": "What is traced and what is new: the artwork of each emblem is image_trace's vector trace of the reference picture in the state repo's refs/hebrew-emblem-v2/ (hand-made, not by funkbox), with the lettering lifted out (emblem/trace/: preview and found text lines; the trace settings are in each emblem-*.poster.json's art layer file emblem-*.art.svg). The words are funkbox text layers from emblem/emblem.copy.json, positioned with poster_fit; emblem/renders/*.text_audit.json shows them exact. The first shot is that reference itself, captioned 'FROM THE ORIGINAL', so the video shows plainly that the artwork is traced from it and does not claim funkbox drew it. The emblem redraws an existing organisation's emblem; the two IDF-insignia mashups (shots mash-b, mash-c) are covered by owner_approval.json, which approves that content only."
 }

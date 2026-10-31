@@ -21,31 +21,14 @@
  },
  "shots": [
   {
-   "id": "hook",
+   "id": "original",
    "source": {
-    "image": "assets/shot-a.png"
+    "image": "assets/shot-orig.png"
    },
    "duration": "beats:5",
    "transition_in": "cut",
    "motion": {
-    "type": "frame",
-    "from": [
-     0,
-     0,
-     1,
-     1
-    ],
-    "to": [
-     0.03,
-     0.05,
-     0.94,
-     0.94
-    ],
-    "at": [
-     0.0,
-     1.0
-    ],
-    "ease": "linear"
+    "type": "none"
    },
    "caption": {
     "copy_id": "hook",
@@ -55,51 +38,34 @@
    }
   },
   {
-   "id": "lift",
+   "id": "simple",
    "source": {
     "image": "assets/shot-lift.png"
    },
    "duration": "beats:5",
-   "transition_in": "flash",
+   "transition_in": "crossfade",
    "motion": {
     "type": "none"
    },
    "caption": {
-    "copy_id": "lift",
+    "copy_id": "simple",
     "style": "red-box",
     "reveal": "typewriter",
     "anchor": "top"
    }
   },
   {
-   "id": "live",
+   "id": "final",
    "source": {
     "image": "assets/shot-a.png"
    },
    "duration": "beats:5",
-   "transition_in": "push",
+   "transition_in": "crossfade",
    "motion": {
-    "type": "frame",
-    "from": [
-     0,
-     0,
-     1,
-     1
-    ],
-    "to": [
-     0.04,
-     0.04,
-     0.92,
-     0.92
-    ],
-    "at": [
-     0,
-     1
-    ],
-    "ease": "out"
+    "type": "none"
    },
    "caption": {
-    "copy_id": "live",
+    "copy_id": "final",
     "style": "red-box",
     "reveal": "typewriter",
     "anchor": "top"

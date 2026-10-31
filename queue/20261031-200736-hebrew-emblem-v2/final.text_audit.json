@@ -9,18 +9,17 @@
   "entries": [
     {
       "kind": "caption",
-      "shot": "hook",
+      "shot": "original",
       "slot": "caption",
       "instance": "main",
       "copy_id": "hook",
       "first_frame": 3,
       "last_frame": 93,
-      "text": "TRACED TO\nVECTORS, TEXT\nKEPT LIVE",
+      "text": "FROM THE\nORIGINAL...",
       "complete_frame": 3,
       "drawn_lines": [
-        "TRACED TO",
-        "VECTORS, TEXT",
-        "KEPT LIVE"
+        "FROM THE",
+        "ORIGINAL..."
       ],
       "text_exact": true,
       "frames": [
@@ -30,17 +29,18 @@
     },
     {
       "kind": "caption",
-      "shot": "lift",
+      "shot": "simple",
       "slot": "caption",
       "instance": "main",
-      "copy_id": "lift",
+      "copy_id": "simple",
       "first_frame": 99,
       "last_frame": 187,
-      "text": "STEP 1: LIFT THE\nLETTERING OUT",
-      "complete_frame": 130,
+      "text": "...TO A VECTOR\nTRACE, TEXT\nLIFTED OUT...",
+      "complete_frame": 140,
       "drawn_lines": [
-        "STEP 1: LIFT THE",
-        "LETTERING OUT"
+        "...TO A VECTOR",
+        "TRACE, TEXT",
+        "LIFTED OUT..."
       ],
       "text_exact": true,
       "frames": [
@@ -50,16 +50,16 @@
     },
     {
       "kind": "caption",
-      "shot": "live",
+      "shot": "final",
       "slot": "caption",
       "instance": "main",
-      "copy_id": "live",
+      "copy_id": "final",
       "first_frame": 193,
       "last_frame": 280,
-      "text": "STEP 2: LIVE,\nEXACT TEXT\nBACK ON TOP",
-      "complete_frame": 230,
+      "text": "...TO LIVE,\nEXACT TEXT\nBACK ON TOP",
+      "complete_frame": 228,
       "drawn_lines": [
-        "STEP 2: LIVE,",
+        "...TO LIVE,",
         "EXACT TEXT",
         "BACK ON TOP"
       ],
@@ -77,11 +77,11 @@
       "copy_id": "score",
       "first_frame": 284,
       "last_frame": 374,
-      "text": "97/100 AGAINST\nTHE REFERENCE",
+      "text": "97/100 AGAINST\nTHE ORIGINAL",
       "complete_frame": 284,
       "drawn_lines": [
         "97/100 AGAINST",
-        "THE REFERENCE"
+        "THE ORIGINAL"
       ],
       "text_exact": true,
       "frames": [
