@@ -1,6 +1,6 @@
 {
   "day": "20261031-200736-hebrew-emblem-v2",
-  "measured_at": "2026-10-31T22:22:58Z",
+  "measured_at": "2026-10-31T22:47:51Z",
   "facts": {
     "M-machine": {
       "value": {
@@ -63,10 +63,10 @@
     },
     "M-render": {
       "value": {
-        "seconds": 55.7,
+        "seconds": 54.1,
         "frames": 667
       },
-      "say": "this video rendered in 56 seconds on a 2-core CPU with no GPU (software OpenGL)"
+      "say": "this video rendered in 54 seconds on a 2-core CPU with no GPU (software OpenGL)"
     }
   }
 }

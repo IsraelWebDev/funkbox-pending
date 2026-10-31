@@ -35,11 +35,11 @@
       "copy_id": "simple",
       "first_frame": 99,
       "last_frame": 187,
-      "text": "...TO A VECTOR\nTRACE, TEXT\nLIFTED OUT...",
-      "complete_frame": 140,
+      "text": "...REDRAWN AND\nTRACED, TEXT\nLIFTED OUT...",
+      "complete_frame": 141,
       "drawn_lines": [
-        "...TO A VECTOR",
-        "TRACE, TEXT",
+        "...REDRAWN AND",
+        "TRACED, TEXT",
         "LIFTED OUT..."
       ],
       "text_exact": true,
@@ -56,12 +56,11 @@
       "copy_id": "final",
       "first_frame": 193,
       "last_frame": 280,
-      "text": "...TO LIVE,\nEXACT TEXT\nBACK ON TOP",
-      "complete_frame": 228,
+      "text": "...TO NEW TEXT,\nLIVE AND EXACT",
+      "complete_frame": 224,
       "drawn_lines": [
-        "...TO LIVE,",
-        "EXACT TEXT",
-        "BACK ON TOP"
+        "...TO NEW TEXT,",
+        "LIVE AND EXACT"
       ],
       "text_exact": true,
       "frames": [
@@ -71,17 +70,17 @@
     },
     {
       "kind": "caption",
-      "shot": "score",
+      "shot": "before-after",
       "slot": "caption",
       "instance": "main",
-      "copy_id": "score",
+      "copy_id": "ba",
       "first_frame": 284,
       "last_frame": 374,
-      "text": "97/100 AGAINST\nTHE ORIGINAL",
+      "text": "BEFORE /\nAFTER",
       "complete_frame": 284,
       "drawn_lines": [
-        "97/100 AGAINST",
-        "THE ORIGINAL"
+        "BEFORE /",
+        "AFTER"
       ],
       "text_exact": true,
       "frames": [
@@ -97,11 +96,11 @@
       "copy_id": "mash",
       "first_frame": 378,
       "last_frame": 487,
-      "text": "2 MASHUPS:\n97/100 EACH",
+      "text": "PLUS 2\nMASHUPS",
       "complete_frame": 378,
       "drawn_lines": [
-        "2 MASHUPS:",
-        "97/100 EACH"
+        "PLUS 2",
+        "MASHUPS"
       ],
       "text_exact": true,
       "frames": [

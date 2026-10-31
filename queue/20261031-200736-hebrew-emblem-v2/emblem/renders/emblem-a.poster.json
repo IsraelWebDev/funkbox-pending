@@ -38,36 +38,32 @@
       "wrap": false
     },
     {
-      "id": "eng",
+      "id": "eng1",
       "type": "text",
-      "copy_id": "army",
-      "style": "caption",
-      "size": 0.034,
-      "x": 0.306,
-      "y": 0.617,
-      "max_width": 0.5,
-      "align": "center",
+      "font": "Exo 2:700:italic",
+      "size": 0.0227,
+      "x": 0.3315,
+      "y": 0.5154,
+      "max_width": 0.9,
+      "align": "left",
       "color": "#3e61ad",
       "wrap": false,
-      "skew_y": -28,
-      "runs": [
-        {
-          "match": "Army of Hashem for Israel",
-          "font": "Exo 2:700:italic"
-        },
-        {
-          "match": "of ",
-          "scale": 2.6,
-          "all": false,
-          "font": "Rubik Mono One"
-        },
-        {
-          "match": "of",
-          "scale": 1.0,
-          "all": false,
-          "font": "Exo 2:700:italic"
-        }
-      ]
+      "skew_y": -27.8,
+      "copy_id": "army_a"
+    },
+    {
+      "id": "eng2",
+      "type": "text",
+      "font": "Exo 2:700:italic",
+      "size": 0.0227,
+      "x": 0.5413,
+      "y": 0.3968,
+      "max_width": 0.9,
+      "align": "left",
+      "color": "#3e61ad",
+      "wrap": false,
+      "skew_y": -27.8,
+      "copy_id": "army_b"
     },
     {
       "id": "motto",

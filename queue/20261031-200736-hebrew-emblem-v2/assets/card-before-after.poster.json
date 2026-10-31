@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "name": "card-score",
+  "name": "card-before-after",
   "casual": true,
   "canvas": {
     "preset": "story",
@@ -13,22 +13,22 @@
       "color": "#ffffff"
     },
     {
-      "id": "emblem",
+      "id": "before",
+      "type": "image",
+      "path": "../emblem/reference/original.png",
+      "fit": "contain",
+      "x": 0.5,
+      "y": 0.455,
+      "scale": 0.5
+    },
+    {
+      "id": "after",
       "type": "image",
       "path": "../emblem/renders/emblem-a.png",
       "fit": "contain",
       "x": 0.5,
-      "y": 0.52,
-      "scale": 0.6
-    },
-    {
-      "id": "sheet",
-      "type": "image",
-      "path": "../emblem/compare/compare-a.compare.png",
-      "fit": "contain",
-      "x": 0.5,
-      "y": 0.84,
-      "scale": 1.0
+      "y": 0.78,
+      "scale": 0.5
     }
   ],
   "export": {

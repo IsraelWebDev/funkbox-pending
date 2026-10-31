@@ -18,31 +18,45 @@
     ]
   },
   {
-    "layer": "eng",
+    "layer": "eng1",
     "source": "copy_id",
-    "copy_id": "army",
-    "text": "Army of Hashem for Israel",
+    "copy_id": "army_a",
+    "text": "Army of",
     "text_exact": true,
     "drawn_lines": [
-      "Army of Hashem for Israel"
+      "Army of"
     ],
     "font": "caption",
-    "px": 46,
+    "px": 33,
     "box": [
-      428,
-      888,
-      700,
-      51
+      464,
+      742,
+      1260,
+      36
     ],
-    "typography": {
-      "runs": [
-        "Army of Hashem for Israel",
-        "of ",
-        "of"
-      ]
-    },
     "geometry": {
-      "skew_y": -28
+      "skew_y": -27.8
+    }
+  },
+  {
+    "layer": "eng2",
+    "source": "copy_id",
+    "copy_id": "army_b",
+    "text": "Hashem for Israel",
+    "text_exact": true,
+    "drawn_lines": [
+      "Hashem for Israel"
+    ],
+    "font": "caption",
+    "px": 33,
+    "box": [
+      758,
+      571,
+      1260,
+      36
+    ],
+    "geometry": {
+      "skew_y": -27.8
     }
   },
   {

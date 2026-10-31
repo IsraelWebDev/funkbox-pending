@@ -4,11 +4,8 @@
   "hook": {
    "text": "FROM THE\nORIGINAL..."
   },
-  "score": {
-   "text": "97/100 AGAINST\nTHE ORIGINAL"
-  },
   "mash": {
-   "text": "2 MASHUPS:\n97/100 EACH"
+   "text": "PLUS 2\nMASHUPS"
   },
   "end_head": {
    "text": "funkbox"
@@ -20,10 +17,13 @@
    "text": "github.com/IsraelWebDev/funkbox"
   },
   "simple": {
-   "text": "...TO A VECTOR\nTRACE, TEXT\nLIFTED OUT..."
+   "text": "...REDRAWN AND\nTRACED, TEXT\nLIFTED OUT..."
   },
   "final": {
-   "text": "...TO LIVE,\nEXACT TEXT\nBACK ON TOP"
+   "text": "...TO NEW TEXT,\nLIVE AND EXACT"
+  },
+  "ba": {
+   "text": "BEFORE /\nAFTER"
   }
  }
 }

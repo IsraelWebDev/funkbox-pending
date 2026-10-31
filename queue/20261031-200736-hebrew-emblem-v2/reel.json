@@ -43,7 +43,7 @@
     "image": "assets/shot-lift.png"
    },
    "duration": "beats:5",
-   "transition_in": "crossfade",
+   "transition_in": "flash",
    "motion": {
     "type": "none"
    },
@@ -72,9 +72,9 @@
    }
   },
   {
-   "id": "score",
+   "id": "before-after",
    "source": {
-    "image": "assets/card-score.png"
+    "image": "assets/card-before-after.png"
    },
    "duration": "beats:5",
    "transition_in": "push",
@@ -82,7 +82,7 @@
     "type": "none"
    },
    "caption": {
-    "copy_id": "score",
+    "copy_id": "ba",
     "style": "red-box",
     "reveal": "pop",
     "anchor": "top"

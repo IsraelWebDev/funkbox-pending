@@ -1,39 +1,39 @@
 {
   "scores": {
-    "overall": 97.9,
-    "structure": 96.7,
-    "colour": 97.6,
-    "layout": 99.9
+    "overall": 97.6,
+    "structure": 96.4,
+    "colour": 97.3,
+    "layout": 99.4
   },
   "cells": [
     {
       "row": 2,
       "col": 1,
       "where": "lower middle centre-left",
-      "score": 95.3,
-      "colour": 96.1,
-      "structure": 91.8,
-      "layout": 99.2,
+      "score": 93.0,
+      "colour": 94.5,
+      "structure": 89.8,
+      "layout": 95.8,
       "differs": "shape"
     },
     {
       "row": 2,
       "col": 2,
       "where": "lower middle centre-right",
-      "score": 95.4,
-      "colour": 97.2,
-      "structure": 90.7,
-      "layout": 100.0,
+      "score": 93.6,
+      "colour": 95.2,
+      "structure": 88.6,
+      "layout": 98.6,
       "differs": "shape"
     },
     {
       "row": 3,
       "col": 1,
       "where": "bottom centre-left",
-      "score": 96.1,
-      "colour": 95.4,
-      "structure": 94.1,
-      "layout": 99.3,
+      "score": 95.7,
+      "colour": 95.3,
+      "structure": 93.5,
+      "layout": 98.9,
       "differs": "shape"
     },
     {
@@ -67,6 +67,16 @@
       "differs": "shape"
     },
     {
+      "row": 2,
+      "col": 3,
+      "where": "lower middle right",
+      "score": 98.0,
+      "colour": 97.6,
+      "structure": 97.6,
+      "layout": 98.8,
+      "differs": "colour"
+    },
+    {
       "row": 0,
       "col": 3,
       "where": "top right",
@@ -83,16 +93,6 @@
       "score": 98.6,
       "colour": 98.2,
       "structure": 97.9,
-      "layout": 100.0,
-      "differs": "shape"
-    },
-    {
-      "row": 2,
-      "col": 3,
-      "where": "lower middle right",
-      "score": 98.6,
-      "colour": 98.2,
-      "structure": 98.0,
       "layout": 100.0,
       "differs": "shape"
     },
@@ -141,7 +141,7 @@
       "col": 3,
       "where": "upper middle right",
       "score": 99.0,
-      "colour": 98.0,
+      "colour": 98.1,
       "structure": 99.0,
       "layout": 100.0,
       "differs": "colour"

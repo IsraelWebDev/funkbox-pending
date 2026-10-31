@@ -15,7 +15,7 @@
     {
       "id": "emblem",
       "type": "image",
-      "path": "../emblem/reference/A-faithful.png",
+      "path": "../emblem/reference/original.png",
       "fit": "contain",
       "x": 0.5,
       "y": 0.69,

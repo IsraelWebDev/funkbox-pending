@@ -1,7 +1,7 @@
 {
   "youtube": {
-    "title": "A Hebrew emblem traced to vectors, its text kept live: 97/100 against the reference",
-    "description": "funkbox's image_trace turned this emblem into a vector SVG, lifted the lettering out of the artwork and set the words back on top as live text layers; the text audit checks every string exactly. Scored against the reference with poster_compare: 97/100, and 97/100 for each of two mashups.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "title": "From the original emblem to a vector trace with new, live Hebrew and English text",
+    "description": "From the original emblem to a redraw traced into vectors with funkbox's image_trace: the lettering is lifted out of the artwork and the words are set back on top as live text layers, which the text audit checks exactly. Then before/after, and two mashups.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
     "tags": [
       "funkbox",
       "Hebrew",
@@ -13,6 +13,6 @@
     ]
   },
   "x": {
-    "text": "A Hebrew emblem traced to vectors with funkbox: the lettering is lifted out of the artwork and set back as live, exact text. 97/100 against the reference.\n\nMade with IsraelWebDev/funkbox #Hebrew #typography"
+    "text": "From the original emblem to a vector trace with funkbox: the lettering lifted out of the artwork and set back as live, exact text.\n\nMade with IsraelWebDev/funkbox #Hebrew #typography"
   }
 }
