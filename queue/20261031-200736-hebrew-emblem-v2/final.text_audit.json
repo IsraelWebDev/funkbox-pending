@@ -55,10 +55,10 @@
       "copy_id": "t3",
       "first_frame": 115,
       "last_frame": 168,
-      "text": "REBUILD TRY 3:\n41/100",
+      "text": "REBUILD TRY 1:\n41/100",
       "complete_frame": 115,
       "drawn_lines": [
-        "REBUILD TRY 3:",
+        "REBUILD TRY 1:",
         "41/100"
       ],
       "text_exact": true,
@@ -95,10 +95,10 @@
       "copy_id": "t1",
       "first_frame": 228,
       "last_frame": 280,
-      "text": "TRY 1:\n41/100",
+      "text": "TRY 3:\n41/100",
       "complete_frame": 228,
       "drawn_lines": [
-        "TRY 1:",
+        "TRY 3:",
         "41/100"
       ],
       "text_exact": true,

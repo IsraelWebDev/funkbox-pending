@@ -21,16 +21,16 @@
       "fact": "F23 (emblem/reference/A-faithful.png: hand-made redraw, made outside funkbox, used as the picture poster_compare scores against)"
     },
     {
-      "text": "REBUILD TRY 3: 41/100",
-      "fact": "F23 (emblem/compare/compare-wrong-3.compare.json: overall 41.1)"
+      "text": "REBUILD TRY 1: 41/100",
+      "fact": "F23 (emblem/compare/compare-wrong-3.compare.json: overall 41.1, rounded down; the first of the three drafts shown)"
     },
     {
       "text": "TRY 2: 40/100",
-      "fact": "F23 (emblem/compare/compare-wrong-2.compare.json: overall 40.2)"
+      "fact": "F23 (emblem/compare/compare-wrong-2.compare.json: overall 40.2; the middle draft)"
     },
     {
-      "text": "TRY 1: 41/100",
-      "fact": "F23 (emblem/compare/compare-wrong-1.compare.json: overall 41.9, rounded down)"
+      "text": "TRY 3: 41/100",
+      "fact": "F23 (emblem/compare/compare-wrong-1.compare.json: overall 41.9, rounded down; the last of the three drafts shown)"
     },
     {
       "text": "SO: TRACE IT, LIFT THE TEXT OUT...",
@@ -53,5 +53,5 @@
       "fact": "F24"
     }
   ],
-  "note_for_reviewer": "What is whose: shot 1 is the organisation's original emblem (emblem/reference/original.png), captioned as the original, not funkbox's work. Shot 2 is a hand-made redraw (extra letter ל, longer Hebrew line) made outside funkbox (emblem/reference/A-faithful.png), captioned as the target; it is the picture poster_compare scores everything against. Shots 3-5 are three early funkbox poster drafts, shown in the order try 3, try 2, try 1 (shapes + typed Hebrew, kept as emblem/drafts/wrong-1..3.png); their scores are poster_compare against the redraw, written out in emblem/compare/compare-wrong-*.compare.json (41.9, 40.2, 41.1; shown rounded down). The artwork in the later shots is image_trace's vector trace of the redraw (and of the two mashup pictures in refs/hebrew-emblem-v2/) with the lettering lifted out (emblem/trace/). Every word on the emblems is a funkbox text layer from emblem/emblem.copy.json; emblem/renders/*.text_audit.json shows them exact. The 97/100 is compare-a.compare.json (97.6, rounded down). The English is set in Barlow Condensed italic inside its bars (two separate layers, one per bar). The emblem redraws an existing organisation's emblem; the two IDF-insignia mashups (shots mash-b, mash-c) are covered by owner_approval.json, which approves that content only."
+  "note_for_reviewer": "What is whose: shot 1 is the organisation's original emblem (emblem/reference/original.png), captioned as the original, not funkbox's work. Shot 2 is a hand-made redraw (extra letter ל, longer Hebrew line) made outside funkbox (emblem/reference/A-faithful.png), captioned as the target; it is the picture poster_compare scores everything against. Shots 3-5 are three early funkbox poster drafts, shown in the order wrong-3.png, wrong-2.png, wrong-1.png and captioned TRY 1, TRY 2, TRY 3 in that playing order (shapes + typed Hebrew, kept as emblem/drafts/wrong-1..3.png); their scores are poster_compare against the redraw, written out in emblem/compare/compare-wrong-*.compare.json (41.9, 40.2, 41.1; shown rounded down). The artwork in the later shots is image_trace's vector trace of the redraw (and of the two mashup pictures in refs/hebrew-emblem-v2/) with the lettering lifted out (emblem/trace/). Every word on the emblems is a funkbox text layer from emblem/emblem.copy.json; emblem/renders/*.text_audit.json shows them exact. The 97/100 is compare-a.compare.json (97.6, rounded down). The English is set in Barlow Condensed italic inside its bars (two separate layers, one per bar). The emblem redraws an existing organisation's emblem; the two IDF-insignia mashups (shots mash-b, mash-c) are covered by owner_approval.json, which approves that content only."
 }
