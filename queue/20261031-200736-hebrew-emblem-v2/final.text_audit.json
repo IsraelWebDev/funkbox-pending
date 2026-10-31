@@ -1,0 +1,190 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 3,
+      "last_frame": 93,
+      "text": "REBUILT FROM\nSHAPES AND\nTYPED HEBREW",
+      "complete_frame": 3,
+      "drawn_lines": [
+        "REBUILT FROM",
+        "SHAPES AND",
+        "TYPED HEBREW"
+      ],
+      "text_exact": true,
+      "frames": [
+        3,
+        93
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "draft1",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "d1",
+      "first_frame": 97,
+      "last_frame": 187,
+      "text": "DRAFT 1:\n72/100 AGAINST\nTHE REFERENCE",
+      "complete_frame": 97,
+      "drawn_lines": [
+        "DRAFT 1:",
+        "72/100 AGAINST",
+        "THE REFERENCE"
+      ],
+      "text_exact": true,
+      "frames": [
+        97,
+        187
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "draft32",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "d32",
+      "first_frame": 193,
+      "last_frame": 280,
+      "text": "DRAFT 32: 79/100",
+      "complete_frame": 209,
+      "drawn_lines": [
+        "DRAFT 32: 79/100"
+      ],
+      "text_exact": true,
+      "frames": [
+        193,
+        280
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "svg",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "svg",
+      "first_frame": 286,
+      "last_frame": 374,
+      "text": "SAVED AS SVG:\nSHARP AT\nANY SIZE",
+      "complete_frame": 318,
+      "drawn_lines": [
+        "SAVED AS SVG:",
+        "SHARP AT",
+        "ANY SIZE"
+      ],
+      "text_exact": true,
+      "frames": [
+        286,
+        374
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "mash-b",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "mash",
+      "first_frame": 378,
+      "last_frame": 487,
+      "text": "PLUS 2 MASHUPS:\n85/100 AND\n84/100",
+      "complete_frame": 378,
+      "drawn_lines": [
+        "PLUS 2 MASHUPS:",
+        "85/100 AND",
+        "84/100"
+      ],
+      "text_exact": true,
+      "frames": [
+        378,
+        487
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 562,
+      "last_frame": 666,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 562,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        562,
+        666
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 562,
+      "last_frame": 666,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 562,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        562,
+        666
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 572,
+      "last_frame": 666,
+      "text": "funkbox",
+      "complete_frame": 585,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        572,
+        666
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 591,
+      "last_frame": 666,
+      "text": "SHAPES + TYPED TEXT",
+      "complete_frame": 591,
+      "drawn_lines": [
+        "SHAPES + TYPED TEXT"
+      ],
+      "text_exact": true,
+      "frames": [
+        591,
+        666
+      ]
+    }
+  ]
+}

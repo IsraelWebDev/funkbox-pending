@@ -1,0 +1,96 @@
+{
+ "top": [
+  0.175,
+  0.165,
+  0.078
+ ],
+ "letters": {
+  "font": "Karantina:700",
+  "size": 0.5,
+  "stroke": 0.016,
+  "spacing": 0.8,
+  "x": 0.12,
+  "y": 0.364,
+  "w": 0.7,
+  "clip": "letters-clip",
+  "per": {
+   "צ": {
+    "font": "Rubik:900",
+    "scale": 0.93
+   },
+   "ה": {
+    "scale": 0.9,
+    "font": "Karantina:400"
+   },
+   "ל": {
+    "scale": 0.86
+   }
+  },
+  "targets": [
+   [
+    335,
+    940
+   ],
+   [
+    612,
+    1060
+   ],
+   [
+    885,
+    835
+   ]
+  ]
+ },
+ "leg": [
+  [
+   668,
+   850
+  ],
+  [
+   735,
+   812
+  ],
+  [
+   735,
+   1110
+  ],
+  [
+   700,
+   1132
+  ],
+  [
+   668,
+   1115
+  ]
+ ],
+ "eng": {
+  "gap": 2.6,
+  "gap_font": "Rubik Mono One",
+  "x": 0.316,
+  "y": 0.627,
+  "size": 0.034,
+  "skew_y": -28,
+  "font": "Exo 2:700:italic"
+ },
+ "motto": {
+  "arc_k": 0.85,
+  "lift": 0.45,
+  "x": 0.12,
+  "size": 0.07
+ },
+ "split_line": 10,
+ "ribbon": {
+  "cy": 160,
+  "r": 1082,
+  "half": 31.5,
+  "w": 0.079
+ },
+ "patch": true,
+ "shield_scale": 0.674,
+ "shield_dy": 262.7,
+ "star_R": 694,
+ "star_cy": 696,
+ "star_r": 400,
+ "star_bow": 0.12,
+ "star_rim": 0.96
+}

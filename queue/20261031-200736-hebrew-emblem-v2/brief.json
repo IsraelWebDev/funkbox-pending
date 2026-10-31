@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-01",
+  "format": "feature-spotlight",
+  "selling_point": "S4",
+  "candidates": [
+    "feature-spotlight: an emblem rebuilt with poster tools, each draft scored by poster_compare (chosen)",
+    "how-to: the three poster steps (shapes, typed Hebrew, compare) as shot-list lines",
+    "behind-the-scenes: this video's render time and the emblem's draft count"
+  ],
+  "trend": null,
+  "angle": "A Hebrew emblem rebuilt from scratch with funkbox's poster tools: shape layers for the shield and ribbon, typed text for every word (Hebrew set right to left), each draft scored against the reference with poster_compare (72/100 at draft 1, 79/100 at draft 32), saved as SVG, then two mashups (85/100 and 84/100). Owner-approved mashups: see owner_approval.json.",
+  "hook": "Rebuilt from shapes and typed Hebrew",
+  "novelty": "The first promo where the picture itself is drawn by funkbox's poster tools and measured against a reference, with the score on screen; earlier posts were about video edits, and the last emblem promo used artwork made outside funkbox.",
+  "claims": [
+    {
+      "text": "REBUILT FROM SHAPES AND TYPED HEBREW",
+      "fact": "F21 F20 F13"
+    },
+    {
+      "text": "DRAFT 1: 72/100 AGAINST THE REFERENCE",
+      "fact": "F23 (emblem/compare/compare-a-draft1.compare.json: overall 72.4)"
+    },
+    {
+      "text": "DRAFT 32: 79/100",
+      "fact": "F23 (emblem/compare/compare-a-draft32.compare.json: overall 79.0)"
+    },
+    {
+      "text": "SAVED AS SVG: SHARP AT ANY SIZE",
+      "fact": "F22 (emblem/renders/emblem-a-draft32.svg)"
+    },
+    {
+      "text": "PLUS 2 MASHUPS: 85/100 AND 84/100",
+      "fact": "F23 (compare-b-draft5: 85.5, compare-c-draft9: 84.8)"
+    },
+    {
+      "text": "SHAPES + TYPED TEXT",
+      "fact": "F21"
+    }
+  ],
+  "note_for_reviewer": "Every emblem in this video was built with funkbox poster layers (shape, solid, gradient, text, and for the two mashups an svg layer holding funkbox's own SVG export of the shield poster): see emblem/*.poster.json and emblem/renders/. The PNGs in the state repo's refs/hebrew-emblem-v2/ (hand-made SVG) were used only as the reference that poster_compare scores against; they appear on screen only inside poster_compare's labelled sheet ('reference (fitted)'). Each poster's text_audit.json shows its strings exact. The emblem redraws an existing organisation's emblem; the two IDF-insignia mashups are covered by owner_approval.json, which approves that content only."
+}

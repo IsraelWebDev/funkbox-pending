@@ -1,0 +1,17 @@
+{
+  "youtube": {
+    "title": "Rebuilding a Hebrew emblem from shapes and typed text: draft 1 scored 72/100",
+    "description": "Rebuilt from shapes and typed Hebrew: draft 1 scored 72/100 against the reference, draft 32 scored 79/100.\nThe emblem was rebuilt with funkbox poster tools from typed text and shapes (shield, ribbon, Hebrew set right to left), each draft scored with poster_compare, then saved as SVG. Two mashups scored 85/100 and 84/100.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": [
+      "funkbox",
+      "Hebrew",
+      "typography",
+      "emblem",
+      "SVG",
+      "open source"
+    ]
+  },
+  "x": {
+    "text": "A Hebrew emblem rebuilt from shapes and typed text with funkbox's poster tools: draft 1 scored 72/100 against the reference, draft 32 scored 79/100, then saved as SVG.\n\nMade with IsraelWebDev/funkbox #Hebrew #typography"
+  }
+}

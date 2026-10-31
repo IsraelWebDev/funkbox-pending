@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "REBUILT FROM\nSHAPES AND\nTYPED HEBREW"
+  },
+  "d1": {
+   "text": "DRAFT 1:\n72/100 AGAINST\nTHE REFERENCE"
+  },
+  "d32": {
+   "text": "DRAFT 32: 79/100"
+  },
+  "svg": {
+   "text": "SAVED AS SVG:\nSHARP AT\nANY SIZE"
+  },
+  "mash": {
+   "text": "PLUS 2 MASHUPS:\n85/100 AND\n84/100"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "SHAPES + TYPED TEXT"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

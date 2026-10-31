@@ -1,0 +1,58 @@
+{
+  "day": "2026-11-01",
+  "measured_at": "2026-10-31T19:56:42Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.80GHz",
+        "cores": 2,
+        "opengl": "llvmpipe (LLVM 20.1.2, 256 bits) (4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.4)",
+        "gpu": false
+      },
+      "say": "a 2-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 42,
+      "say": "Claude drives it through 42 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-tests": {
+      "value": 564,
+      "say": "564 automated tests in the repo"
+    },
+    "M-commits": {
+      "value": [],
+      "say": "changes since the last promo: none"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 22.23,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "22 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 9,
+        "ok": true
+      },
+      "say": "the text audit checked 9 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 59.8,
+        "frames": 667
+      },
+      "say": "this video rendered in 60 seconds on a 2-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

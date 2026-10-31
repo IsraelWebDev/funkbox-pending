@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "name": "card-svg",
+  "casual": true,
+  "canvas": {
+    "width": 2160,
+    "height": 3840,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "id": "bg",
+      "type": "solid",
+      "color": "#ffffff"
+    },
+    {
+      "id": "svg",
+      "type": "svg",
+      "path": "../emblem/renders/emblem-a-draft32.svg",
+      "x": 0.0,
+      "y": 0.24,
+      "width": 1.0
+    }
+  ],
+  "export": {
+    "formats": [
+      "png"
+    ]
+  }
+}

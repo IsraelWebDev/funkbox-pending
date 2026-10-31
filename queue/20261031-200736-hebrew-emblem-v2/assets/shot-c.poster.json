@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "name": "shot-c",
+  "casual": true,
+  "canvas": {
+    "preset": "story",
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "id": "bg",
+      "type": "solid",
+      "color": "#ffffff"
+    },
+    {
+      "id": "emblem",
+      "type": "image",
+      "path": "../emblem/renders/emblem-c-draft9.png",
+      "fit": "contain",
+      "x": 0.5,
+      "y": 0.67,
+      "scale": 0.78
+    }
+  ],
+  "export": {
+    "formats": [
+      "png"
+    ]
+  }
+}

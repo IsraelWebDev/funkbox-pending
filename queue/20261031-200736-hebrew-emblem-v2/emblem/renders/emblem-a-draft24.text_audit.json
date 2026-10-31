@@ -1,0 +1,97 @@
+[
+  {
+    "layer": "title",
+    "source": "copy_id",
+    "copy_id": "top",
+    "text": "צבאות ה׳ לישראל",
+    "text_exact": true,
+    "drawn_lines": [
+      "צבאות ה׳ לישראל"
+    ],
+    "font": "display",
+    "px": 112,
+    "box": [
+      245,
+      238,
+      910,
+      123
+    ]
+  },
+  {
+    "layer": "letters",
+    "source": "copy_id",
+    "copy_id": "centre",
+    "text": "צהל",
+    "text_exact": true,
+    "drawn_lines": [
+      "צהל"
+    ],
+    "font": "display",
+    "px": 720,
+    "box": [
+      168,
+      524,
+      2553,
+      792
+    ],
+    "typography": {
+      "letter_spacing": 0.8,
+      "on_path": "M 253.5,985.0 L 618.0,985.0 L 750.0,985.0 L 750.0,835.2 L 754.0,835.2 L 754.0,1150.0 L 886.0,1150.0 L 1027.5,1150.0 L 1027.5,707.7 L 1031.5,707.7 L 1031.5,835.0 L 1173.0,835.0 L 1773.0,835.0",
+      "runs": [
+        "צהל",
+        "צ",
+        "ה",
+        "ל"
+      ]
+    }
+  },
+  {
+    "layer": "eng",
+    "source": "copy_id",
+    "copy_id": "army",
+    "text": "Army of Hashem for Israel",
+    "text_exact": true,
+    "drawn_lines": [
+      "Army of Hashem for Israel"
+    ],
+    "font": "caption",
+    "px": 48,
+    "box": [
+      406,
+      890,
+      700,
+      53
+    ],
+    "typography": {
+      "runs": [
+        "Army of Hashem for Israel",
+        "of ",
+        "of"
+      ]
+    },
+    "geometry": {
+      "skew_y": -28
+    }
+  },
+  {
+    "layer": "motto",
+    "source": "copy_id",
+    "copy_id": "motto",
+    "text": "WE WANT MOSHIACH NOW!",
+    "text_exact": true,
+    "drawn_lines": [
+      "WE WANT MOSHIACH NOW!"
+    ],
+    "font": "caption",
+    "px": 82,
+    "box": [
+      168,
+      1197,
+      1064,
+      90
+    ],
+    "geometry": {
+      "arc": 0.6569
+    }
+  }
+]

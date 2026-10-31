@@ -1,0 +1,209 @@
+{
+  "scores": {
+    "overall": 74.8,
+    "structure": 68.0,
+    "colour": 73.1,
+    "layout": 85.4
+  },
+  "cells": [
+    {
+      "row": 1,
+      "col": 2,
+      "where": "upper middle centre-right",
+      "score": 27.2,
+      "colour": 0.0,
+      "structure": 42.8,
+      "layout": 33.8,
+      "differs": "colour"
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "where": "upper middle centre-left",
+      "score": 39.2,
+      "colour": 32.7,
+      "structure": 49.2,
+      "layout": 32.3,
+      "differs": "shape"
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "where": "lower middle centre-left",
+      "score": 57.4,
+      "colour": 61.3,
+      "structure": 42.3,
+      "layout": 73.8,
+      "differs": "shape"
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "where": "lower middle centre-right",
+      "score": 59.3,
+      "colour": 56.7,
+      "structure": 40.3,
+      "layout": 87.3,
+      "differs": "shape"
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "where": "bottom centre-left",
+      "score": 75.9,
+      "colour": 79.0,
+      "structure": 60.0,
+      "layout": 93.8,
+      "differs": "shape"
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "where": "upper middle right",
+      "score": 77.2,
+      "colour": 74.7,
+      "structure": 83.6,
+      "layout": 71.0,
+      "differs": "shape"
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "where": "bottom right",
+      "score": 78.3,
+      "colour": 85.7,
+      "structure": 71.7,
+      "layout": 79.8,
+      "differs": "shape"
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "where": "bottom centre-right",
+      "score": 78.4,
+      "colour": 81.7,
+      "structure": 65.7,
+      "layout": 92.0,
+      "differs": "shape"
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "where": "bottom left",
+      "score": 79.5,
+      "colour": 86.0,
+      "structure": 73.3,
+      "layout": 81.3,
+      "differs": "shape"
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "where": "upper middle left",
+      "score": 79.6,
+      "colour": 79.0,
+      "structure": 75.6,
+      "layout": 85.6,
+      "differs": "shape"
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "where": "lower middle right",
+      "score": 80.4,
+      "colour": 84.2,
+      "structure": 70.9,
+      "layout": 89.3,
+      "differs": "shape"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "where": "lower middle left",
+      "score": 81.6,
+      "colour": 87.1,
+      "structure": 71.4,
+      "layout": 89.7,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "where": "top centre-left",
+      "score": 86.9,
+      "colour": 89.6,
+      "structure": 77.2,
+      "layout": 97.1,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "where": "top centre-right",
+      "score": 88.2,
+      "colour": 91.3,
+      "structure": 77.4,
+      "layout": 99.5,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "where": "top right",
+      "score": 94.4,
+      "colour": 94.6,
+      "structure": 93.1,
+      "layout": 96.0,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "where": "top left",
+      "score": 94.5,
+      "colour": 94.9,
+      "structure": 93.5,
+      "layout": 95.4,
+      "differs": "shape"
+    }
+  ],
+  "palette": [
+    {
+      "color": "#fefefe",
+      "share": 0.598,
+      "nearest": "#ffffff",
+      "delta_e": 0.3
+    },
+    {
+      "color": "#f9d74e",
+      "share": 0.126,
+      "nearest": "#fdd94e",
+      "delta_e": 1.5
+    },
+    {
+      "color": "#19214b",
+      "share": 0.105,
+      "nearest": "#1a214a",
+      "delta_e": 6.5
+    },
+    {
+      "color": "#3e61ac",
+      "share": 0.075,
+      "nearest": "#3e61ad",
+      "delta_e": 1.3
+    },
+    {
+      "color": "#ed344c",
+      "share": 0.056,
+      "nearest": "#ec334b",
+      "delta_e": 0.4
+    },
+    {
+      "color": "#736973",
+      "share": 0.04,
+      "nearest": "#67697c",
+      "delta_e": 19.9
+    }
+  ],
+  "notes": []
+}

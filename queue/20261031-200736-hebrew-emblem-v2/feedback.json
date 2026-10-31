@@ -1,0 +1,11 @@
+{
+  "observation": "Rebuilding this emblem with poster tools hit four walls. (1) Text has a floor of 3.2% of the canvas height, so the star mashups could not set 'Army of Hashem for Israel' at the 2.3% their layout needs; the shield had to be built full size, exported as SVG and placed as an svg layer. (2) That svg layer drops clip-path, so funkbox's own SVG of a clipped poster comes back unclipped: the field spilled past the shield until it was redrawn as exact paths. (3) No word spacing: opening a gap in the band text for the post took a monospace-font run on one space, scaled 2.6x, undone on 'of' by a second run. (4) One text layer shares one baseline and on_path turns off skew, so the three block letters at different heights needed a stepped baseline path computed outside funkbox; against hand-drawn letterforms the faithful emblem stopped at 79-82/100.",
+  "suggestion": "Make an exported SVG round-trip: the svg layer should honour clipPath (and text stroke widths) from funkbox's own export, and poster text layers should take their own minimum size (e.g. 1% of the canvas or 12 px) instead of the reel caption floor, so a shield drawn once can be placed at any size inside another poster with its small lettering intact.",
+  "evidence": [
+    "emblem/renders/emblem-c-draft1.png (clips lost through the svg layer)",
+    "emblem/tune-a*.json and emblem/compare/*.compare.json (draft scores)",
+    "emblem/emblem-a-draft32.poster.json (runs on the band text; stepped on_path for the letters)"
+  ],
+  "effort": "small",
+  "would_enable": "A how-to promo: draw an emblem once, then drop it into a poster, a badge and a story at different sizes, every word still typed and audited."
+}
