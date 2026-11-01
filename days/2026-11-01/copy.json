@@ -1,0 +1,41 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "FROM THE\nORIGINAL..."
+  },
+  "redraw": {
+   "text": "...REDRAWN:\nTHE TARGET..."
+  },
+  "t1": {
+   "text": "TRY 3:\n41/100"
+  },
+  "t2": {
+   "text": "TRY 2:\n40/100"
+  },
+  "t3": {
+   "text": "REBUILD TRY 1:\n41/100"
+  },
+  "simple": {
+   "text": "SO: TRACE IT,\nLIFT THE TEXT\nOUT..."
+  },
+  "final": {
+   "text": "...NEW LIVE TEXT:\n97/100 VS THE\nTARGET"
+  },
+  "ba": {
+   "text": "BEFORE /\nAFTER"
+  },
+  "mash": {
+   "text": "PLUS 2\nMASHUPS"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "TRACE + LIVE TEXT"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

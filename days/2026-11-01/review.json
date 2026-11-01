@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "1) Looked at 22 frames I took from final.mp4 myself: 24.13 s, 1080x1920 vertical, 30 fps. Captions are legible and nothing is cut off at the edges. blackdetect and freezedetect found no black, blank or frozen frames. The end card (funkbox / TRACE + LIVE TEXT / URL) is readable, and no background text shows beside any caption box. Minor: the trace leaves a few small specks where the lifted lettering was, beside the English bars in shot-b and shot-c. They can't be seen at playback size. 2) final.text_audit.json ok:true (13 strings exact); lint: OK. 3) Each score matches its compare json, always rounded down: TRY 1 = wrong-3 41.1, TRY 2 = wrong-2 40.2, TRY 3 = wrong-1 41.9. shot-try*.poster.json confirms which draft each shot uses. 97/100 = compare-a 97.6 (F23/F24); 'about 40/100' does not round up. Description and X claims trace to F1/F2/F13/F23/F24. No superlatives, competitors, testimonials, Anthropic mentions or GPU claims. 4) trend null. 5) Spelling clean; X text 193 chars with no URL; YouTube title 85 chars. 6) The only other-day posts in the log are 2026-10-29 (AI video edit), so this tracing angle is new. 7) Valid owner_approval.json (lint OK). It names the original Tzivos Hashem emblem, the redraw, the tries, the traced and finished versions, the before/after card and the two IDF-insignia mashups, which is exactly what is on screen. The video shows nothing else that would need the owner's sign-off.",
+  "video_sha256": "dd87f04ca6862d020cea5175398b3fa9fbfca9fd3704b40531f8ad75f1d0062c",
+  "caption_sha256": "ccccadcda11eb52dec5d517edae3dbe3f20884bfa7a7122d275dbc05baec6553",
+  "at": "2026-11-01T13:43:55+00:00"
+}

@@ -1,0 +1,199 @@
+{
+ "version": 3,
+ "settings": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "safe_area": "reels"
+ },
+ "brand": {
+  "primary": "#e0245e",
+  "secondary": "#12141c",
+  "text": "#ffffff"
+ },
+ "copy": "copy.json",
+ "audio": {
+  "music": "assets/niggun.wav",
+  "bpm": 96,
+  "snap_cuts_to_beats": true,
+  "voiceover": false,
+  "music_gain_db": -6
+ },
+ "shots": [
+  {
+   "id": "original",
+   "source": {
+    "image": "assets/shot-orig.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "hook",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "redraw",
+   "source": {
+    "image": "assets/shot-redraw.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "crossfade",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "redraw",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "try3",
+   "source": {
+    "image": "assets/shot-try3.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "t3",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "try2",
+   "source": {
+    "image": "assets/shot-try2.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "t2",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "try1",
+   "source": {
+    "image": "assets/shot-try1.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "t1",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "trace",
+   "source": {
+    "image": "assets/shot-lift.png"
+   },
+   "duration": "beats:4",
+   "transition_in": "flash",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "simple",
+    "style": "red-box",
+    "reveal": "typewriter",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "final",
+   "source": {
+    "image": "assets/shot-a.png"
+   },
+   "duration": "beats:4",
+   "transition_in": "crossfade",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "final",
+    "style": "red-box",
+    "reveal": "typewriter",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "before-after",
+   "source": {
+    "image": "assets/card-before-after.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "push",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "ba",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "mash-b",
+   "source": {
+    "image": "assets/shot-b.png"
+   },
+   "duration": "beats:4",
+   "transition_in": "zoom-punch",
+   "motion": {
+    "type": "kenburns"
+   },
+   "caption": {
+    "copy_id": "mash",
+    "style": "red-box",
+    "reveal": "pop",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "mash-c",
+   "source": {
+    "image": "assets/shot-c.png"
+   },
+   "duration": "beats:3",
+   "transition_in": "cut",
+   "motion": {
+    "type": "kenburns"
+   }
+  }
+ ],
+ "end_card": {
+  "template": "brand-split",
+  "duration": 3.5,
+  "audio": "keep",
+  "copy": {
+   "headline": "end_head",
+   "sub": "end_sub",
+   "url": "url"
+  },
+  "headline_reveal": "typewriter"
+ }
+}

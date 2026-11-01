@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "name": "emblem-a",
+  "canvas": {
+    "width": 1400,
+    "height": 1440,
+    "background": "#ffffff"
+  },
+  "copy": "emblem.copy.json",
+  "brand": {
+    "primary": "#ec334b",
+    "secondary": "#1b224b",
+    "text": "#1b224b",
+    "font_display": "Rubik:800",
+    "font_caption": "Exo 2:700",
+    "font_fallback": "Rubik:800"
+  },
+  "layers": [
+    {
+      "id": "art",
+      "type": "svg",
+      "path": "emblem-a.art.svg",
+      "x": 0,
+      "y": 0,
+      "width": 1.0
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "copy_id": "top",
+      "style": "display",
+      "size": 0.078,
+      "x": 0.1725,
+      "y": 0.165,
+      "max_width": 0.65,
+      "align": "center",
+      "color": "#1b224b",
+      "wrap": false
+    },
+    {
+      "id": "eng1",
+      "type": "text",
+      "font": "Barlow Condensed:700:italic",
+      "size": 0.0313,
+      "x": 0.3323,
+      "y": 0.5095,
+      "max_width": 0.9,
+      "align": "left",
+      "color": "#3e61ad",
+      "wrap": false,
+      "skew_y": -27.8,
+      "copy_id": "army_a"
+    },
+    {
+      "id": "eng2",
+      "type": "text",
+      "font": "Barlow Condensed:700:italic",
+      "size": 0.0313,
+      "x": 0.5401,
+      "y": 0.392,
+      "max_width": 0.9,
+      "align": "left",
+      "color": "#3e61ad",
+      "wrap": false,
+      "skew_y": -27.8,
+      "copy_id": "army_b"
+    },
+    {
+      "id": "motto",
+      "type": "text",
+      "copy_id": "motto",
+      "style": "caption",
+      "size": 0.07,
+      "x": 0.12,
+      "y": 0.831,
+      "max_width": 0.76,
+      "align": "center",
+      "color": "#1b224b",
+      "wrap": false,
+      "arc": 0.6269
+    }
+  ],
+  "export": {
+    "formats": [
+      "png",
+      "svg"
+    ]
+  },
+  "min_text": 0.016
+}

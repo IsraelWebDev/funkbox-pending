@@ -1,0 +1,54 @@
+{
+  "day": "2026-11-01",
+  "measured_at": "2026-11-01T13:42:20Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "GLUnavailable: could not create an OpenGL 3.3 context; egl: libEGL.so not loaded  (headless Linux: FUNK_GL_BACKEND=egl)",
+        "gpu": true
+      },
+      "say": "a 4-core machine, graphics: GLUnavailable: could not create an OpenGL 3.3 context; egl: libEGL.so not loaded"
+    },
+    "M-tools": {
+      "value": 49,
+      "say": "Claude drives it through 49 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "982ae61 poster_fit_inside: size and place words inside a bar or plate of the artwork; poster_fit keep_inside",
+        "50c565a image_trace: lift lettering out of the artwork, return its lines, write a starter poster with live text",
+        "f66f4b6 Shapes: fill only inside each shape's bounding box (6x faster for traced SVGs)",
+        "6bc3fba Lettering fonts and poster_fit: drawn letters that stay exact text, and tuning to a reference",
+        "cfeaca7 funkbox 4.2.0",
+        "1a9e2a2 Video tools and a shared reel timeline"
+      ],
+      "say": "changes since the last promo: poster_fit_inside: size and place words inside a bar or plate of the artwork; poster_fit keep_inside; image_trace: lift lettering out of the artwork, return its lines, write a starter poster with live text; Shapes: fill only inside each shape's bounding box (6x faster for traced SVGs); Lettering fonts and poster_fit: drawn letters that stay exact text, and tuning to a reference; funkbox 4.2.0; Video tools and a shared reel timeline"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 24.13,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "24 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 13,
+        "ok": true
+      },
+      "say": "the text audit checked 13 on-screen strings: all exact"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "scores": {
+    "overall": 97.6,
+    "structure": 96.3,
+    "colour": 97.4,
+    "layout": 99.5
+  },
+  "cells": [
+    {
+      "row": 2,
+      "col": 1,
+      "where": "lower middle centre-left",
+      "score": 93.4,
+      "colour": 94.9,
+      "structure": 89.9,
+      "layout": 96.6,
+      "differs": "shape"
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "where": "lower middle centre-right",
+      "score": 94.1,
+      "colour": 96.8,
+      "structure": 88.1,
+      "layout": 99.5,
+      "differs": "shape"
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "where": "bottom centre-left",
+      "score": 95.4,
+      "colour": 95.2,
+      "structure": 93.1,
+      "layout": 98.7,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 2,
+      "where": "top centre-right",
+      "score": 96.5,
+      "colour": 96.9,
+      "structure": 93.5,
+      "layout": 100.0,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 1,
+      "where": "top centre-left",
+      "score": 97.1,
+      "colour": 96.9,
+      "structure": 95.0,
+      "layout": 100.0,
+      "differs": "shape"
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "where": "bottom centre-right",
+      "score": 97.7,
+      "colour": 96.9,
+      "structure": 96.5,
+      "layout": 100.0,
+      "differs": "shape"
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "where": "lower middle right",
+      "score": 98.0,
+      "colour": 97.6,
+      "structure": 97.6,
+      "layout": 98.8,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 3,
+      "where": "top right",
+      "score": 98.5,
+      "colour": 98.2,
+      "structure": 97.5,
+      "layout": 100.0,
+      "differs": "shape"
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "where": "top left",
+      "score": 98.6,
+      "colour": 98.2,
+      "structure": 97.9,
+      "layout": 100.0,
+      "differs": "shape"
+    },
+    {
+      "row": 1,
+      "col": 0,
+      "where": "upper middle left",
+      "score": 98.9,
+      "colour": 98.0,
+      "structure": 98.7,
+      "layout": 100.0,
+      "differs": "colour"
+    },
+    {
+      "row": 3,
+      "col": 0,
+      "where": "bottom left",
+      "score": 98.9,
+      "colour": 98.5,
+      "structure": 98.4,
+      "layout": 100.0,
+      "differs": "shape"
+    },
+    {
+      "row": 1,
+      "col": 1,
+      "where": "upper middle centre-left",
+      "score": 99.0,
+      "colour": 98.0,
+      "structure": 99.1,
+      "layout": 100.0,
+      "differs": "colour"
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "where": "upper middle centre-right",
+      "score": 99.0,
+      "colour": 98.0,
+      "structure": 98.9,
+      "layout": 100.0,
+      "differs": "colour"
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "where": "upper middle right",
+      "score": 99.0,
+      "colour": 98.1,
+      "structure": 99.0,
+      "layout": 100.0,
+      "differs": "colour"
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "where": "bottom right",
+      "score": 99.0,
+      "colour": 98.3,
+      "structure": 98.7,
+      "layout": 100.0,
+      "differs": "colour"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "where": "lower middle left",
+      "score": 99.2,
+      "colour": 98.5,
+      "structure": 99.0,
+      "layout": 100.0,
+      "differs": "colour"
+    }
+  ],
+  "palette": [
+    {
+      "color": "#fefefe",
+      "share": 0.598,
+      "nearest": "#ffffff",
+      "delta_e": 0.3
+    },
+    {
+      "color": "#f9d74e",
+      "share": 0.126,
+      "nearest": "#fcd94e",
+      "delta_e": 1.5
+    },
+    {
+      "color": "#19214b",
+      "share": 0.105,
+      "nearest": "#182049",
+      "delta_e": 6.3
+    },
+    {
+      "color": "#3e61ac",
+      "share": 0.075,
+      "nearest": "#3e61ad",
+      "delta_e": 0.6
+    },
+    {
+      "color": "#ed344c",
+      "share": 0.056,
+      "nearest": "#ec334b",
+      "delta_e": 0.4
+    },
+    {
+      "color": "#736973",
+      "share": 0.04,
+      "nearest": "#6b6d7b",
+      "delta_e": 18.0
+    }
+  ],
+  "notes": []
+}

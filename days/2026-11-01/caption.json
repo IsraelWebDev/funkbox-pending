@@ -1,0 +1,18 @@
+{
+  "youtube": {
+    "title": "Three wrong tries, then trace it: an emblem rebuilt with live Hebrew and English text",
+    "description": "Three early attempts to rebuild this emblem from shapes and typed Hebrew scored about 40/100 against the target. Tracing the artwork to vectors with funkbox's image_trace, lifting the lettering out and setting new live text on top scored 97/100, and the text audit checks every string exactly.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": [
+      "funkbox",
+      "Hebrew",
+      "typography",
+      "emblem",
+      "SVG",
+      "vector trace",
+      "open source"
+    ]
+  },
+  "x": {
+    "text": "Three early tries at rebuilding an emblem from shapes scored about 40/100. Tracing it to vectors and setting live, exact text on top: 97/100.\n\nMade with IsraelWebDev/funkbox #Hebrew #typography"
+  }
+}
