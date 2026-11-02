@@ -1,0 +1,171 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 114,
+      "text": "NO GPU HERE.\nJUST 4 CPU CORES.",
+      "complete_frame": 36,
+      "drawn_lines": [
+        "NO GPU HERE.",
+        "JUST 4 CPU",
+        "CORES."
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        114
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "recipe",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 120,
+      "last_frame": 244,
+      "text": "A LOOP IS A\nTEXT RECIPE",
+      "complete_frame": 143,
+      "drawn_lines": [
+        "A LOOP IS A",
+        "TEXT RECIPE"
+      ],
+      "text_exact": true,
+      "frames": [
+        120,
+        244
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "loop",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 250,
+      "last_frame": 375,
+      "text": "SEAMLESS:\nCHECKED BY\nMACHINE",
+      "complete_frame": 278,
+      "drawn_lines": [
+        "SEAMLESS:",
+        "CHECKED BY",
+        "MACHINE"
+      ],
+      "text_exact": true,
+      "frames": [
+        250,
+        375
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "render",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 381,
+      "last_frame": 506,
+      "text": "THIS VIDEO:\nRENDERED ON\nTHAT CPU",
+      "complete_frame": 414,
+      "drawn_lines": [
+        "THIS VIDEO:",
+        "RENDERED ON",
+        "THAT CPU"
+      ],
+      "text_exact": true,
+      "frames": [
+        381,
+        506
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 507,
+      "last_frame": 611,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 507,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        507,
+        611
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 507,
+      "last_frame": 611,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 507,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        507,
+        611
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 517,
+      "last_frame": 611,
+      "text": "funkbox",
+      "complete_frame": 530,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        517,
+        611
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 536,
+      "last_frame": 611,
+      "text": "NO NVIDIA GPU NEEDED",
+      "complete_frame": 536,
+      "drawn_lines": [
+        "NO NVIDIA GPU",
+        "NEEDED"
+      ],
+      "text_exact": true,
+      "frames": [
+        536,
+        611
+      ]
+    }
+  ]
+}

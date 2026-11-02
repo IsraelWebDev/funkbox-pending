@@ -1,0 +1,26 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "NO GPU HERE.\nJUST 4 CPU CORES."
+  },
+  "p1": {
+   "text": "A LOOP IS A\nTEXT RECIPE"
+  },
+  "p2": {
+   "text": "SEAMLESS:\nCHECKED BY\nMACHINE"
+  },
+  "p3": {
+   "text": "THIS VIDEO:\nRENDERED ON\nTHAT CPU"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "NO NVIDIA GPU NEEDED"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

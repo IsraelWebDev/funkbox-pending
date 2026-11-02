@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-02",
+  "format": "behind-the-scenes",
+  "selling_point": "S2",
+  "candidates": [
+    "behind-the-scenes + S2 + 'No GPU here. Just 4 CPU cores': this very Short, timed, rendered on a CPU-only cloud box (M-render, M-machine) - chosen",
+    "trend-reaction + S5 + new video models still hand you one clip: no confirmed release in the last 48 hours turned up in searches (only undated roundups), so no honest trend tie-in today - passed",
+    "tip + S8 + 'a seamless loop is a 10-line recipe': the disco-cat recipe card shown as a tip - passed, folded into today's video as one shot instead",
+    "whats-new + S11 + poster_fit_inside: M-commits measures no changes since the last promo, so there is nothing new to claim - passed"
+  ],
+  "trend": null,
+  "angle": "Behind the scenes of this Short: it was rendered on a 4-core cloud CPU with no GPU at all (software OpenGL), timed at 47 seconds for 20 seconds of 1080x1920 video. Shader loops start as a short text recipe and are checked by machine to loop seamlessly. The proof is the video itself.",
+  "hook": "NO GPU HERE. JUST 4 CPU CORES.",
+  "novelty": "The first promo that shows its own render numbers and the first about running with no GPU at all; earlier posts were about the edit around AI shots, Hebrew text in an emblem, and tracing.",
+  "claims": [
+    {
+      "text": "NO GPU HERE. JUST 4 CPU CORES.",
+      "fact": "M-machine"
+    },
+    {
+      "text": "A LOOP IS A TEXT RECIPE (over the real examples/disco_cat.json lines)",
+      "fact": "F6"
+    },
+    {
+      "text": "SEAMLESS: CHECKED BY MACHINE",
+      "fact": "F6"
+    },
+    {
+      "text": "THIS VIDEO: RENDERED ON THAT CPU",
+      "fact": "M-render"
+    },
+    {
+      "text": "NO NVIDIA GPU NEEDED",
+      "fact": "F3"
+    },
+    {
+      "text": "20 s of 1080x1920 video rendered in 47 seconds on a 4-core CPU with no GPU (caption and X text)",
+      "fact": "M-render"
+    },
+    {
+      "text": "the text audit checked 8 on-screen strings: all exact (description)",
+      "fact": "M-audit"
+    },
+    {
+      "text": "Free, open source, runs locally",
+      "fact": "F1, F2"
+    },
+    {
+      "text": "cuts on the beat (X text; reel.json snaps cuts to 110 BPM)",
+      "fact": "F11"
+    },
+    {
+      "text": "captions checked against the approved copy (X text)",
+      "fact": "F13, M-audit"
+    }
+  ]
+}

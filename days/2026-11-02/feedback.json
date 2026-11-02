@@ -1,0 +1,11 @@
+{
+  "observation": "Creator guides for local AI video this season put the entry ticket at a 24 GB card for lighter or offloaded setups and 48 GB+ for 14B-class models, so many creators assume local video is out of reach without a big GPU. funkbox already renders without one, but on a fresh headless Linux box (today's cloud run) it first failed with 'could not create an OpenGL 3.3 context; egl: libEGL.so not loaded' and only worked after installing libegl1, libegl-mesa0 and libgl1-mesa-dri by hand; nothing in the error said which packages to install.",
+  "suggestion": "Add `python -m funkbox doctor`: probe the GL backends (native, EGL, software llvmpipe), and when EGL is missing print the exact install command for the detected distro (apt/dnf/pacman) and set FUNK_GL_BACKEND automatically when only software GL works. Have render and the MCP server show the same hint instead of the bare GLUnavailable error, and report the backend in M-machine-style one-liners.",
+  "evidence": [
+    "https://vrlatech.com/best-workstation-for-generative-ai-image-and-video-in-2026/",
+    "https://computingforgeeks.com/run-wan-video-generation-locally/",
+    "https://www.runpod.io/articles/guides/best-gpu-for-ai-video"
+  ],
+  "effort": "small",
+  "would_enable": "A how-to promo: 'from a bare cloud VM to a rendered Short in 3 commands, no GPU' with the doctor output on a code card and a measured end-to-end time."
+}

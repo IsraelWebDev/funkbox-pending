@@ -1,0 +1,10 @@
+{
+  "youtube": {
+    "title": "No GPU here: this Short rendered in 47 seconds on a 4-core CPU",
+    "description": "No GPU here. Just 4 CPU cores.\n20 seconds of 1080x1920 video, rendered in 47 seconds on a 4-core CPU with no GPU (software OpenGL). The text audit checked all 8 on-screen strings: all exact.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": ["funkbox", "shorts", "open source", "local AI", "no GPU", "shader loops", "video editing", "behind the scenes"]
+  },
+  "x": {
+    "text": "No GPU here. This Short (20 s, 1080x1920) rendered in 47 seconds on a 4-core CPU with software OpenGL: shader loops, cuts on the beat, captions checked against the approved copy.\n\nMade with IsraelWebDev/funkbox #opensource #AIvideo"
+  }
+}
