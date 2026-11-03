@@ -1,0 +1,188 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 6,
+      "last_frame": 112,
+      "text": "ASK CLAUDE FOR\nA GEAR TRAIN",
+      "complete_frame": 61,
+      "drawn_lines": [
+        "ASK CLAUDE FOR",
+        "A GEAR TRAIN"
+      ],
+      "text_exact": true,
+      "frames": [
+        6,
+        112
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "shader",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 119,
+      "last_frame": 243,
+      "text": "IT WRITES\nTHE SHADER",
+      "complete_frame": 159,
+      "drawn_lines": [
+        "IT WRITES",
+        "THE SHADER"
+      ],
+      "text_exact": true,
+      "frames": [
+        119,
+        243
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "teeth",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 250,
+      "last_frame": 374,
+      "text": "24, 12 AND 8 TEETH:\n1, 2 AND 3 TURNS",
+      "complete_frame": 320,
+      "drawn_lines": [
+        "24, 12 AND 8 TEETH:",
+        "1, 2 AND 3 TURNS"
+      ],
+      "text_exact": true,
+      "frames": [
+        250,
+        374
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "check",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 381,
+      "last_frame": 487,
+      "text": "LAST FRAME FLOWS\nINTO THE FIRST",
+      "complete_frame": 441,
+      "drawn_lines": [
+        "LAST FRAME FLOWS",
+        "INTO THE FIRST"
+      ],
+      "text_exact": true,
+      "frames": [
+        381,
+        487
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "code",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 493,
+      "last_frame": 580,
+      "text": "NO VIDEO MODEL.\nJUST CODE.",
+      "complete_frame": 543,
+      "drawn_lines": [
+        "NO VIDEO MODEL.",
+        "JUST CODE."
+      ],
+      "text_exact": true,
+      "frames": [
+        493,
+        580
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 581,
+      "last_frame": 685,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 581,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        581,
+        685
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 581,
+      "last_frame": 685,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 581,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        581,
+        685
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 591,
+      "last_frame": 685,
+      "text": "funkbox",
+      "complete_frame": 604,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        591,
+        685
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 610,
+      "last_frame": 685,
+      "text": "FREE, OPEN SOURCE, LOCAL",
+      "complete_frame": 610,
+      "drawn_lines": [
+        "FREE, OPEN SOURCE,",
+        "LOCAL"
+      ],
+      "text_exact": true,
+      "frames": [
+        610,
+        685
+      ]
+    }
+  ]
+}

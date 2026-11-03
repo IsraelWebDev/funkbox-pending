@@ -1,0 +1,13 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {"text": "ASK CLAUDE FOR\nA GEAR TRAIN"},
+  "p1": {"text": "IT WRITES\nTHE SHADER"},
+  "p2": {"text": "24, 12 AND 8 TEETH:\n1, 2 AND 3 TURNS"},
+  "p3": {"text": "LAST FRAME FLOWS\nINTO THE FIRST"},
+  "p4": {"text": "NO VIDEO MODEL.\nJUST CODE."},
+  "end_head": {"text": "funkbox"},
+  "end_sub": {"text": "FREE, OPEN SOURCE, LOCAL"},
+  "url": {"text": "github.com/IsraelWebDev/funkbox"}
+ }
+}

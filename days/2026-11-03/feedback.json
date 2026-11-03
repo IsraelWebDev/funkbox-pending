@@ -1,0 +1,10 @@
+{
+  "observation": "The animated-machine genre (Claude building working engines, escapements and differentials as code; CellCog 2026-10-12, Stork.AI 2026-10-23) lives or dies on the mechanism being right: teeth that actually mesh and parts that move in step. Making today's gear train in funkbox meant hand-deriving pitch radii, centre distances and each gear's mesh phase so the teeth interleave, and picking tooth counts so every gear makes a whole number of turns per loop; nothing in funkbox helps with either, and a wrong phase only shows up when you look at frames.",
+  "suggestion": "Add a small mechanism library to the shader prelude: gear(p, centre, teeth, angle) as an SDF with a shared module, meshWith(gearA, direction, teeth) that returns the meshed gear's centre and phase, and crank/slider helpers. Have loop_write_shader report each gear's turns per loop and warn when one is not a whole number (the loop would jump). Ship one example (examples/gear_train.frag) and a 'machine' preset.",
+  "evidence": [
+    "https://cellcog.ai/blog/anatomy-claude-skill/",
+    "https://www.stork.ai/blog/this-claude-code-skill-makes-diagrams-move"
+  ],
+  "effort": "medium",
+  "would_enable": "A how-to promo: 'a clock escapement or a 4-gear train in 10 lines of GLSL', with the loop check naming the turns per loop on a code card, and a series of mechanism loops (escapement, Geneva drive, planetary gears)."
+}

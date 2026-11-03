@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-03",
+  "format": "trend-reaction",
+  "selling_point": "S8",
+  "candidates": [
+    "trend-reaction + S8 + 'Ask Claude for a gear train': ride the genre of Claude-built animated machines (owner seed sd-0001); Claude writes a meshing gear-and-piston GLSL shader, funkbox renders it and its loop check passes - chosen (most specific, new genre for the channel, the video is the proof)",
+    "whats-new + S11 + 'captions place themselves now': reel captions got auto anchor, auto size and speed, and brand.from takes the palette from a frame (M-commits) - passed: yesterday already leaned on render internals, and the change is hard to show in one Short",
+    "how-to + S2 + 'bare cloud VM to a Short with funkbox doctor': doctor now probes every OpenGL backend and prints the distro install hint (M-commits) - passed: S2 was the selling point yesterday (lint blocks it for 4 days)",
+    "use-case + S5 + 'one edit, four formats for a product launch': image-to-video and multi-format short-form are the volume trend in roundups - passed: no dated source in the last 7 days, and the roundups are vendor blogs"
+  ],
+  "trend": {
+    "summary": "A genre this month: Claude writing animated, working machines (engines, clock escapements, differentials, mechanisms that move) as code instead of drawing static diagrams, shared widely in October 2026 around an open-source Claude Code skill. funkbox can make that style today: Claude writes the mechanism as a GLSL shader and funkbox renders it as a seamless loop.",
+    "kind": "genre",
+    "origin": "owner-seed",
+    "seed": "sd-0001",
+    "demo": "Claude wrote gear_train.frag today (three meshing gears with 24, 12 and 8 teeth driving a crank and piston); funkbox rendered it as a 6 s 1080x1920 loop and `funkbox loop check` reported it seamless. The video shows the moving gear train, the real first lines of the shader, and the real check output.",
+    "sources": [
+      {"title": "Anatomy: a Claude skill that explains an idea by building it as a working object (CellCog)", "url": "https://cellcog.ai/blog/anatomy-claude-skill/", "date": "2026-10-12"},
+      {"title": "This Claude Code skill makes diagrams move (Stork.AI)", "url": "https://www.stork.ai/blog/this-claude-code-skill-makes-diagrams-move", "date": "2026-10-23"}
+    ]
+  },
+  "angle": "People are asking Claude to build machines that move. funkbox's version: Claude writes a gear train as a GLSL shader (24, 12 and 8 teeth, so the gears turn 1, 2 and 3 times per loop), funkbox renders it and its machine check confirms the last frame flows into the first. No video model, just code.",
+  "hook": "ASK CLAUDE FOR A GEAR TRAIN",
+  "novelty": "The first promo where Claude writes a brand-new shader on camera (not a preset look) and the first mechanism animation on the channel; earlier posts were about the edit around AI shots, an emblem rebuilt with Hebrew text, and render time on a CPU.",
+  "claims": [
+    {"text": "ASK CLAUDE FOR A GEAR TRAIN / IT WRITES THE SHADER (over the real gear_train.frag lines)", "fact": "F4, F6"},
+    {"text": "24, 12 AND 8 TEETH: 1, 2 AND 3 TURNS (per loop, from the shader's own numbers)", "fact": "F6"},
+    {"text": "LAST FRAME FLOWS INTO THE FIRST (over the real loop check output)", "fact": "F6"},
+    {"text": "NO VIDEO MODEL. JUST CODE.", "fact": "F19"},
+    {"text": "FREE, OPEN SOURCE, LOCAL", "fact": "F1, F2"},
+    {"text": "this 23 s Short rendered in 53 seconds on a 4-core CPU with no GPU (description)", "fact": "M-render, M-video"},
+    {"text": "Made with funkbox", "fact": "F18"}
+  ]
+}

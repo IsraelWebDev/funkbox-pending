@@ -1,0 +1,10 @@
+{
+  "youtube": {
+    "title": "Ask Claude for a gear train: a GLSL shader, rendered as a seamless loop",
+    "description": "Ask Claude for a gear train, get a loop.\nClaude wrote the shader: 24, 12 and 8 teeth, so the gears turn 1, 2 and 3 times per loop. funkbox rendered it and its loop check says the last frame flows into the first. No video model, just code. This 23 s Short rendered in 53 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": ["funkbox", "shorts", "GLSL", "shader", "gears", "seamless loop", "open source", "Claude"]
+  },
+  "x": {
+    "text": "Ask Claude for a gear train, get a loop.\n\nClaude wrote the GLSL: 24, 12 and 8 teeth, so the gears turn 1, 2 and 3 times per loop. funkbox rendered it and checked the last frame flows into the first. No video model, just code.\n\nIsraelWebDev/funkbox #GLSL"
+  }
+}

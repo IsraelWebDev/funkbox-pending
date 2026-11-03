@@ -1,0 +1,58 @@
+{
+  "day": "2026-11-03",
+  "measured_at": "2026-11-03T13:54:13Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.80GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 49,
+      "say": "Claude drives it through 49 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "1198064 reel: brand.from takes the palette from an image or mp4 frame",
+        "313ee12 reel captions: auto anchor, auto size and speed, auto transitions; version 4.3.0",
+        "7ff941d funkbox doctor probes every OpenGL backend; software OpenGL fallback; distro install hint"
+      ],
+      "say": "changes since the last promo: reel: brand.from takes the palette from an image or mp4 frame; reel captions: auto anchor, auto size and speed, auto transitions; version 4.3.0; funkbox doctor probes every OpenGL backend; software OpenGL fallback; distro install hint"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 22.87,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "23 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 9,
+        "ok": true
+      },
+      "say": "the text audit checked 9 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 52.8,
+        "frames": 686
+      },
+      "say": "this video rendered in 53 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}
