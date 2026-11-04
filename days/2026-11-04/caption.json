@@ -1,0 +1,10 @@
+{
+  "youtube": {
+    "title": "One ad, four screen shapes: 9:16, 16:9, 1:1 and 4:5 from one shot list",
+    "description": "One ad. Four screen shapes.\nThe GLOWMOP demo ad (a fictional brand) rendered by funkbox in 9:16, 16:9, 1:1 and 4:5. The only change to its shot list: one added line, \"formats\". Same cuts, same captions. This 20 s Short rendered in 39 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": ["funkbox", "shorts", "video ads", "aspect ratio", "9:16", "open source", "local video", "Claude"]
+  },
+  "x": {
+    "text": "One ad, four screen shapes: 9:16, 16:9, 1:1 and 4:5.\n\nThe only change to the demo ad's shot list was one added line, \"formats\". Same cuts, same captions. No video model; this Short rendered in 39 s on a 4-core CPU.\n\nIsraelWebDev/funkbox #VideoAds"
+  }
+}

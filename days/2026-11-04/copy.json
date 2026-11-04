@@ -1,0 +1,26 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "ONE AD.\nFOUR SCREEN SHAPES."
+  },
+  "p1": {
+   "text": "16:9 FROM\nTHE SAME SHOT LIST"
+  },
+  "p2": {
+   "text": "1:1. SAME CUTS,\nSAME CAPTIONS"
+  },
+  "p3": {
+   "text": "4:5. THE ONLY CHANGE:\nONE ADDED LINE"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "FREE, OPEN SOURCE, LOCAL"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

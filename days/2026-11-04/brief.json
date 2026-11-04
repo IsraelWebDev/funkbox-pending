@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-04",
+  "format": "feature-spotlight",
+  "selling_point": "S5",
+  "candidates": [
+    "feature-spotlight + S5 + 'One ad. Four screen shapes.': the GLOWMOP demo ad re-rendered today in 16:9, 1:1 and 4:5 from its shot list with one added line (\"formats\"), all four shown side by side in the Short - chosen: ad placements ask for several shapes of the same ad (Google Ads recommends uploading 16:9, 9:16 and 1:1 versions), and no earlier promo actually showed the other shapes",
+    "trend-reaction + S3 + 'Claude writes the video as code': people are pairing Claude Code with code-based video frameworks (Remotion recaps, motion-graphics skills) - passed: yesterday's promo was already 'Claude writes the code, funkbox renders it' (the gear train), and the posts found carry no dates I could confirm inside 30 days",
+    "trend-reaction + S1 + an open-weight video model release (Kandinsky 6.0 Video, reported Oct 6) - passed: older than 7 days, secondary sources disagree, and funkbox can only comment on it, not make it (F19)",
+    "whats-new + S11: M-commits measures no changes since the last promo - passed"
+  ],
+  "trend": null,
+  "angle": "One edit, many formats, shown rather than said: the GLOWMOP demo ad's shot list (examples/mimic/mimic.reel.json) copied with exactly one added line, \"formats\": [\"9x16\", \"16x9\", \"1x1\", \"4x5\"], and rendered by funkbox in 16:9, 1:1 and 4:5 today (assets/formats/glowmop-*.mp4). The Short opens on the 9:16 original with a push-in on the bottle, then shows each other shape letterboxed in the vertical frame with the same cuts and captions.",
+  "hook": "ONE AD. FOUR SCREEN SHAPES.",
+  "novelty": "No earlier promo showed an ad in any shape but 9:16; 10-29 only mentioned 16:9 in a caption. This is the first post that renders the other formats and puts them on screen, and the first that names the one-line change that makes them.",
+  "claims": [
+    {
+      "text": "ONE AD. FOUR SCREEN SHAPES. (over the 9:16 GLOWMOP demo ad, a fictional brand)",
+      "fact": "F9"
+    },
+    {
+      "text": "16:9 FROM THE SAME SHOT LIST (assets/formats/glowmop-16x9.mp4, rendered from assets/formats/mimic.reel.json)",
+      "fact": "F9"
+    },
+    {
+      "text": "1:1. SAME CUTS, SAME CAPTIONS (assets/formats/glowmop-1x1.mp4; the same shots and copy.json as the 9:16 ad)",
+      "fact": "F9"
+    },
+    {
+      "text": "4:5. THE ONLY CHANGE: ONE ADDED LINE (diff examples/mimic/mimic.reel.json assets/formats/mimic.reel.json shows one added line, \"formats\")",
+      "fact": "F9"
+    },
+    {
+      "text": "the demo ad: fictional brand GLOWMOP, scenes from FastSD (description)",
+      "fact": "F15, F16"
+    },
+    {
+      "text": "FREE, OPEN SOURCE, LOCAL (end card, description)",
+      "fact": "F1, F2"
+    },
+    {
+      "text": "this Short: 20 seconds, rendered in 39 seconds on a 4-core CPU with no GPU (description, X text)",
+      "fact": "M-render"
+    },
+    {
+      "text": "no video model (X text)",
+      "fact": "F19"
+    }
+  ]
+}

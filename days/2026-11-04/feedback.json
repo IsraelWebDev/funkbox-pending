@@ -1,0 +1,11 @@
+{
+  "observation": "Ad-format guidance this season asks for the same ad in several shapes: Google Ads recommends uploading 16:9, 9:16 and 1:1 versions, and vendor guides map 4:5/1:1 to feeds and 9:16 to Reels. funkbox already renders every shape from one reel, but making today's promo showed the gap after rendering: to show or ship the set I had to run `reel render --format` once per shape (three runs, about 45-70 s each on a 4-core CPU), then hand-build a contact sheet with ffmpeg to check each shape's captions, and nothing tells you which format a caption box crowds once the frame changes shape.",
+  "suggestion": "Add `reel render --all-formats --sheet`: render every declared format in one call and write formats.png, a side-by-side sheet of each format at the same 3-4 timestamps, plus a per-format line in the text audit (strings checked, exact) so one audit covers the whole set. Have `validate` report, per format, any caption whose box covers more than a set share of the subject or another caption.",
+  "evidence": [
+    "https://support.google.com/google-ads/answer/9128498?hl=en-gb",
+    "https://coverr.co/blog/ai-video-ad-generator-9-16-formats-2026",
+    "https://adcreate.com/blog/vertical-video-ads-complete-guide"
+  ],
+  "effort": "medium",
+  "would_enable": "A behind-the-scenes promo with measured numbers for the whole set: 'four shapes of one ad, rendered in N seconds, every caption audited in every shape', with the formats sheet as the hero shot."
+}

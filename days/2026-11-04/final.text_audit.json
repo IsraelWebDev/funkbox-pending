@@ -1,0 +1,171 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 6,
+      "last_frame": 99,
+      "text": "ONE AD.\nFOUR SCREEN SHAPES.",
+      "complete_frame": 59,
+      "drawn_lines": [
+        "ONE AD.",
+        "FOUR SCREEN",
+        "SHAPES."
+      ],
+      "text_exact": true,
+      "frames": [
+        6,
+        99
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "wide",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 106,
+      "last_frame": 232,
+      "text": "16:9 FROM\nTHE SAME SHOT LIST",
+      "complete_frame": 163,
+      "drawn_lines": [
+        "16:9 FROM",
+        "THE SAME SHOT",
+        "LIST"
+      ],
+      "text_exact": true,
+      "frames": [
+        106,
+        232
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "square",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 239,
+      "last_frame": 366,
+      "text": "1:1. SAME CUTS,\nSAME CAPTIONS",
+      "complete_frame": 299,
+      "drawn_lines": [
+        "1:1. SAME CUTS,",
+        "SAME CAPTIONS"
+      ],
+      "text_exact": true,
+      "frames": [
+        239,
+        366
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "portrait",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 373,
+      "last_frame": 499,
+      "text": "4:5. THE ONLY CHANGE:\nONE ADDED LINE",
+      "complete_frame": 444,
+      "drawn_lines": [
+        "4:5. THE ONLY",
+        "CHANGE:",
+        "ONE ADDED LINE"
+      ],
+      "text_exact": true,
+      "frames": [
+        373,
+        499
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 500,
+      "last_frame": 604,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 500,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        500,
+        604
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 500,
+      "last_frame": 604,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 500,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        500,
+        604
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 510,
+      "last_frame": 604,
+      "text": "funkbox",
+      "complete_frame": 523,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        510,
+        604
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 529,
+      "last_frame": 604,
+      "text": "FREE, OPEN SOURCE, LOCAL",
+      "complete_frame": 529,
+      "drawn_lines": [
+        "FREE, OPEN SOURCE,",
+        "LOCAL"
+      ],
+      "text_exact": true,
+      "frames": [
+        529,
+        604
+      ]
+    }
+  ]
+}
