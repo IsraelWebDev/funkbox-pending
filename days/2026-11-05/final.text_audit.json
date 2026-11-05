@@ -1,0 +1,327 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 66,
+      "text": "EIGHT LOOKS.\nONE SHOT.",
+      "complete_frame": 40,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "EIGHT LOOKS.",
+        "ONE SHOT."
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        66
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "0",
+      "copy_id": "l-acid-plasma",
+      "first_frame": 68,
+      "last_frame": 246,
+      "text": "ACID\nPLASMA",
+      "complete_frame": 68,
+      "opaque_frame": 75,
+      "drawn_lines": [
+        "ACID",
+        "PLASMA"
+      ],
+      "text_exact": true,
+      "frames": [
+        68,
+        246
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "1",
+      "copy_id": "l-pop-moire",
+      "first_frame": 83,
+      "last_frame": 246,
+      "text": "POP\nMOIRE",
+      "complete_frame": 83,
+      "opaque_frame": 90,
+      "drawn_lines": [
+        "POP",
+        "MOIRE"
+      ],
+      "text_exact": true,
+      "frames": [
+        83,
+        246
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "2",
+      "copy_id": "l-liquid-disco",
+      "first_frame": 98,
+      "last_frame": 246,
+      "text": "LIQUID\nDISCO",
+      "complete_frame": 98,
+      "opaque_frame": 105,
+      "drawn_lines": [
+        "LIQUID",
+        "DISCO"
+      ],
+      "text_exact": true,
+      "frames": [
+        98,
+        246
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "3",
+      "copy_id": "l-hypno-tunnel",
+      "first_frame": 113,
+      "last_frame": 246,
+      "text": "HYPNO\nTUNNEL",
+      "complete_frame": 113,
+      "opaque_frame": 120,
+      "drawn_lines": [
+        "HYPNO",
+        "TUNNEL"
+      ],
+      "text_exact": true,
+      "frames": [
+        113,
+        246
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "4",
+      "copy_id": "l-lava-lamp",
+      "first_frame": 128,
+      "last_frame": 246,
+      "text": "LAVA\nLAMP",
+      "complete_frame": 128,
+      "opaque_frame": 135,
+      "drawn_lines": [
+        "LAVA",
+        "LAMP"
+      ],
+      "text_exact": true,
+      "frames": [
+        128,
+        246
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "5",
+      "copy_id": "l-op-art",
+      "first_frame": 143,
+      "last_frame": 246,
+      "text": "OP\nART",
+      "complete_frame": 143,
+      "opaque_frame": 150,
+      "drawn_lines": [
+        "OP",
+        "ART"
+      ],
+      "text_exact": true,
+      "frames": [
+        143,
+        246
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "6",
+      "copy_id": "l-frozen-kaleido",
+      "first_frame": 158,
+      "last_frame": 246,
+      "text": "FROZEN\nKALEIDO",
+      "complete_frame": 158,
+      "opaque_frame": 165,
+      "drawn_lines": [
+        "FROZEN",
+        "KALEIDO"
+      ],
+      "text_exact": true,
+      "frames": [
+        158,
+        246
+      ]
+    },
+    {
+      "kind": "grid_label",
+      "shot": "grid",
+      "slot": "grid_label",
+      "instance": "7",
+      "copy_id": "l-party-poster",
+      "first_frame": 173,
+      "last_frame": 246,
+      "text": "PARTY\nPOSTER",
+      "complete_frame": 173,
+      "opaque_frame": 180,
+      "drawn_lines": [
+        "PARTY",
+        "POSTER"
+      ],
+      "text_exact": true,
+      "frames": [
+        173,
+        246
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "deck",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 252,
+      "last_frame": 366,
+      "text": "GRID LABELS LIVE\nIN A COPY DECK\nLIKE THIS ONE",
+      "complete_frame": 317,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "GRID LABELS LIVE",
+        "IN A COPY DECK",
+        "LIKE THIS ONE"
+      ],
+      "text_exact": true,
+      "frames": [
+        252,
+        366
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "audit",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 372,
+      "last_frame": 456,
+      "text": "15 ON-SCREEN STRINGS.\nALL EXACT.",
+      "complete_frame": 420,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "15 ON-SCREEN",
+        "STRINGS.",
+        "ALL EXACT."
+      ],
+      "text_exact": true,
+      "frames": [
+        372,
+        456
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 457,
+      "last_frame": 561,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 457,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        457,
+        561
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 457,
+      "last_frame": 561,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 457,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        457,
+        561
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 467,
+      "last_frame": 561,
+      "text": "NEW: GRID SHOTS",
+      "complete_frame": 497,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "NEW:",
+        "GRID",
+        "SHOTS"
+      ],
+      "text_exact": true,
+      "frames": [
+        467,
+        561
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 503,
+      "last_frame": 561,
+      "text": "funkbox. FREE, OPEN SOURCE, LOCAL",
+      "complete_frame": 503,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox. FREE, OPEN",
+        "SOURCE, LOCAL"
+      ],
+      "text_exact": true,
+      "frames": [
+        503,
+        561
+      ]
+    }
+  ]
+}

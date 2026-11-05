@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "New grid shot: all 8 loop looks in one shot, each label from the approved copy",
+  "description": "Eight looks. One shot: the new grid shot in funkbox, cells arriving one per beat.\nEach label is a line of the approved copy; the text audit checked all 15 on-screen strings: exact. Rendered in 62 s on a 4-core CPU, no GPU, no video model.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "GLSL",
+   "shader loops",
+   "open source",
+   "video editing",
+   "Claude",
+   "motion graphics",
+   "shorts"
+  ]
+ },
+ "x": {
+  "text": "New in funkbox: grid shots. All 8 loop looks in one shot, one cell per beat, each label a line of the approved copy.\n\nThe text audit checked all 15 on-screen strings: exact. Rendered in 62 s on a 4-core CPU, no GPU.\n\nIsraelWebDev/funkbox #GLSL"
+ }
+}

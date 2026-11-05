@@ -1,0 +1,11 @@
+{
+ "observation": "Ad-testing guides this year keep telling creators to ship many variants of one ad, each with a different first scene or hook, and to change one variable per batch (influee's 'Doubling ROAS by Creating Variations of the Same Ad', videotok's creative-testing workflow, segwise on AI UGC testing). In funkbox today each variant means hand-copying the reel.json and copy.json and rendering them one by one.",
+ "suggestion": "Add `funkbox reel variants <reel> --swap shots[0]=a.json,b.json,c.json` (and an MCP tool reel_variants): one shot list, N alternatives for a named shot or copy id, rendered as N files named by variant, each with its own text audit, plus a contact sheet (the new grid shot can build it) of the first second of every variant so a person can pick before uploading.",
+ "evidence": [
+  "https://influee.co/gb/blog/doubling_roas_with_ad_variations",
+  "https://www.videotok.app/blog/performance/ai-creative-testing-workflow-social-ads",
+  "https://segwise.ai/blog/ai-ugc-perofrmance-marketing-2026"
+ ],
+ "effort": "medium",
+ "would_enable": "A how-to promo: 'Five hooks, one shot list': five openings of the demo ad rendered in one command and shown as a grid, each text-audited."
+}

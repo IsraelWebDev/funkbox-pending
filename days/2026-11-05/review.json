@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Looked at 16 frames at 0.5-18.5 s plus full-res frames at 7.5 s (grid) and 12.15 s (end of deck push-in). Video is 18.73 s, 1080x1920 vertical, 30 fps. blackdetect found no black frames. The hook, all 8 grid labels, p2, p3 and the end card are legible. The grid reveals one cell per beat (15-frame stagger). The earlier FAIL's edge clipping is fixed: at the end of the push-in the gutter (3-18), title bar dots and 'GIVE IT A' all sit inside the frame. The earlier FAIL's misleading deck caption is fixed: it now says 'GRID LABELS LIVE IN A COPY DECK LIKE THIS ONE' over examples/mimic/copy.json, which honestly presents the file as an example. text_audit ok: 15 entries, all exact, none missing. lint: OK (with the state env). Claims: 8 looks/labels = M-presets (the 8 preset names are in the code and the cell json files are the real presets); new grid shots / cells on the beat / labels from copy = M-commits 85f115e, F11, F12; 15 strings all exact = M-audit, F13; 62 s on a 4-core CPU, no GPU = M-render 62.2 rounded down, M-machine gpu false; no video model = F19; free, open source, local = F1, F2. No superlatives, competitors or testimonials, and nothing about Anthropic. trend null. X text 243 chars with no URL; title 78 chars; spelling clean. Angle (first grid shot, all 8 looks at once) is new against the last 14 posts. No owner_approval.json, and nothing needs one.",
+  "video_sha256": "b2b05a2db3b127d6f887b4da70eed7347a4ad4d057d55ad8667c386c89d86f00",
+  "caption_sha256": "769b6c527aa895b70b729679663a024be8163d22637d1c93f6b73eca8b6823cf",
+  "at": "2026-11-05T13:59:47+00:00"
+}

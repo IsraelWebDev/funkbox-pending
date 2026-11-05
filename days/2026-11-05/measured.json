@@ -1,0 +1,61 @@
+{
+  "day": "2026-11-05",
+  "measured_at": "2026-11-05T13:58:05Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 49,
+      "say": "Claude drives it through 49 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "14e9918 docs: release 4.4.0 notes: 694 tests; the failing test is fixed, so it leaves the known issues",
+        "494e60d fix: the text size warning on the outline path; uv lock with ruff; uv run --frozen in the MCP test",
+        "682e542 funkbox 4.4.0",
+        "cc587f4 reel: the text audit records opaque_frame, the first frame a grid label can be read",
+        "c7c0a45 chore: add ruff (lint and format), format the repo",
+        "85f115e reel: grid shot source (cells side by side, sequence reveal, labels from copy.json)"
+      ],
+      "say": "changes since the last promo: docs: release 4.4.0 notes: 694 tests; the failing test is fixed, so it leaves the known issues; fix: the text size warning on the outline path; uv lock with ruff; uv run --frozen in the MCP test; funkbox 4.4.0; reel: the text audit records opaque_frame, the first frame a grid label can be read; chore: add ruff (lint and format), format the repo; reel: grid shot source (cells side by side, sequence reveal, labels from copy.json)"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 18.73,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "19 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 15,
+        "ok": true
+      },
+      "say": "the text audit checked 15 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 62.2,
+        "frames": 562
+      },
+      "say": "this video rendered in 62 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

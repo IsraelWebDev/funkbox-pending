@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-05",
+ "format": "whats-new",
+ "selling_point": "S11",
+ "candidates": [
+  "whats-new + S11 + 'EIGHT LOOKS. ONE SHOT.': the grid shot source added to the reel engine since the last promo (commit 85f115e: cells side by side, sequence reveal, labels from copy.json), shown by putting all 8 loop presets, freshly rendered today, into one 4x2 grid that arrives cell by cell on the beat, each cell labelled from the copy deck - chosen: it is the newest thing in funkbox and no earlier promo showed more than two looks at once",
+  "use-case + S7 + before/after split-screen ads (vendor guides call it a core 2026 ad format: admapix, coinis, fluxnote) - passed: the pages carry no dates I could check inside 30 days and are vendor marketing; better tried once a dated source or owner seed exists",
+  "how-to + S10 + 'one hook, many variants' for ad creative testing (guides by influee, videotok, segwise say each variation should change the first scene) - passed: funkbox has no batch-variants command yet, so the promo could only describe it; it became today's product feedback",
+  "trend-reaction + S1 + open-weight local video models (LTX-2.3 and others) - passed: no news dated in the last 7 days, and funkbox uses no video model (F19), so it could only comment, not make"
+ ],
+ "trend": null,
+ "angle": "Show this week's new grid shot by using it: all 8 ready-made loop looks (M-presets) rendered today as 256x944 cells and composed in one 4x2 grid shot that reveals one cell per beat, each with a label that is a copy id, then a gentle push-in on a real copy deck (examples/mimic/copy.json, the demo ad's, shown as an example of where labels live) and the text audit's count for this very video.",
+ "hook": "EIGHT LOOKS. ONE SHOT.",
+ "novelty": "No earlier promo used the grid shot (it landed on Nov 4 after the last promo) or showed all eight loop presets together; earlier posts showed one or two looks at a time. It is also the first to put this video's own text-audit count on screen.",
+ "claims": [
+  {
+   "text": "EIGHT LOOKS. ONE SHOT. (all 8 loop presets in one grid shot)",
+   "fact": "M-presets, M-commits"
+  },
+  {
+   "text": "grid labels ACID PLASMA ... PARTY POSTER: the 8 preset names",
+   "fact": "M-presets"
+  },
+  {
+   "text": "NEW: GRID SHOTS (end card; title; description; X)",
+   "fact": "M-commits"
+  },
+  {
+   "text": "cells arrive one after another, on the beat (description, X)",
+   "fact": "M-commits, F11"
+  },
+  {
+   "text": "GRID LABELS LIVE IN A COPY DECK LIKE THIS ONE (over examples/mimic/copy.json, the demo ad's deck, shown as an example; today's labels are l-* lines in this promo's copy.json, and copy is approved and hash-locked)",
+   "fact": "M-commits, F12"
+  },
+  {
+   "text": "15 ON-SCREEN STRINGS. ALL EXACT.",
+   "fact": "M-audit, F13"
+  },
+  {
+   "text": "rendered in 62 seconds on a 4-core CPU with no GPU (X, description)",
+   "fact": "M-render, M-machine"
+  },
+  {
+   "text": "no video model; made with funkbox (description, X)",
+   "fact": "F18, F19"
+  },
+  {
+   "text": "funkbox. FREE, OPEN SOURCE, LOCAL (end card, description)",
+   "fact": "F1, F2"
+  }
+ ]
+}

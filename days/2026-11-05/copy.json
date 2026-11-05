@@ -1,0 +1,47 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "EIGHT LOOKS.\nONE SHOT."
+  },
+  "p2": {
+   "text": "GRID LABELS LIVE\nIN A COPY DECK\nLIKE THIS ONE"
+  },
+  "p3": {
+   "text": "15 ON-SCREEN STRINGS.\nALL EXACT."
+  },
+  "end_head": {
+   "text": "NEW: GRID SHOTS"
+  },
+  "end_sub": {
+   "text": "funkbox. FREE, OPEN SOURCE, LOCAL"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  },
+  "l-acid-plasma": {
+   "text": "ACID\nPLASMA"
+  },
+  "l-pop-moire": {
+   "text": "POP\nMOIRE"
+  },
+  "l-liquid-disco": {
+   "text": "LIQUID\nDISCO"
+  },
+  "l-hypno-tunnel": {
+   "text": "HYPNO\nTUNNEL"
+  },
+  "l-lava-lamp": {
+   "text": "LAVA\nLAMP"
+  },
+  "l-op-art": {
+   "text": "OP\nART"
+  },
+  "l-frozen-kaleido": {
+   "text": "FROZEN\nKALEIDO"
+  },
+  "l-party-poster": {
+   "text": "PARTY\nPOSTER"
+  }
+ }
+}

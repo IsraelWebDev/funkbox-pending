@@ -1,0 +1,173 @@
+{
+ "version": 3,
+ "settings": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "safe_area": "reels"
+ },
+ "brand": {
+  "from": "assets/key.png",
+  "primary": "#e0245e",
+  "secondary": "#12141c",
+  "text": "#ffffff"
+ },
+ "copy": "copy.json",
+ "audio": {
+  "music": "assets/music.mp3",
+  "snap_cuts_to_beats": true,
+  "voiceover": false,
+  "music_gain_db": -10
+ },
+ "shots": [
+  {
+   "id": "hook",
+   "source": {
+    "video": "assets/loop-liquid-disco.mp4",
+    "loop": true
+   },
+   "duration": "beats:4",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "hook",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "auto"
+   }
+  },
+  {
+   "id": "grid",
+   "source": {
+    "pad": "#101820",
+    "grid": {
+     "cols": 4,
+     "rows": 2,
+     "gap": 0.02,
+     "reveal": "sequence",
+     "stagger": "beats:1",
+     "ease": "out",
+     "cells": [
+      {
+       "video": "assets/cell-acid-plasma.mp4",
+       "fit": "cover",
+       "label": "l-acid-plasma",
+       "label_style": "bold-pop"
+      },
+      {
+       "video": "assets/cell-pop-moire.mp4",
+       "fit": "cover",
+       "label": "l-pop-moire",
+       "label_style": "bold-pop"
+      },
+      {
+       "video": "assets/cell-liquid-disco.mp4",
+       "fit": "cover",
+       "label": "l-liquid-disco",
+       "label_style": "bold-pop"
+      },
+      {
+       "video": "assets/cell-hypno-tunnel.mp4",
+       "fit": "cover",
+       "label": "l-hypno-tunnel",
+       "label_style": "bold-pop"
+      },
+      {
+       "video": "assets/cell-lava-lamp.mp4",
+       "fit": "cover",
+       "label": "l-lava-lamp",
+       "label_style": "bold-pop"
+      },
+      {
+       "video": "assets/cell-op-art.mp4",
+       "fit": "cover",
+       "label": "l-op-art",
+       "label_style": "bold-pop"
+      },
+      {
+       "video": "assets/cell-frozen-kaleido.mp4",
+       "fit": "cover",
+       "label": "l-frozen-kaleido",
+       "label_style": "bold-pop"
+      },
+      {
+       "video": "assets/cell-party-poster.mp4",
+       "fit": "cover",
+       "label": "l-party-poster",
+       "label_style": "bold-pop"
+      }
+     ]
+    }
+   },
+   "duration": "beats:12",
+   "transition_in": "auto",
+   "motion": {
+    "type": "none"
+   }
+  },
+  {
+   "id": "deck",
+   "source": {
+    "image": "assets/card-copy-json.png"
+   },
+   "duration": "beats:8",
+   "transition_in": "auto",
+   "motion": {
+    "type": "frame",
+    "from": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "to": [
+     0.01,
+     0.0,
+     0.975,
+     0.975
+    ],
+    "at": [
+     0.05,
+     0.9
+    ],
+    "ease": "out"
+   },
+   "caption": {
+    "copy_id": "p2",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "bottom"
+   }
+  },
+  {
+   "id": "audit",
+   "source": {
+    "video": "assets/loop-frozen-kaleido.mp4",
+    "loop": true
+   },
+   "duration": "beats:6",
+   "transition_in": "auto",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "p3",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "auto"
+   }
+  }
+ ],
+ "end_card": {
+  "template": "brand-split",
+  "duration": 3.5,
+  "audio": "keep",
+  "copy": {
+   "headline": "end_head",
+   "sub": "end_sub",
+   "url": "url"
+  },
+  "headline_reveal": "typewriter"
+ }
+}
