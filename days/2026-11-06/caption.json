@@ -1,0 +1,17 @@
+{
+ "youtube": {
+  "title": "A 16:9 screen recording in, a 9:16 Short out: speed ramp, push-in, pixels as recorded",
+  "description": "16:9 screen recording in, 9:16 Short out.\nA speed ramp on the scroll and a push-in on the Quickstart. Framing only crops and scales; it never changes what the recording shows.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "screen recording",
+   "vertical video",
+   "YouTube Shorts",
+   "video editing",
+   "open source",
+   "funkbox"
+  ]
+ },
+ "x": {
+  "text": "16:9 screen recording in, 9:16 Short out.\n\nA 1x to 3x speed ramp on the scroll, a push-in (one line in the shot list), and framing that only crops and scales. Rendered in under 50 s on a 4-core CPU, no GPU.\n\nIsraelWebDev/funkbox #VerticalVideo"
+ }
+}

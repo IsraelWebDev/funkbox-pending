@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "settings": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "safe_area": "reels"
+  },
+  "brand": {
+    "from": "assets/key.png",
+    "primary": "#e0245e",
+    "secondary": "#12141c",
+    "text": "#ffffff"
+  },
+  "copy": "copy.json",
+  "audio": {
+    "music": "assets/music.mp3",
+    "snap_cuts_to_beats": true,
+    "voiceover": false,
+    "music_gain_db": -10
+  },
+  "shots": [
+    {
+      "id": "hook",
+      "source": {
+        "video": "assets/screen-readme.mp4",
+        "trim": [
+          0.0,
+          2.9
+        ],
+        "fit": "contain",
+        "pad": "blur"
+      },
+      "duration": "beats:5",
+      "motion": {
+        "type": "none"
+      },
+      "caption": {
+        "copy_id": "hook",
+        "style": "lower-third",
+        "reveal": "typewriter",
+        "anchor": "top"
+      }
+    },
+    {
+      "id": "ramp",
+      "source": {
+        "video": "assets/screen-readme.mp4",
+        "trim": [
+          2.9,
+          9.8
+        ],
+        "speed": [
+          1,
+          3
+        ],
+        "fit": "contain",
+        "pad": "blur"
+      },
+      "duration": "beats:6",
+      "transition_in": "auto",
+      "motion": {
+        "type": "none"
+      },
+      "caption": {
+        "copy_id": "p1",
+        "style": "lower-third",
+        "reveal": "typewriter",
+        "anchor": "top"
+      }
+    },
+    {
+      "id": "push",
+      "source": {
+        "video": "assets/screen-readme.mp4",
+        "trim": [
+          9.0,
+          12.3
+        ]
+      },
+      "duration": "beats:6",
+      "transition_in": "cut",
+      "motion": {
+        "type": "frame",
+        "to": [
+          0.145,
+          0.135,
+          0.225,
+          0.56
+        ],
+        "at": [
+          0.05,
+          0.7
+        ],
+        "ease": "out",
+        "from": [
+          0.13,
+          0.058,
+          0.3,
+          0.94
+        ]
+      }
+    },
+    {
+      "id": "line",
+      "source": {
+        "image": "assets/card-frame-json.png"
+      },
+      "duration": "beats:6",
+      "transition_in": "auto",
+      "motion": {
+        "type": "frame",
+        "from": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "to": [
+          0.0,
+          0.05,
+          0.98,
+          0.85
+        ],
+        "at": [
+          0.05,
+          0.9
+        ],
+        "ease": "out"
+      },
+      "caption": {
+        "copy_id": "p3",
+        "style": "auto-box",
+        "reveal": "typewriter",
+        "anchor": "bottom"
+      }
+    },
+    {
+      "id": "pixels",
+      "source": {
+        "video": "assets/screen-readme.mp4",
+        "trim": [
+          9.5,
+          12.3
+        ],
+        "fit": "contain",
+        "pad": "blur"
+      },
+      "duration": "beats:5",
+      "transition_in": "auto",
+      "motion": {
+        "type": "none"
+      },
+      "caption": {
+        "copy_id": "p4",
+        "style": "lower-third",
+        "reveal": "typewriter",
+        "anchor": "top"
+      }
+    }
+  ],
+  "end_card": {
+    "template": "brand-split",
+    "duration": 3.5,
+    "audio": "keep",
+    "copy": {
+      "headline": "end_head",
+      "sub": "end_sub",
+      "url": "url"
+    },
+    "headline_reveal": "typewriter"
+  }
+}

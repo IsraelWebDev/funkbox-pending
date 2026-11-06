@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-06",
+ "format": "use-case",
+ "selling_point": "S6",
+ "candidates": [
+  "use-case + S6 + 'A 16:9 screen recording in, a 9:16 Short out': record a desktop page, then speed-ramp, push in and crop it for vertical without changing the pixels (chosen: no post has shown screen recordings yet)",
+  "trend-reaction + S1 + 'Loops on your own computer, no account': OpenAI's Images 2.6 brought animated GIFs to ChatGPT (the-decoder, 2026-11-04); funkbox makes seamless loops locally (passed: loops were the subject on 11-03 and 11-05, and S8 is inside its 4-day gap)",
+  "myth-vs-fact + S4 + 'AI video can't spell?': creators report burning credits on clips with garbled baked-in text (Adobe Community threads, CoreReflex); in funkbox text is set from approved copy and audited (passed: 11-05 already put the text-audit count on screen)",
+  "owner seed sd-0002 + S7: the new text-to-voice demo with a local voice and a spoken-line audit (passed: the playbook keeps voiceover off in promos, and the voice audit and the Kokoro voice are not in FACTS.md yet; worth a FACTS entry first)"
+ ],
+ "trend": null,
+ "angle": "The job: you have a 16:9 screen recording of a desktop page and need a 9:16 Short. This run recorded one (headless Chromium, 1280x720, 12.4 s: the funkbox README rendered locally and scrolled to Quickstart; assets/screen-readme.mp4), then funkbox: shows it whole on a blurred pad, speed-ramps the scroll 1x to 3x, pushes in on the Quickstart, shows the docs line that defines a push-in, and ends on the recording as shot. Framing only crops and scales.",
+ "hook": "16:9 SCREEN RECORDING IN. 9:16 SHORT OUT.",
+ "novelty": "The first promo built from a screen recording: earlier posts used shader loops, the demo ad, posters and code cards. It shows the speed ramp and the push-in on a recording, which no post has shown.",
+ "claims": [
+  {
+   "text": "16:9 screen recording in, 9:16 Short out",
+   "fact": "F9"
+  },
+  {
+   "text": "Speed ramp: 1x to 3x on the scroll",
+   "fact": "F10"
+  },
+  {
+   "text": "The push-in is one line in the shot list (docs/reel.md line 106, on screen)",
+   "fact": "F10"
+  },
+  {
+   "text": "Only cropped, never redrawn.",
+   "fact": "F14"
+  },
+  {
+   "text": "funkbox: free, open source, local",
+   "fact": "F1, F2"
+  },
+  {
+   "text": "rendered in under 50 seconds on a 4-core CPU with no GPU",
+   "fact": "M-render"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}

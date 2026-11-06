@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Checked: final.mp4 19.2 s, 1080x1920 vertical, h264+aac 30 fps; blackdetect finds no black frames; looked at a 1 fps contact sheet (19 frames) plus 15 single frames incl. the push shot start (6.2-9.5 s), p4 and end card at full size. The previous FAIL is fixed: the push shot now has no caption (p2 removed from copy.json), so no caption box sits over README text, and its push-in starts at the Quickstart heading, so the half-cut 'needs an NVIDIA GP...' line no longer appears enlarged at the top edge. Right-edge cut-off of README lines in the push shot is the crop itself, not a caption issue. Hook, ramp, p3 code card (auto-box on empty space), p4 lower-third on blur pad and end card (URL top and bottom) are legible and clean. Minor note: in hook/p4 the contained recording shows its own top line half-clipped at small size ('real motion of people needs an NVIDIA GPU; drop in clips...'), which is the recording as shot, tiny, and consistent with L1/F3. text_audit ok:true, 8 strings exact (matches M-audit); lint: OK. Claims: F9, F10, F14, F1/F2, F18; code card shows docs/reel.md 105-107 and line 106 is the frame/push-in motion line (verified in the file). 'under 50 s on a 4-core CPU, no GPU' is met by M-render 36.9 s and M-machine (4 cores, no GPU). No superlatives, competitors or testimonials. No trend. Spelling clean; X text 243 chars, no URL; YouTube title 85 chars. Not a repeat: first screen-recording promo vs 10-29..11-05. No owner_approval.json; nothing needs one.",
+  "video_sha256": "77414a2e76655c8f25d8e8bc7741883b4525281168361f3724666feab8d0ea7c",
+  "caption_sha256": "9a5d3482ac2a2a4ce41e73113c5ef52b0041033374167bc3a5c28cd96b3160b0",
+  "at": "2026-11-06T14:32:13+00:00"
+}

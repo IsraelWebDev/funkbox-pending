@@ -1,0 +1,182 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 83,
+      "text": "16:9 SCREEN\nRECORDING IN.\n9:16 SHORT OUT.",
+      "complete_frame": 47,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "16:9 SCREEN",
+        "RECORDING IN.",
+        "9:16 SHORT OUT."
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        83
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "ramp",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 89,
+      "last_frame": 184,
+      "text": "SPEED RAMP:\n1X TO 3X\nON THE SCROLL",
+      "complete_frame": 124,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "SPEED RAMP:",
+        "1X TO 3X",
+        "ON THE SCROLL"
+      ],
+      "text_exact": true,
+      "frames": [
+        89,
+        184
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "line",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 291,
+      "last_frame": 386,
+      "text": "THE PUSH-IN IS\nONE LINE IN\nTHE SHOT LIST",
+      "complete_frame": 345,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "THE PUSH-IN IS",
+        "ONE LINE IN",
+        "THE SHOT LIST"
+      ],
+      "text_exact": true,
+      "frames": [
+        291,
+        386
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "pixels",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 392,
+      "last_frame": 470,
+      "text": "ONLY CROPPED,\nNEVER REDRAWN.",
+      "complete_frame": 420,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "ONLY CROPPED,",
+        "NEVER REDRAWN."
+      ],
+      "text_exact": true,
+      "frames": [
+        392,
+        470
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 471,
+      "last_frame": 575,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 471,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        471,
+        575
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 471,
+      "last_frame": 575,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 471,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        471,
+        575
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 481,
+      "last_frame": 575,
+      "text": "SCREEN RECORDING TO SHORT",
+      "complete_frame": 533,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "SCREEN",
+        "RECORDING",
+        "TO SHORT"
+      ],
+      "text_exact": true,
+      "frames": [
+        481,
+        575
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 539,
+      "last_frame": 575,
+      "text": "funkbox. FREE, OPEN SOURCE, LOCAL",
+      "complete_frame": 539,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox. FREE, OPEN",
+        "SOURCE, LOCAL"
+      ],
+      "text_exact": true,
+      "frames": [
+        539,
+        575
+      ]
+    }
+  ]
+}

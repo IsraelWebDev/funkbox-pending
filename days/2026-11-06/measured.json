@@ -1,0 +1,74 @@
+{
+  "day": "2026-11-06",
+  "measured_at": "2026-11-06T14:30:48Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 49,
+      "say": "Claude drives it through 49 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-tests": {
+      "value": 754,
+      "say": "754 automated tests in the repo"
+    },
+    "M-commits": {
+      "value": [
+        "5653e01 RV-3 follow-up 2: sheet failures carry their reason",
+        "03a0a21 RV-3 follow-up: review fixes",
+        "df0e9f4 RV-3: contact sheet with index labels",
+        "2f28882 RV-2 follow-up: review fixes",
+        "e5cc7d5 RV-2: render loop for reel variants",
+        "fa61a17 install: venv_ok does not launch a file that is not a Windows program",
+        "f41ed5c Review cycle 4: coverage for pronounce order, whole words, end spans; demo pins",
+        "e086e43 Review cycle 3: audit records the TTS engine; flow test checks spoken lines by their contract",
+        "9d83388 Review cycle 2: audit computes the declared spoken text itself; docs match",
+        "c7dfce9 Address review of 5f76e80: voice audit checks the deck, and the demo is locked",
+        "5f76e80 Voice audit covers voiceover lines; add text-to-voice demo",
+        "6e7be0a Spec: short style match (types, pacing, word highlight, callouts, annotations)",
+        "bfd651d Reel variants: expand and validate vary keys (card 1)"
+      ],
+      "say": "changes since the last promo: RV-3 follow-up 2: sheet failures carry their reason; RV-3 follow-up: review fixes; RV-3: contact sheet with index labels; RV-2 follow-up: review fixes; RV-2: render loop for reel variants; install: venv_ok does not launch a file that is not a Windows program; Review cycle 4: coverage for pronounce order, whole words, end spans; demo pins; Review cycle 3: audit records the TTS engine; flow test checks spoken lines by their contract; Review cycle 2: audit computes the declared spoken text itself; docs match; Address review of 5f76e80: voice audit checks the deck, and the demo is locked; Voice audit covers voiceover lines; add text-to-voice demo; Spec: short style match (types, pacing, word highlight, callouts, annotations); Reel variants: expand and validate vary keys (card 1)"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 19.2,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "19 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 8,
+        "ok": true
+      },
+      "say": "the text audit checked 8 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 36.9,
+        "frames": 576,
+        "under": 40
+      },
+      "say": "this video rendered in 37 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 40 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

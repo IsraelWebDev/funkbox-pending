@@ -1,0 +1,26 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "16:9 SCREEN\nRECORDING IN.\n9:16 SHORT OUT."
+  },
+  "p1": {
+   "text": "SPEED RAMP:\n1X TO 3X\nON THE SCROLL"
+  },
+  "p3": {
+   "text": "THE PUSH-IN IS\nONE LINE IN\nTHE SHOT LIST"
+  },
+  "p4": {
+   "text": "ONLY CROPPED,\nNEVER REDRAWN."
+  },
+  "end_head": {
+   "text": "SCREEN RECORDING TO SHORT"
+  },
+  "end_sub": {
+   "text": "funkbox. FREE, OPEN SOURCE, LOCAL"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

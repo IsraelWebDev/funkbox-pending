@@ -1,0 +1,12 @@
+{
+ "observation": "Creators keep losing generations to garbled on-screen text in AI video: Adobe Community threads describe clips that misspell a name or word ('doesn't' three times, 'Housston') and hundreds to ~2,000 credits spent regenerating; guides (CoreReflex, gptproto) say the fix is to keep text out of the generation and add it in an editor afterward. funkbox already adds exact, audited captions on top, but it cannot remove the wrong text a model already baked into a clip.",
+ "suggestion": "Bring image_trace's lift_text idea to video: a reel source option such as {\"video\": \"clip.mp4\", \"cover_text\": {\"rect\": [x,y,w,h], \"copy_id\": \"sign\"}} that tracks a rectangle across the clip (or takes keyed rects), covers the baked-in text with a blurred or colour-matched patch, and sets the approved line in its place as live text that follows the rect, so the text audit covers it like any caption.",
+ "evidence": [
+  "https://community.adobe.com/bug-reports-403/i-ve-just-wasted-1-200-credits-on-a-short-video-that-mis-spelt-the-word-doesn-t-three-times-1551000",
+  "https://community.adobe.com/questions-404/ai-kept-messing-up-my-text-and-have-just-wasted-nearly-2000-credits-on-ai-generations-because-it-won-t-display-text-accurately-1632842",
+  "https://community.adobe.com/bug-reports-403/even-with-correctly-spelled-words-3-of-5-animated-text-videos-generated-had-incorrectly-spelled-words-in-the-animation-i-am-being-charged-credits-for-junk-essentially-completely-unusable-1554490",
+  "https://corereflex.com/blog/ai-video-on-screen-text-legibility"
+ ],
+ "effort": "large",
+ "would_enable": "A before/after promo: a generated clip with a misspelled sign, fixed in one shot-list line, with the audit proving the new sign exact."
+}
