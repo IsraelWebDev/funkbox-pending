@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-08",
+ "format": "tip",
+ "selling_point": "S4",
+ "candidates": [
+  "tip + S4 + 'A pill behind each word': this week's word highlight (SS-4) shown in use on every caption of the Short, plus the real docs lines that turn it on, while the text audit still checks every word (CHOSEN)",
+  "trend-reaction (genre) + S4 + 'Karaoke captions, exact': ride the word-by-word highlighted caption style; passed because the dated sources I found are older than 30 days (Feb and May 2026), so lint's genre window rules it out",
+  "feature-spotlight + S7 + 'A local voice reads the approved copy' (owner seed sd-0002, Kokoro voiceover demo): passed because Kokoro is not in FACTS.md yet (F11 names Piper), so its claims could not be cited",
+  "behind-the-scenes + S2 + the new reel CPU benchmark (E4): passed because S2/CPU render time was the 11-02 post's whole premise"
+ ],
+ "trend": null,
+ "angle": "Show this week's new caption feature by using it: every caption in the Short has a pill behind the word just revealed (reveal 'words', highlight on), the real docs lines that switch it on get a push-in (about 1.3x, toward the code lines, with a label caption below), and the end shows the text audit still checked every on-screen string exactly, because the pill only decorates approved copy.",
+ "hook": "A pill behind each word",
+ "novelty": "No earlier post showed animated word-by-word captions; past posts used plain typewriter boxes. This is the first promo whose captions themselves are the feature, and it ties the popular karaoke-caption look to the copy lock (the highlight never changes the approved words).",
+ "claims": [
+  {
+   "text": "New: a pill follows the typed word (word highlight)",
+   "fact": "M-commits"
+  },
+  {
+   "text": "Still the approved copy, word for word",
+   "fact": "F12, F13"
+  },
+  {
+   "text": "Text audit: 9 on-screen strings, all exact",
+   "fact": "M-audit"
+  },
+  {
+   "text": "Rendered in 40 seconds on a 4-core CPU with no GPU",
+   "fact": "M-render"
+  },
+  {
+   "text": "Free, open source, runs locally",
+   "fact": "F1, F2"
+  },
+  {
+   "text": "Made with funkbox, no video model",
+   "fact": "F18, F19"
+  }
+ ]
+}

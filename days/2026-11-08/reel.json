@@ -1,0 +1,175 @@
+{
+ "version": 3,
+ "settings": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "safe_area": "reels"
+ },
+ "brand": {
+  "from": "assets/key.png",
+  "primary": "#e0245e",
+  "secondary": "#12141c",
+  "text": "#ffffff"
+ },
+ "copy": "copy.json",
+ "audio": {
+  "music": "assets/music.mp3",
+  "snap_cuts_to_beats": true,
+  "voiceover": false,
+  "music_gain_db": -10
+ },
+ "shots": [
+  {
+   "id": "hook",
+   "source": {
+    "video": "assets/loop-op-art.mp4",
+    "loop": true
+   },
+   "duration": "beats:8",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "hook",
+    "style": "auto-box",
+    "reveal": "words",
+    "anchor": "center",
+    "highlight": {
+     "color": "primary",
+     "radius": 0.3
+    }
+   }
+  },
+  {
+   "id": "setting",
+   "source": {
+    "image": "assets/card-highlight.png"
+   },
+   "duration": "beats:6",
+   "transition_in": "auto",
+   "motion": {
+    "type": "frame",
+    "from": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "to": [
+     0.0,
+     0.06,
+     0.77,
+     0.16
+    ],
+    "at": [
+     0.0,
+     0.6
+    ],
+    "ease": "out"
+   },
+   "caption": {
+    "copy_id": "p2",
+    "style": "auto-box",
+    "reveal": "words",
+    "anchor": "bottom",
+    "highlight": {
+     "color": "primary",
+     "radius": 0.3
+    }
+   }
+  },
+  {
+   "id": "moves",
+   "source": {
+    "video": "assets/loop-hypno-tunnel.mp4",
+    "loop": true
+   },
+   "duration": "beats:7",
+   "transition_in": "auto",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "p1",
+    "style": "auto-box",
+    "reveal": "words",
+    "anchor": "center",
+    "highlight": {
+     "color": "primary",
+     "radius": 0.3
+    }
+   }
+  },
+  {
+   "id": "deck",
+   "source": {
+    "image": "assets/card-copy-json.png"
+   },
+   "duration": "beats:7",
+   "transition_in": "auto",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "p3",
+    "style": "auto-box",
+    "reveal": "words",
+    "anchor": "bottom",
+    "highlight": {
+     "color": "primary",
+     "radius": 0.3
+    }
+   }
+  },
+  {
+   "id": "audit",
+   "source": {
+    "image": "assets/scene-machine.jpg"
+   },
+   "duration": "beats:7",
+   "transition_in": "auto",
+   "motion": {
+    "type": "frame",
+    "from": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "to": [
+     0.1,
+     0.1,
+     0.8,
+     0.8
+    ],
+    "at": [
+     0,
+     1
+    ],
+    "ease": "smooth"
+   },
+   "caption": {
+    "copy_id": "p4",
+    "style": "auto-box",
+    "reveal": "words",
+    "anchor": "center",
+    "highlight": {
+     "color": "primary",
+     "radius": 0.3
+    }
+   }
+  }
+ ],
+ "end_card": {
+  "template": "brand-split",
+  "duration": 3.5,
+  "audio": "keep",
+  "copy": {
+   "headline": "end_head",
+   "sub": "end_sub",
+   "url": "url"
+  },
+  "headline_reveal": "typewriter"
+ }
+}

@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Checked: final.mp4 21.0 s, 1080x1920 vertical, 30 fps, AAC audio; 25+ frames extracted across hook/setting/moves/deck/audit/end card and inspected (incl. full-res setting shot and caption crops): captions legible, word pill visible and advancing word by word on all five captions, nothing cut off, no black/blank/glitched frames, no background text peeking beside caption boxes, end card readable (funkbox / Free, open source, runs locally / URL top and bottom). Earlier FAIL (setting shot with no push-in and empty frame) is fixed: the docs card now pushes in (~1.3x) on lines 129-130 and the p2 caption 'The setting, from the docs' fills the lower frame; the code lines match docs/reel.md 129-130 verbatim. final.text_audit ok:true (9 strings exact); lint: OK. Claims: pill follows typed word = M-commits SS-4; approved copy word for word / byte for byte = F12/F13; 9 strings all exact = M-audit (9); 40 s on a 4-core CPU, no GPU = M-render say sentence and M-machine gpu:false; free/open source/runs locally = F1/F2; made with funkbox = F18; tags GLSL (shader loops, F6) and Claude (works with Claude, F4) ok. No superlatives, competitors, testimonials or Anthropic claims. trend null; no owner_approval.json and nothing needing one. YouTube title 90 chars, X text 248 chars, no URL; spelling/grammar clean. Not a repeat: first post about animated word-highlight captions; X text no longer copies the 11-05 template.",
+  "video_sha256": "ca4dba29b8908ac39ede8615ea63a0ed43f344e8052a608b6cf43ae4a694cd29",
+  "caption_sha256": "a64bef65c430192470bf02c6e7b0b16d4e66086505000f2f1f51cf754fa1c279",
+  "at": "2026-11-08T13:52:38+00:00"
+}

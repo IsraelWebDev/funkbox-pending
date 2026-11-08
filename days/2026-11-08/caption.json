@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "New in funkbox: a pill behind each caption word, and the text audit still checks every one",
+  "description": "A pill behind each word as it types: this week's new caption highlight, used on every caption here.\nThe pill only decorates the approved copy; the text audit checked all 9 on-screen strings, exact. Rendered in 40 s on a 4-core CPU, no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "captions",
+   "shorts",
+   "open source",
+   "video editing",
+   "motion graphics",
+   "GLSL",
+   "Claude"
+  ]
+ },
+ "x": {
+  "text": "Word-by-word captions, with a pill behind each word as it types. That's this week's addition to IsraelWebDev/funkbox.\n\nThe pill sits behind approved copy and never changes it: all 9 strings in this Short matched it byte for byte.\n\n#captions #shorts"
+ }
+}

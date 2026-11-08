@@ -1,0 +1,12 @@
+{
+ "observation": "Word-by-word 'karaoke' captions with the current word highlighted are described across 2026 short-form caption guides as the default Shorts/Reels/TikTok style, and the tools that make them time each word from Whisper word timestamps (spoken audio). funkbox's new pill is timed from a characters-per-second estimate (docs/reel.md: 'The voice path has no per-word timings yet, so on voiced shots the pill can drift from the spoken word'), and a style cannot pick WHICH words to emphasise; guides and builders recommend highlighting only key words (about 15-20%), e.g. numbers and punchlines.",
+ "suggestion": "Two steps for the word highlight: (1) take per-word timings from the local voiceover (Piper can emit phoneme durations; or a local forced-alignment pass) so the pill lands on the spoken word on voiced shots; (2) let the copy deck mark emphasis words (e.g. a 'stress' list per copy line, or *word* markup that the audit strips) so the pill or a colour change hits only those, with the text audit still checking the plain text.",
+ "evidence": [
+  "https://blitzcutai.com/blog/best-caption-style-youtube-shorts-2026",
+  "https://dev.to/wcamon/we-built-auto-highlighting-subtitles-for-youtube-shorts-heres-the-130-line-python-that-does-it-50ee",
+  "https://voicecreator.pro/blog/word-by-word-animated-captions",
+  "https://rendercut.io/what-is-karaoke-caption-style"
+ ],
+ "effort": "medium",
+ "would_enable": "A voiced explainer Short where the pill lands on each spoken word and only the key numbers light up, with the audit still proving the words are the approved copy."
+}

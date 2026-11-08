@@ -1,0 +1,70 @@
+{
+  "day": "2026-11-08",
+  "measured_at": "2026-11-08T13:51:09Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 50,
+      "say": "Claude drives it through 50 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "2f6dde1 style: ruff format this branch's own files",
+        "3f09378 SS-4: word highlight, a pill behind the word the typewriter has reached",
+        "7618d4d fix(reel): storyboard drops Windows paths on Linux CI",
+        "cbccad0 style: ruff format the repo so the lint check passes",
+        "7a3f6e8 docs(E4): remove machine name and user path from benchmark docs",
+        "3bf9daf docs/stills: layer export fourth-review fixes (E1)",
+        "be13ead stills: layer export third-review fixes (E1)",
+        "46d9d4d stills: layer export second-review fixes (E1)",
+        "aaec620 Address final review of the reel CPU benchmark tests (E4)",
+        "cf284c8 Address third review of the reel CPU benchmark (E4)",
+        "5d5def2 SS-3: hook title and shot-length target (pacing)",
+        "74ae978 Address second review of the reel CPU benchmark (E4)",
+        "25b40b6 Address review of the reel CPU benchmark (E4)",
+        "f7fa119 stills: layer export review fixes (E1)",
+        "68636b9 Add reel CPU benchmark and laptop results (E4)"
+      ],
+      "say": "changes since the last promo: style: ruff format this branch's own files; SS-4: word highlight, a pill behind the word the typewriter has reached; fix(reel): storyboard drops Windows paths on Linux CI; style: ruff format the repo so the lint check passes; docs(E4): remove machine name and user path from benchmark docs; docs/stills: layer export fourth-review fixes (E1); stills: layer export third-review fixes (E1); stills: layer export second-review fixes (E1); Address final review of the reel CPU benchmark tests (E4); Address third review of the reel CPU benchmark (E4); SS-3: hook title and shot-length target (pacing); Address second review of the reel CPU benchmark (E4); Address review of the reel CPU benchmark (E4); stills: layer export review fixes (E1); Add reel CPU benchmark and laptop results (E4)"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 21.0,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "21 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 9,
+        "ok": true
+      },
+      "say": "the text audit checked 9 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 39.7,
+        "frames": 630
+      },
+      "say": "this video rendered in 40 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

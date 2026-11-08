@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "A pill behind\neach word"
+  },
+  "p1": {
+   "text": "New: it follows\nthe typed word"
+  },
+  "p3": {
+   "text": "Still the approved\ncopy, word for word"
+  },
+  "p4": {
+   "text": "Text audit:\n9 strings, all exact"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  },
+  "p2": {
+   "text": "The setting,\nfrom the docs"
+  }
+ }
+}

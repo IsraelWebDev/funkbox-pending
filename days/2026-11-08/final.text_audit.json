@@ -1,0 +1,198 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 3,
+      "last_frame": 119,
+      "text": "A pill behind\neach word",
+      "complete_frame": 39,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "A pill behind",
+        "each word"
+      ],
+      "text_exact": true,
+      "frames": [
+        3,
+        119
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "setting",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 123,
+      "last_frame": 209,
+      "text": "The setting,\nfrom the docs",
+      "complete_frame": 159,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "The setting,",
+        "from the docs"
+      ],
+      "text_exact": true,
+      "frames": [
+        123,
+        209
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "moves",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 213,
+      "last_frame": 314,
+      "text": "New: it follows\nthe typed word",
+      "complete_frame": 258,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "New: it follows",
+        "the typed word"
+      ],
+      "text_exact": true,
+      "frames": [
+        213,
+        314
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "deck",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 318,
+      "last_frame": 419,
+      "text": "Still the approved\ncopy, word for word",
+      "complete_frame": 372,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Still the approved",
+        "copy, word for word"
+      ],
+      "text_exact": true,
+      "frames": [
+        318,
+        419
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "audit",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 423,
+      "last_frame": 524,
+      "text": "Text audit:\n9 strings, all exact",
+      "complete_frame": 468,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Text audit:",
+        "9 strings, all exact"
+      ],
+      "text_exact": true,
+      "frames": [
+        423,
+        524
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 525,
+      "last_frame": 629,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 525,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        525,
+        629
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 525,
+      "last_frame": 629,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 525,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        525,
+        629
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 535,
+      "last_frame": 629,
+      "text": "funkbox",
+      "complete_frame": 548,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        535,
+        629
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 554,
+      "last_frame": 629,
+      "text": "Free, open source, runs locally",
+      "complete_frame": 554,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally"
+      ],
+      "text_exact": true,
+      "frames": [
+        554,
+        629
+      ]
+    }
+  ]
+}
