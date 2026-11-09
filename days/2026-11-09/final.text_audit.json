@@ -1,0 +1,158 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 70,
+      "text": "One line.\nTwo moods.",
+      "complete_frame": 43,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "One line.",
+        "Two moods."
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        70
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "kids-preset",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 76,
+      "last_frame": 170,
+      "text": "New: \"type\": \"kids\"\nrounded Fredoka captions",
+      "complete_frame": 130,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "New: \"type\": \"kids\"",
+        "rounded Fredoka",
+        "captions"
+      ],
+      "text_exact": true,
+      "frames": [
+        76,
+        170
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "beauty-preset",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 334,
+      "last_frame": 428,
+      "text": "\"type\": \"beauty\"\nno beat snap, music at -16 dB",
+      "complete_frame": 388,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "\"type\": \"beauty\"",
+        "no beat snap, music",
+        "at -16 dB"
+      ],
+      "text_exact": true,
+      "frames": [
+        334,
+        428
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 586,
+      "last_frame": 690,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 586,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        586,
+        690
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 586,
+      "last_frame": 690,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 586,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        586,
+        690
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 596,
+      "last_frame": 690,
+      "text": "funkbox",
+      "complete_frame": 609,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        596,
+        690
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 615,
+      "last_frame": 690,
+      "text": "Free, open source, runs locally",
+      "complete_frame": 615,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally"
+      ],
+      "text_exact": true,
+      "frames": [
+        615,
+        690
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+ "youtube": {
+  "title": "One line, two moods: the same shots rendered as \"type\": \"kids\" and \"type\": \"beauty\"",
+  "description": "One line, two moods: the same two shots and the same words, rendered twice. The only change is \"type\": \"kids\" or \"type\": \"beauty\", this week's new presets.\nKids: rounded Fredoka captions, cuts that snap to the beat. Beauty: no beat snap, music at -16 dB. This 23 s Short rendered in 54 s on a 4-core CPU, no GPU; the text audit checked all 7 on-screen strings, exact.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": ["funkbox", "video templates", "captions", "typography", "shorts", "open source", "motion graphics", "Claude"]
+ },
+ "x": {
+  "text": "Same two shots, same words, rendered twice. The only change: \"type\": \"kids\" vs \"type\": \"beauty\".\n\nNew presets in IsraelWebDev/funkbox: rounded Fredoka captions and beat-snapped cuts, or no beat snap and music at -16 dB.\n\n#VideoEditing #opensource"
+ }
+}

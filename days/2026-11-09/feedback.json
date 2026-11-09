@@ -1,0 +1,13 @@
+{
+ "observation": "Chrome / liquid-metal motion is one of the most-cited 2026 motion looks: trend roundups name metal shaders for logo reveals and chrome motion loops for ads, and open-source front-end libraries now ship 'liquid metal' WebGL shaders (fBm domain warp with fake reflective normals, chrome/gold/mercury palettes). Designers pair it with soft palettes rather than cyberpunk. funkbox's 8 loop looks have no metallic one, so a creator who wants this look has to ask Claude for a new shader each time (as the 11-03 gear-train run did).",
+ "suggestion": "Add a 'liquid-metal' loop preset (shaders/ + the preset list): domain-warped fBm height field, normals from its gradient, an environment-gradient reflection with palette knobs (chrome, gold, mercury, iridescent) and a soft-pastel background option; keep it periodic in time so `funkbox loop check` passes. Bonus: let a poster/emblem mask (image_trace output or text) be filled with it, for chrome logo reveals.",
+ "evidence": [
+  "https://www.lummi.ai/blog/animation-trends-2026",
+  "https://en.wilogo.com/blog/chrome-metallic-logos-why-they-are-returning-in-2026",
+  "https://graphicdesignjunction.com/2025/12/10-top-visual-trends-for-2026/",
+  "https://github.com/seangeng/argent",
+  "https://smoothui.dev/docs/components/liquid-metal"
+ ],
+ "effort": "medium",
+ "would_enable": "A trend-reaction or feature-spotlight Short: 'chrome logo reveal, rendered on a CPU' - the funkbox emblem traced (F24) and filled with a seamless liquid-chrome loop, checked by machine (F6)."
+}

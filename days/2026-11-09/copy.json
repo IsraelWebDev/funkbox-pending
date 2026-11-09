@@ -1,0 +1,11 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {"text": "One line.\nTwo moods."},
+  "p1": {"text": "New: \"type\": \"kids\"\nrounded Fredoka captions"},
+  "p2": {"text": "\"type\": \"beauty\"\nno beat snap, music at -16 dB"},
+  "end_head": {"text": "funkbox"},
+  "end_sub": {"text": "Free, open source, runs locally"},
+  "url": {"text": "github.com/IsraelWebDev/funkbox"}
+ }
+}

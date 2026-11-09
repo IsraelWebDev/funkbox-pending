@@ -1,0 +1,26 @@
+{
+ "date": "2026-11-09",
+ "format": "whats-new",
+ "selling_point": "S7",
+ "candidates": [
+  "whats-new + S7 + 'One line. Two moods.': this week's reel type presets (commit 32474e7: kids and beauty/wellness, with their fonts); the same two shots and the same copy rendered twice by funkbox today, the two shot lists differing only in \"type\", plus the real preset files on screen (kids snaps cuts to the beat, beauty does not and plays music at -16 dB) - chosen: new this week, never shown on the channel, and the video is the before/after",
+  "trend-reaction + S8 + 'Liquid chrome from a shader': chrome / liquid-metal motion is a 2026 design trend and funkbox could render it as a seamless loop from GLSL Claude writes - passed: no source dated within 30 days, and a Claude-written shader loop already ran on 11-03",
+  "how-to + S3 + 'One prompt, 50 tools': the new generated tool catalog (docs/catalog.json, 50 MCP tools, M-tools) that Claude reads to plan a video - passed: a catalog is hard to show in 20 s and proves little on screen",
+  "myth-vs-fact + S1 + 'Templated AI video gets demonetized': YouTube's policy on mass-produced content - passed: policy coverage is from mid-2026, not this week, and it invites claims FACTS.md cannot back"
+ ],
+ "trend": null,
+ "angle": "New this week: reel type presets. Same two shots, same copy, rendered twice by funkbox today; the two shot lists differ in one line, \"type\": \"kids\" vs \"type\": \"beauty\". Kids gets rounded Fredoka captions and cuts that snap to the beat; beauty gets boxed Rubik captions, no beat snap and music at -16 dB. The real preset files are shown between the two clips.",
+ "hook": "One line. Two moods.",
+ "novelty": "First post about type presets (look, fonts and pacing chosen per kind of video); the first side-by-side of one shot list rendered two ways. Earlier posts covered caption highlights, screen recordings, the 8 loop looks in a grid, aspect formats, a Claude-written shader, CPU render time and emblem tracing.",
+ "claims": [
+  {"text": "ONE LINE. TWO MOODS. (the kids and beauty shot lists in assets/types/ differ only in the \"type\" line; copy.json files identical)", "fact": "M-commits"},
+  {"text": "New: \"type\": \"kids\" / rounded Fredoka captions (over the real templates/types/kids.json)", "fact": "M-commits"},
+  {"text": "\"type\": \"beauty\" / no beat snap, music at -16 dB (over the real templates/types/beauty.json: snap_cuts_to_beats false, music_gain_db -16)", "fact": "M-commits"},
+  {"text": "kids presets snap cuts to the beat (cuts can follow a beat grid)", "fact": "F11"},
+  {"text": "Same shots, same words / Only the type changed (captions inside the two sub-clips, each with its own text audit OK: assets/types/*/*.text_audit.json)", "fact": "M-commits"},
+  {"text": "Free, open source, runs locally (end card)", "fact": "F1, F2"},
+  {"text": "this 23 s Short rendered in 54 seconds on a 4-core CPU with no GPU (description, X)", "fact": "M-render, M-video"},
+  {"text": "the text audit checked 7 on-screen strings: all exact (description)", "fact": "M-audit"},
+  {"text": "Made with funkbox", "fact": "F18"}
+ ]
+}

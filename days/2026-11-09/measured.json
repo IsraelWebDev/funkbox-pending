@@ -1,0 +1,70 @@
+{
+  "day": "2026-11-09",
+  "measured_at": "2026-11-09T13:52:13Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 50,
+      "say": "Claude drives it through 50 MCP tools"
+    },
+    "M-presets": {
+      "value": 8,
+      "say": "8 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 10,
+      "say": "10 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "888485e end card: a style block with no slot is a reel error",
+        "32474e7 types: beauty / wellness and kids presets, with their fonts",
+        "60c2097 shaders: a missing built-in shader names FUNK_HOME",
+        "c0cfd5f reel variants: lock the folder during a run; keep a partial record of a failed run",
+        "2b3778c annotations: a bad start reports only the start",
+        "b738fdb config: a missing file names the folders it looked in and FUNK_HOME",
+        "fa9fa0a lint: remove an unused import and format the validation card",
+        "b4f8dfc validation: end-card slots need style blocks; editor drains refused POST bodies",
+        "4d49a21 docs: regenerate tool catalog for image_edit inpaint op",
+        "d59b4e1 stills: inpaint op (LaMa, masked fill) for image_edit",
+        "1e53830 catalog: same descriptions on Python 3.12 (CI) and 3.13",
+        "5f3d069 catalog: llms.txt states the 50-tool registry count",
+        "e4d9b20 Engine: generated tool catalog (docs/catalog.json) and plan-driven pointers",
+        "90a9289 docs: describe overlay depth and shadow keys in stills.md",
+        "cfb385b stills: overlay temp files get unique names; cover wide canvases"
+      ],
+      "say": "changes since the last promo: end card: a style block with no slot is a reel error; types: beauty / wellness and kids presets, with their fonts; shaders: a missing built-in shader names FUNK_HOME; reel variants: lock the folder during a run; keep a partial record of a failed run; annotations: a bad start reports only the start; config: a missing file names the folders it looked in and FUNK_HOME; lint: remove an unused import and format the validation card; validation: end-card slots need style blocks; editor drains refused POST bodies; docs: regenerate tool catalog for image_edit inpaint op; stills: inpaint op (LaMa, masked fill) for image_edit; catalog: same descriptions on Python 3.12 (CI) and 3.13; catalog: llms.txt states the 50-tool registry count; Engine: generated tool catalog (docs/catalog.json) and plan-driven pointers; docs: describe overlay depth and shadow keys in stills.md; stills: overlay temp files get unique names; cover wide canvases"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 23.03,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "23 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 7,
+        "ok": true
+      },
+      "say": "the text audit checked 7 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 54.3,
+        "frames": 691
+      },
+      "say": "this video rendered in 54 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

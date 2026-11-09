@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Frames: 13 spot frames plus a 2 fps contact sheet of final.mp4 (23.03 s, 1080x1920 vertical, 30 fps). No black frames (blackdetect). Captions legible, nothing cut off, no glitches, end card readable (headline, sub, URL top and bottom). Code-card captions sit below the JSON text, with no background text beside the boxes. final.text_audit ok (7 strings exact). lint: OK. The kids and beauty sub-clips really are the same shot list except for the type line (diffed the reel.json files; the copy.json files are identical). They render differently: rounded Fredoka bold-pop vs boxed Rubik captions, and the cuts land at different times (frame 91 vs 96). Their mix filtergraphs show music at -14 vs -16 dB. Each sub-clip's text audit is ok. Claims: Fredoka, beat snap on or off and -16 dB match templates/types/*.json shown on screen and commit 32474e7 (M-commits). Beat grid matches F11. Free, open source, runs locally matches F1/F2. 23 s and 54 s on a 4-core CPU with no GPU match M-video/M-render (54.3 rounded down) and M-machine. 7 strings exact matches M-audit. No superlatives, competitors or testimonials, and nothing about Anthropic. No trend. X text is 246 chars with no URL; title is 83 chars; spelling clean. Novelty: first post on type presets. Its framing (one line changed, same shots and words) echoes the 11-04 formats post, but the feature and the side-by-side are new. No owner_approval.json is present and none is needed.",
+  "video_sha256": "11780a410e34bd254cf2c8b93566df9fb3542176f6e558e656067a8d788cccac",
+  "caption_sha256": "c302f8d9688d1ff3fc55e72a253baee37a739ed84a6993d9bdb97946c7f2e4db",
+  "at": "2026-11-09T13:55:22+00:00"
+}

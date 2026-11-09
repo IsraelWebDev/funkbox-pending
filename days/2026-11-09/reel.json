@@ -1,0 +1,150 @@
+{
+ "version": 3,
+ "settings": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "safe_area": "reels"
+ },
+ "brand": {
+  "from": "assets/key.png",
+  "primary": "#e0245e",
+  "secondary": "#12141c",
+  "text": "#ffffff"
+ },
+ "copy": "copy.json",
+ "audio": {
+  "music": "assets/music.mp3",
+  "snap_cuts_to_beats": true,
+  "voiceover": false,
+  "music_gain_db": -10
+ },
+ "shots": [
+  {
+   "id": "hook",
+   "source": {
+    "video": "assets/loop-acid-plasma.mp4",
+    "loop": true
+   },
+   "duration": "beats:5",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "hook",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "center"
+   }
+  },
+  {
+   "id": "kids-preset",
+   "source": {
+    "image": "assets/card-type-kids.png"
+   },
+   "duration": "beats:7",
+   "transition_in": "auto",
+   "motion": {
+    "type": "frame",
+    "from": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "to": [
+     0.0,
+     0.04,
+     1.0,
+     0.62
+    ],
+    "at": [
+     0.05,
+     0.8
+    ],
+    "ease": "out"
+   },
+   "caption": {
+    "copy_id": "p1",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "bottom"
+   }
+  },
+  {
+   "id": "kids",
+   "source": {
+    "video": "assets/types/kids/kids.mp4",
+    "trim": [
+     0.0,
+     6.0
+    ]
+   },
+   "duration": "beats:11",
+   "transition_in": "auto",
+   "motion": {
+    "type": "none"
+   }
+  },
+  {
+   "id": "beauty-preset",
+   "source": {
+    "image": "assets/card-type-beauty.png"
+   },
+   "duration": "beats:7",
+   "transition_in": "auto",
+   "motion": {
+    "type": "frame",
+    "from": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "to": [
+     0.0,
+     0.04,
+     1.0,
+     0.62
+    ],
+    "at": [
+     0.05,
+     0.8
+    ],
+    "ease": "out"
+   },
+   "caption": {
+    "copy_id": "p2",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "bottom"
+   }
+  },
+  {
+   "id": "beauty",
+   "source": {
+    "video": "assets/types/beauty/beauty.mp4",
+    "trim": [
+     0.0,
+     6.0
+    ]
+   },
+   "duration": "beats:11",
+   "transition_in": "auto",
+   "motion": {
+    "type": "none"
+   }
+  }
+ ],
+ "end_card": {
+  "template": "brand-split",
+  "duration": 3.5,
+  "audio": "keep",
+  "copy": {
+   "headline": "end_head",
+   "sub": "end_sub",
+   "url": "url"
+  },
+  "headline_reveal": "typewriter"
+ }
+}
