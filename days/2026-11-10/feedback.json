@@ -1,0 +1,11 @@
+{
+  "observation": "The liquid-metal genre is mostly about LOGOS, not backgrounds: the kits shipping it this autumn take a logo and fill it with chrome (a logo-to-reels kit updated 2026-11-09 renders a 'chrome reveal' reel from a logo; a WebGL2 component updated 2026-10-25 has a text-clipped mode that fills type with the metal). funkbox's new liquid-metal look (shipped from the 11-09 feedback) only renders full-frame: making today's Short, there was no way to put the funkbox wordmark or a traced emblem INSIDE the metal, so the video shows the material but not the use people actually make of it.",
+  "suggestion": "Add a mask layer to loop recipes: {\"type\": \"mask\", \"path\": \"logo.png\" | \"svg\": \"emblem.svg\" | \"text\": \"FUNK\", \"font\": \"Rubik:800\"} that clips the layers below it to the shape (alpha from a PNG, an image_trace SVG, or text through the poster text engine so the text audit can still check it), plus an optional bevel (edge normals from the mask's distance field feed metal.frag's lighting so the logo reads as embossed). Ship one example: the funkbox emblem in liquid chrome, loop-checked.",
+  "evidence": [
+    "https://github.com/barissinall/shader-brand-kit",
+    "https://smoothui.dev/docs/components/liquid-metal",
+    "https://github.com/topics/liquid-metal?o=desc&s=updated"
+  ],
+  "effort": "medium",
+  "would_enable": "A how-to Short: 'your logo in liquid chrome in 3 steps' (image_trace the logo, add one mask line to the recipe, render), ending on a seamless chrome logo loop with the text audit passing on its lettering."
+}

@@ -1,0 +1,69 @@
+{
+  "day": "2026-11-10",
+  "measured_at": "2026-11-10T13:51:00Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 50,
+      "say": "Claude drives it through 50 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 11,
+      "say": "11 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "c447283 Sync docs/skill/SKILL.md with the funk-studio skill",
+        "0d45470 Make closed tool options visible as schema enums",
+        "ec313dc FastSD launcher: sidecar requirements for the hosted image worker",
+        "83b91fd FastSD launcher: OpenVINO only on GPU; PyTorch SD-Turbo on CPU",
+        "16795c7 FastSD: POSIX stop signals the process group",
+        "1b8ab5c Loops: liquid-metal look (chrome, gold, mercury, iridescent)",
+        "4c0a099 Reel: auto caption anchor never lands on the product",
+        "025c5da FastSD: make start/stop/config work on Windows, macOS and Linux",
+        "e1fe0f1 Compositor: faint haze cannot move or crop the cat",
+        "3b87294 Compositor: transparent gaps stay transparent; cat is connected alpha",
+        "a8625cb Compositor: fix review findings (holes, sprite size, alpha check, specks)",
+        "ede1139 Engine entry point: bytes-in, bytes-out product compositor"
+      ],
+      "say": "changes since the last promo: Sync docs/skill/SKILL.md with the funk-studio skill; Make closed tool options visible as schema enums; FastSD launcher: sidecar requirements for the hosted image worker; FastSD launcher: OpenVINO only on GPU; PyTorch SD-Turbo on CPU; FastSD: POSIX stop signals the process group; Loops: liquid-metal look (chrome, gold, mercury, iridescent); Reel: auto caption anchor never lands on the product; FastSD: make start/stop/config work on Windows, macOS and Linux; Compositor: faint haze cannot move or crop the cat; Compositor: transparent gaps stay transparent; cat is connected alpha; Compositor: fix review findings (holes, sprite size, alpha check, specks); Engine entry point: bytes-in, bytes-out product compositor"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 21.03,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "21 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 8,
+        "ok": true
+      },
+      "say": "the text audit checked 8 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 44.9,
+        "frames": 631,
+        "under": 50
+      },
+      "say": "this video rendered in 45 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 50 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

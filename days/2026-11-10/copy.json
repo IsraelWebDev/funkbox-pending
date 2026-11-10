@@ -1,0 +1,12 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {"text": "Liquid chrome,\nwritten as a shader"},
+  "p1": {"text": "New look: liquid-metal\nfour palettes"},
+  "p2": {"text": "Each metal: 12 numbers\nin recipe.py"},
+  "p3": {"text": "Loops back seamlessly,\nchecked by machine"},
+  "end_head": {"text": "funkbox"},
+  "end_sub": {"text": "Free, open source, runs locally"},
+  "url": {"text": "github.com/IsraelWebDev/funkbox"}
+ }
+}

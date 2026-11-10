@@ -1,0 +1,180 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 101,
+      "text": "Liquid chrome,\nwritten as a shader",
+      "complete_frame": 60,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Liquid chrome,",
+        "written as a shader"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        101
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "gold",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 107,
+      "last_frame": 203,
+      "text": "New look: liquid-metal\nfour palettes",
+      "complete_frame": 162,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "New look:",
+        "liquid-metal",
+        "four palettes"
+      ],
+      "text_exact": true,
+      "frames": [
+        107,
+        203
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "palettes",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 278,
+      "last_frame": 407,
+      "text": "Each metal: 12 numbers\nin recipe.py",
+      "complete_frame": 350,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Each metal: 12",
+        "numbers",
+        "in recipe.py"
+      ],
+      "text_exact": true,
+      "frames": [
+        278,
+        407
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "iridescent",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 413,
+      "last_frame": 525,
+      "text": "Loops back seamlessly,\nchecked by machine",
+      "complete_frame": 476,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Loops back",
+        "seamlessly,",
+        "checked by machine"
+      ],
+      "text_exact": true,
+      "frames": [
+        413,
+        525
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 526,
+      "last_frame": 630,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 526,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        526,
+        630
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 526,
+      "last_frame": 630,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 526,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        526,
+        630
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 536,
+      "last_frame": 630,
+      "text": "funkbox",
+      "complete_frame": 549,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        536,
+        630
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 555,
+      "last_frame": 630,
+      "text": "Free, open source, runs locally",
+      "complete_frame": 555,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally"
+      ],
+      "text_exact": true,
+      "frames": [
+        555,
+        630
+      ]
+    }
+  ]
+}

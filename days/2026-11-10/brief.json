@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-10",
+  "format": "trend-reaction",
+  "selling_point": "S8",
+  "candidates": [
+    "trend-reaction + S8 + 'Liquid chrome, written as a shader': ride the liquid-metal shader genre (chrome/gold/mercury loops for logos, brand reels and UI, open-source kits updated Oct 25 and Nov 9) with funkbox's new liquid-metal look rendered today in all four palettes, each loop checked seamless - chosen (the look shipped overnight from the 11-09 feedback; first metallic visuals on the channel; the video is the proof)",
+    "use-case + S7 + 'an ad that reads its own copy aloud': owner seed sd-0002 (the Kokoro voiceover demo) - passed: the seed says it is not a trend yet, S7 was yesterday's selling point (lint blocks it), and the Kokoro voice is not installed in this cloud run so it could not be re-rendered and measured today",
+    "myth-vs-fact + S2 + 'a new hosted video model cut prices 30%; you still need no GPU': Gemini Omni 1.2 Flash GA (newsletter, Nov 5-9) - passed: funkbox can only comment on it, not make it, and the no-GPU angle ran on 11-02",
+    "how-to + S10 + 'FastSD on a CPU now picks PyTorch SD-Turbo': M-commits FastSD launcher change - passed: FastSD is not installed in this run, so nothing could be generated and measured on camera"
+  ],
+  "trend": {
+    "summary": "A genre this autumn: liquid-metal (chrome, gold, mercury) shader looks for logos, brand reels and UI, made with domain-warped noise and fake reflective normals; open-source kits keep shipping it, e.g. a WebGL2 liquid-metal component with chrome/gold/mercury/oil palettes (updated 2026-10-25) and a logo-to-reels kit with liquid chrome and gold looks (updated 2026-11-09).",
+    "kind": "genre",
+    "origin": "web",
+    "demo": "funkbox's new liquid-metal look (shaders/metal.frag, commit 1b8ab5c) rendered today as four 4 s 720x1280 loops, one per palette (chrome, gold, mercury, iridescent), with the automatic loop check on; `funkbox loop check shaders/metal.frag` reported seamless. The video shows the four loops, then the real recipe.py lines that define the four palettes.",
+    "sources": [
+      {"title": "SmoothUI: Liquid Metal component (WebGL2 shader, chrome/gold/mercury/oil palettes)", "url": "https://smoothui.dev/docs/components/liquid-metal", "date": "2026-10-25"},
+      {"title": "GitHub: shader-brand-kit, logo to posts and reels with liquid chrome and gold looks (topic: liquid-metal)", "url": "https://github.com/barissinall/shader-brand-kit", "date": "2026-11-09"},
+      {"title": "GitHub topic: liquid-metal, recently updated repositories", "url": "https://github.com/topics/liquid-metal?o=desc&s=updated", "date": "2026-11-09"}
+    ]
+  },
+  "angle": "Liquid metal is everywhere in motion design right now. funkbox got its own look overnight: liquid-metal, one shader with four palettes (chrome, gold, mercury, iridescent). Here are all four, rendered today as seamless loops, and the four lines of code that make them different.",
+  "hook": "Liquid chrome, written as a shader",
+  "novelty": "The first metallic visuals on the channel and the first post about the liquid-metal look (shipped since the last promo); earlier loop posts showed preset colour looks (11-05 grid) and a Claude-written gear train (11-03). Here the selling point is that a material is just a palette: 12 numbers per metal, on screen.",
+  "claims": [
+    {"text": "Liquid chrome, written as a shader (the new liquid-metal look, shaders/metal.frag)", "fact": "M-commits"},
+    {"text": "New look: liquid-metal / four palettes (chrome, gold, mercury, iridescent)", "fact": "M-commits"},
+    {"text": "Each metal: 12 numbers in recipe.py (over the real lines 34-37: four triples per palette)", "fact": "M-commits"},
+    {"text": "Loops back seamlessly, checked by machine", "fact": "F6"},
+    {"text": "funkbox now has 9 loop looks (description)", "fact": "M-presets"},
+    {"text": "No video model: motion from a shader (X, description)", "fact": "F19"},
+    {"text": "Free, open source, runs locally (end card)", "fact": "F1, F2"},
+    {"text": "this Short rendered on a 4-core CPU with no GPU, render time (description, X)", "fact": "M-render, M-machine"},
+    {"text": "Made with funkbox", "fact": "F18"}
+  ]
+}

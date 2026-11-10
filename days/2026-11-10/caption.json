@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "Liquid chrome, written as a shader: funkbox's new liquid-metal look in four palettes",
+  "description": "Liquid chrome, written as a shader: funkbox's new liquid-metal look, in chrome, gold, mercury and iridescent.\nEach metal is a palette of 12 numbers in recipe.py, and every loop is checked by machine so the last frame flows into the first. No video model; this 21 s Short rendered in under 50 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "liquid metal",
+   "chrome",
+   "GLSL",
+   "shaders",
+   "seamless loop",
+   "motion design",
+   "open source"
+  ]
+ },
+ "x": {
+  "text": "Liquid chrome, written as a shader.\n\nNew in IsraelWebDev/funkbox: a liquid-metal loop look in chrome, gold, mercury and iridescent. Each metal is 12 numbers; each loop is machine-checked seamless. No GPU: rendered in under 50 s on 4 CPU cores.\n\n#GLSL"
+ }
+}
