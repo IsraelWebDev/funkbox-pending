@@ -1,0 +1,19 @@
+{
+  "youtube": {
+    "title": "Type a word, fill it with a loop: funkbox's new text masks, in three shaders",
+    "description": "Type a word. Fill it with a loop.\nNew in funkbox: a layer's mask can be typed text, with a bevel set by three numbers (width, strength, angle). One mask, three shaders, each loop checked seamless by machine. No video model; this Short rendered in under 40 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": [
+      "funkbox",
+      "GLSL",
+      "shader",
+      "kinetic typography",
+      "seamless loop",
+      "motion design",
+      "open source",
+      "text effects"
+    ]
+  },
+  "x": {
+    "text": "Type a word. Fill it with a loop.\n\nNew in IsraelWebDev/funkbox: a layer's mask can be typed text, plus a bevel set by three numbers. One mask, three shaders, each loop machine-checked seamless. Rendered in under 40 s on 4 CPU cores, no GPU.\n\n#GLSL"
+  }
+}

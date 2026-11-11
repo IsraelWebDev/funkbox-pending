@@ -1,0 +1,2 @@
+loop party-poster failed: loop check failed: motion jumps at the loop point: the step from the last frame to the first is 50.44 vs a typical 19.56; check for iTime or a non-integer multiple of iPhase
+

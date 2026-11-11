@@ -1,0 +1,11 @@
+{
+  "observation": "Creators keep being told to keep words out of the video model: a 2026-10-16 HackerNoon guide by a studio founder says readable text in AI video should almost never come from the video model and should be composited as its own layer, while a 2026 motion-trends roundup calls kinetic typography (text that IS the animation) the most-cited motion trend, because short-form is mostly watched muted. funkbox's new typed-text mask makes exactly that kind of shot, but only inside a loop recipe: making today's promo, the word inside the loop could not come from the reel's approved copy deck, so the copy lock and the reel's text audit do not cover it.",
+  "suggestion": "Let a reel shot fill a copy line with a loop: a shot source like {\"loop\": \"<recipe or preset>\", \"mask_copy_id\": \"hook\"} that renders the shader inside the approved, hash-locked copy line (same font pipeline as the text mask), and lists that string in final.text_audit.json like any caption. Optionally a per-word reveal so the filled word can type on to the beat.",
+  "evidence": [
+    "https://hackernoon.com/how-to-add-text-to-ai-generated-video-without-it-looking-broken",
+    "https://autoae.online/blog/motion-graphics-trends-2026",
+    "https://www.technologyreview.com/2025/07/15/1120156/googles-generative-video-model-veo-3-has-a-subtitles-problem/amp/"
+  ],
+  "effort": "medium",
+  "would_enable": "A kinetic-type promo whose headline word is itself the moving loop, rendered from the approved copy and proven exact by the text audit, plus brand-word intros for product ads made from the same edit."
+}

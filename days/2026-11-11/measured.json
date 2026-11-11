@@ -1,0 +1,59 @@
+{
+  "day": "2026-11-11",
+  "measured_at": "2026-11-11T13:49:15Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 50,
+      "say": "Claude drives it through 50 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 11,
+      "say": "11 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "faf9536 Add bevel and typed-text masks to layers",
+        "3ab99ad Add layer masks: a layer's alpha can come from an image"
+      ],
+      "say": "changes since the last promo: Add bevel and typed-text masks to layers; Add layer masks: a layer's alpha can come from an image"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 22.27,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "22 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 8,
+        "ok": true
+      },
+      "say": "the text audit checked 8 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 33.7,
+        "frames": 668,
+        "under": 40
+      },
+      "say": "this video rendered in 34 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 40 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

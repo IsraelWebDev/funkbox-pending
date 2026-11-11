@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-11",
+  "format": "feature-spotlight",
+  "selling_point": "S11",
+  "candidates": [
+    "feature-spotlight + S11 + 'Type a word. Fill it with a loop.': the typed-text layer mask and bevel shipped since the last promo (M-commits), shown on the real example lines and rendered today inside three different shaders - chosen (new since the last promo, first post where text IS the moving picture; kinetic type is the most-cited 2026 motion trend and short-form is mostly watched muted)",
+    "myth-vs-fact + S10 + 'AI pictures need a GPU': FastSD on a CPU - passed: FastSD is not installed in this cloud run, so nothing could be generated and measured on camera",
+    "how-to + S3 + 'three lines to install the Claude Code plugin': /plugin install (F5) - passed: the install card is a static command and the video would show nothing being made; weaker proof than a render",
+    "use-case + S7 + 'an ad that reads its copy aloud': owner seed sd-0002 (Kokoro voiceover demo) - passed: S7 was used on 11-09 (lint blocks it) and the seed itself says it is not a trend yet",
+    "trend-reaction + S1 + 'VideoGen Model 1 / Seedance 2.5 news': passed: trend-reaction was yesterday's format (lint blocks it), the Seedance item is a rumour, and funkbox could only comment, not make the style"
+  ],
+  "trend": null,
+  "angle": "New since the last promo: a loop layer's mask can be typed text, with an optional bevel. The video shows the real lines from the repo example (mask: text, size, font; bevel: width, strength, angle), then the same mask and bevel values rendered today inside three different shaders (plasma, warp, tunnel), each one a seamless loop that passed funkbox's automatic loop check.",
+  "hook": "Type a word. Fill it with a loop.",
+  "novelty": "The first post where the moving picture lives inside the letters: earlier loop posts showed full-frame looks (11-05 grid, 11-10 liquid metal) and a gear train (11-03). Text masks and the bevel are new since the last promo and have not been shown on the channel.",
+  "claims": [
+    {"text": "New: a layer's mask can be typed text (card of examples/layer_mask/funkbox-text-chrome.json)", "fact": "M-commits"},
+    {"text": "Bevel: 3 numbers light the edges (width, strength, angle on the card)", "fact": "M-commits"},
+    {"text": "Every loop checked seamless by machine", "fact": "F6"},
+    {"text": "No video model: the motion is shaders (description, X)", "fact": "F19"},
+    {"text": "funkbox has 11 shader effects to layer (description)", "fact": "M-shaders"},
+    {"text": "Free, open source, runs locally (end card)", "fact": "F1, F2"},
+    {"text": "this Short rendered on a 4-core CPU with no GPU, render time (description, X)", "fact": "M-render, M-machine"},
+    {"text": "Made with funkbox", "fact": "F18"}
+  ]
+}

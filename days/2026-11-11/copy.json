@@ -1,0 +1,26 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "Type a word.\nFill it with a loop."
+  },
+  "p1": {
+   "text": "New: a layer's mask\ncan be typed text"
+  },
+  "p2": {
+   "text": "Bevel: 3 numbers\nlight the edges"
+  },
+  "p3": {
+   "text": "Every loop checked\nseamless by machine"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

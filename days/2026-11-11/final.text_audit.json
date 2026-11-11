@@ -1,0 +1,177 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 6,
+      "last_frame": 149,
+      "text": "Type a word.\nFill it with a loop.",
+      "complete_frame": 74,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Type a word.",
+        "Fill it with a loop."
+      ],
+      "text_exact": true,
+      "frames": [
+        6,
+        149
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "card",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 156,
+      "last_frame": 299,
+      "text": "New: a layer's mask\ncan be typed text",
+      "complete_frame": 233,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "New: a layer's mask",
+        "can be typed text"
+      ],
+      "text_exact": true,
+      "frames": [
+        156,
+        299
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "warp",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 306,
+      "last_frame": 430,
+      "text": "Bevel: 3 numbers\nlight the edges",
+      "complete_frame": 372,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Bevel: 3 numbers",
+        "light the edges"
+      ],
+      "text_exact": true,
+      "frames": [
+        306,
+        430
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "tunnel",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 436,
+      "last_frame": 562,
+      "text": "Every loop checked\nseamless by machine",
+      "complete_frame": 507,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Every loop checked",
+        "seamless by machine"
+      ],
+      "text_exact": true,
+      "frames": [
+        436,
+        562
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 563,
+      "last_frame": 667,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 563,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        563,
+        667
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 563,
+      "last_frame": 667,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 563,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        563,
+        667
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 573,
+      "last_frame": 667,
+      "text": "funkbox",
+      "complete_frame": 586,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        573,
+        667
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 592,
+      "last_frame": 667,
+      "text": "Free, open source, runs locally",
+      "complete_frame": 592,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally"
+      ],
+      "text_exact": true,
+      "frames": [
+        592,
+        667
+      ]
+    }
+  ]
+}
