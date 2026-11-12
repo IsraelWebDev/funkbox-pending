@@ -1,0 +1,13 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {"text": "Myth: AI video means\ncredits and API keys"},
+  "p1": {"text": "Fact: clone, install.\nNo account, no key."},
+  "p2": {"text": "Stills: FastSD,\non your own machine"},
+  "p3": {"text": "Motion: shaders.\nNo video model."},
+  "p4": {"text": "This Short: 0 credits,\nunder 40 s on 4 CPU cores"},
+  "end_head": {"text": "funkbox"},
+  "end_sub": {"text": "Free, open source, runs locally"},
+  "url": {"text": "github.com/IsraelWebDev/funkbox"}
+ }
+}

@@ -1,0 +1,200 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 99,
+      "text": "Myth: AI video means\ncredits and API keys",
+      "complete_frame": 58,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Myth: AI video means",
+        "credits and API keys"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        99
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "install",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 105,
+      "last_frame": 216,
+      "text": "Fact: clone, install.\nNo account, no key.",
+      "complete_frame": 168,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Fact: clone, install.",
+        "No account, no key."
+      ],
+      "text_exact": true,
+      "frames": [
+        105,
+        216
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "stills",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 222,
+      "last_frame": 316,
+      "text": "Stills: FastSD,\non your own machine",
+      "complete_frame": 275,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Stills: FastSD,",
+        "on your own",
+        "machine"
+      ],
+      "text_exact": true,
+      "frames": [
+        222,
+        316
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "motion",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 322,
+      "last_frame": 416,
+      "text": "Motion: shaders.\nNo video model.",
+      "complete_frame": 376,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Motion: shaders.",
+        "No video model."
+      ],
+      "text_exact": true,
+      "frames": [
+        322,
+        416
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "proof",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 422,
+      "last_frame": 532,
+      "text": "This Short: 0 credits,\nunder 40 s on 4 CPU cores",
+      "complete_frame": 484,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "This Short: 0 credits,",
+        "under 40 s on 4 CPU",
+        "cores"
+      ],
+      "text_exact": true,
+      "frames": [
+        422,
+        532
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 533,
+      "last_frame": 637,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 533,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        533,
+        637
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 533,
+      "last_frame": 637,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 533,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        533,
+        637
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 543,
+      "last_frame": 637,
+      "text": "funkbox",
+      "complete_frame": 556,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        543,
+        637
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 562,
+      "last_frame": 637,
+      "text": "Free, open source, runs locally",
+      "complete_frame": 562,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally"
+      ],
+      "text_exact": true,
+      "frames": [
+        562,
+        637
+      ]
+    }
+  ]
+}

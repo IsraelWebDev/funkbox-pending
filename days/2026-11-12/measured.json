@@ -1,0 +1,60 @@
+{
+  "day": "2026-11-12",
+  "measured_at": "2026-11-12T13:50:36Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 51,
+      "say": "Claude drives it through 51 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 11,
+      "say": "11 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "4015693 Remove Unsplash and Pixabay copies after 24 hours",
+        "851aa10 Add Pixabay as a stock source for image_find",
+        "03427b7 Add image_find: stock photos first, licence record per picture"
+      ],
+      "say": "changes since the last promo: Remove Unsplash and Pixabay copies after 24 hours; Add Pixabay as a stock source for image_find; Add image_find: stock photos first, licence record per picture"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 21.27,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "21 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 9,
+        "ok": true
+      },
+      "say": "the text audit checked 9 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 33.8,
+        "frames": 638,
+        "under": 40
+      },
+      "say": "this video rendered in 34 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 40 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

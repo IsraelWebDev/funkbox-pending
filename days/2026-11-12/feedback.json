@@ -1,0 +1,12 @@
+{
+ "observation": "A crowd of new open-source Claude Code skills make video from code (Remotion skills, HeyGen's HyperFrames, claude-motion-design, Charlie Hills' motion-graphics pack; one awesome-list counts 180 such repos). The jobs they advertise are launch clips, kinetic type and especially animated charts and data reels: numbers that count up, bars that grow. funkbox's reel has captions, stills, clips and loops, but no shot that animates a number or a chart, so a 'growth/benchmark' promo is out of reach.",
+ "suggestion": "Add a 'chart' shot source to the reel: a small CSV or inline list (label, value) drawn as bars or a count-up number, animated over the shot's beats, with the values written into the text audit next to the captions (every number on screen proven equal to the data file). One new source type plus audit entries; reuses the existing caption fonts and brand colours.",
+ "evidence": [
+  "https://github.com/zhuyansen/awesome-claude-video-skills",
+  "https://github.com/howseen-ai/claude-motion-design",
+  "https://github.com/mattypark/Motion-graphics-skill",
+  "https://awesomeclaude.ai/claude-motion-graphics"
+ ],
+ "effort": "medium",
+ "would_enable": "A behind-the-scenes Short where the render time, test count and tool count grow on screen as an audited chart (every number traced to measured.json), instead of a caption saying it."
+}

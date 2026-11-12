@@ -1,0 +1,10 @@
+{
+  "youtube": {
+    "title": "Myth: AI video means credits and API keys. This Short used neither, on 4 CPU cores",
+    "description": "Myth: AI video means credits and API keys.\nFact: funkbox runs on your own computer: no account, no API key, no credits. No video model either; motion comes from shaders, stills from FastSD. This Short rendered in under 40 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": ["funkbox", "open source", "local AI", "AI video", "GLSL", "shader", "no GPU", "Shorts"]
+  },
+  "x": {
+    "text": "Myth: AI video means credits and API keys.\n\nThis Short used neither. IsraelWebDev/funkbox runs on your own computer: no account, no key, no video model. Shader motion, FastSD stills, rendered in under 40 s on 4 CPU cores, no GPU.\n\n#OpenSource #AIvideo"
+  }
+}

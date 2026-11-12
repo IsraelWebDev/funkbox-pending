@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-12",
+ "format": "myth-vs-fact",
+ "selling_point": "S1",
+ "candidates": [
+  "myth-vs-fact + S1 + 'Myth: AI video means credits and API keys': answer the credits-and-keys assumption with this Short itself (0 credits, no account, under 40 s on 4 CPU cores) [chosen]",
+  "how-to + S3 + 'Ask Claude for a loop in 3 steps': ride the 'Claude Code skills that make video from code' genre (Remotion, HyperFrames, claude-motion-design) with /plugin install, one prompt, one render [passed: the plugin command is not on any real code card today, and a dated genre source within 30 days could not be confirmed]",
+  "whats-new + S11 + 'Stock photo first, licence on file': the new image_find (Unsplash/Pixabay with a licence record per picture) [passed: S11 was the focus on 2026-11-11, and image_find is not yet in FACTS.md]",
+  "use-case + S10 + 'Six scenes from one sentence each': FastSD stills for an ad [passed: FastSD is not installed on this runner, so it could only show old outputs]"
+ ],
+ "trend": null,
+ "angle": "Most AI-video tools people see are metered by credits and tied to an account; funkbox's answer is the video itself: no account, no API key, no video model, rendered on a 4-core CPU.",
+ "hook": "Myth: AI video means credits and API keys",
+ "novelty": "First myth-vs-fact post, and the first to lead on cost and access (no account, no key, no credits) rather than a feature or a look; every recent post was a feature, look or format.",
+ "claims": [
+  {"text": "Fact: clone, install. No account, no key.", "fact": "F2"},
+  {"text": "Stills: FastSD, on your own machine", "fact": "F8"},
+  {"text": "Motion: shaders. No video model.", "fact": "F19"},
+  {"text": "This Short: 0 credits", "fact": "F2"},
+  {"text": "under 40 s on 4 CPU cores", "fact": "M-render"},
+  {"text": "Free, open source, runs locally", "fact": "F1"},
+  {"text": "Made with funkbox", "fact": "F18"}
+ ]
+}
