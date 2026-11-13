@@ -1,0 +1,245 @@
+{
+  "day": "2026-11-13",
+  "seed": 20261113,
+  "assets": [
+    {
+      "id": "loop-liquid-disco",
+      "kind": "video",
+      "path": "assets/loop-liquid-disco.mp4",
+      "note": "seamless shader loop, preset liquid-disco seed 855, 4 s",
+      "seconds": 4
+    },
+    {
+      "id": "loop-acid-plasma",
+      "kind": "video",
+      "path": "assets/loop-acid-plasma.mp4",
+      "note": "seamless shader loop, preset acid-plasma seed 134, 4 s",
+      "seconds": 4
+    },
+    {
+      "id": "demo-ad",
+      "kind": "video",
+      "path": "assets/demo-ad.mp4",
+      "note": "the GLOWMOP demo ad made with funkbox (23 s, 9:16, has its own captions)",
+      "seconds": 23.4
+    },
+    {
+      "id": "fastsd-scenes",
+      "kind": "image",
+      "path": "assets/fastsd-scenes.jpg",
+      "note": "six FastSD scenes generated on an Intel iGPU",
+      "size": [
+        684,
+        458
+      ]
+    },
+    {
+      "id": "poster-variations",
+      "kind": "image",
+      "path": "assets/poster-variations.jpg",
+      "note": "one poster in four palettes, exact text",
+      "size": [
+        1100,
+        301
+      ]
+    },
+    {
+      "id": "storyboard",
+      "kind": "image",
+      "path": "assets/storyboard.png",
+      "note": "storyboard of the demo ad: one tile per shot",
+      "size": [
+        900,
+        1757
+      ]
+    },
+    {
+      "id": "social-preview",
+      "kind": "image",
+      "path": "assets/social-preview.png",
+      "note": "repo social card",
+      "size": [
+        1280,
+        640
+      ]
+    },
+    {
+      "id": "scene-dog",
+      "kind": "image",
+      "path": "assets/scene-dog.jpg",
+      "note": "FastSD scene, upscaled",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "scene-machine",
+      "kind": "image",
+      "path": "assets/scene-machine.jpg",
+      "note": "FastSD scene, upscaled",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "card-reel-json",
+      "kind": "image",
+      "path": "assets/card-reel-json.png",
+      "note": "a real shot from the demo ad's shot list (examples/mimic/mimic.reel.json lines 25-36, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "examples/mimic/mimic.reel.json:25-36",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9768,
+        0.4823
+      ]
+    },
+    {
+      "id": "card-copy-json",
+      "kind": "image",
+      "path": "assets/card-copy-json.png",
+      "note": "the demo ad's copy deck: every caption comes from here (examples/mimic/copy.json lines 3-18, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "examples/mimic/copy.json:3-18",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9547,
+        0.4917
+      ]
+    },
+    {
+      "id": "card-install",
+      "kind": "image",
+      "path": "assets/card-install.png",
+      "note": "the install commands (README.md lines 107-109, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "README.md:107-109",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9547,
+        0.2005
+      ]
+    },
+    {
+      "id": "card-loop-recipe",
+      "kind": "image",
+      "path": "assets/card-loop-recipe.png",
+      "note": "the disco-cat loop recipe (examples/disco_cat.json lines 1-10, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "examples/disco_cat.json:1-10",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9715,
+        0.4693
+      ]
+    },
+    {
+      "id": "card-frame-json",
+      "kind": "image",
+      "path": "assets/card-frame-json.png",
+      "note": "a push-in on a screen recording, from the docs (docs/reel.md lines 204-206, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "docs/reel.md:204-206",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9715,
+        0.2453
+      ]
+    },
+    {
+      "id": "card-text-exact",
+      "kind": "image",
+      "path": "assets/card-text-exact.png",
+      "note": "how the text audit works, from the docs (docs/reel.md lines 9-11, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "docs/reel.md:9-11",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.637,
+        0.4021
+      ]
+    },
+    {
+      "id": "key",
+      "kind": "image",
+      "path": "assets/key.png",
+      "note": "the day's key image: its colours are the day's palette (reel brand.from)"
+    },
+    {
+      "id": "music",
+      "kind": "music",
+      "path": "assets/music.mp3",
+      "note": "seeded music bed, 128 BPM, 30 s (leave audio.bpm out of reel.json: the grid is detected from this file)",
+      "bpm": 128
+    },
+    {
+      "id": "card-plugin",
+      "kind": "image",
+      "path": "assets/card-plugin.png",
+      "note": "the Claude Code plugin install line (README.md) lines 123-124. Its text fills text_rect (top part); anchor captions at the bottom",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "README.md:123-124",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9715,
+        0.1781
+      ]
+    },
+    {
+      "id": "card-mcp-call",
+      "kind": "image",
+      "path": "assets/card-mcp-call.png",
+      "note": "today's real MCP call to funkbox's server: loop_render, and what it returned (assets/mcp-call.txt, its lines verbatim from assets/mcp-call.json) lines 1-9. Its text fills text_rect (top part); anchor captions at the bottom",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "assets/mcp-call.txt:1-9",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9213,
+        0.3125
+      ]
+    },
+    {
+      "id": "loop-lava-from-mcp",
+      "kind": "video",
+      "path": "assets/lava-from-mcp.mp4",
+      "note": "seamless loop rendered today by the MCP call in assets/mcp-call.json (look lava-lamp, 540x540, loop check OK)",
+      "seconds": 4
+    }
+  ],
+  "key_image": "assets/key.png",
+  "bpm": 128
+}

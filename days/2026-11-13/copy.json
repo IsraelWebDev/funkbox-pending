@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "Video from a chat\nwith Claude: 3 steps"
+  },
+  "p1": {
+   "text": "1. Install the plugin:\none line in Claude Code"
+  },
+  "p2": {
+   "text": "2. Claude calls a tool:\nloop_render, one look"
+  },
+  "p3": {
+   "text": "3. Back comes a loop,\nmachine-checked seamless"
+  },
+  "p4": {
+   "text": "51 MCP tools.\nAll on your computer."
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "Works with Claude. Free, open source."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "Video from a chat with Claude in 3 steps: install, one MCP tool call, a seamless loop",
+  "description": "Video from a chat with Claude: 3 steps.\nInstall the funkbox plugin in Claude Code with one line, Claude calls one MCP tool (loop_render), and a loop comes back that passed funkbox's machine check for seamless looping. 51 MCP tools, all on your own computer.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "Claude",
+   "MCP",
+   "Claude Code",
+   "shader loop",
+   "GLSL",
+   "open source",
+   "AI video",
+   "funkbox"
+  ]
+ },
+ "x": {
+  "text": "Video from a chat with Claude, 3 steps:\n\n1. Install the funkbox plugin in Claude Code: one line\n2. Claude calls one MCP tool: loop_render\n3. A loop comes back, machine-checked seamless\n\nIsraelWebDev/funkbox: 51 MCP tools, all local.\n\n#ClaudeCode #MCP"
+ }
+}

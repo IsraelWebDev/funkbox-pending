@@ -1,0 +1,201 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 112,
+      "text": "Video from a chat\nwith Claude: 3 steps",
+      "complete_frame": 66,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Video from a chat",
+        "with Claude: 3 steps"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        112
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "install",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 118,
+      "last_frame": 224,
+      "text": "1. Install the plugin:\none line in Claude Code",
+      "complete_frame": 178,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "1. Install the plugin:",
+        "one line in Claude",
+        "Code"
+      ],
+      "text_exact": true,
+      "frames": [
+        118,
+        224
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "call",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 230,
+      "last_frame": 337,
+      "text": "2. Claude calls a tool:\nloop_render, one look",
+      "complete_frame": 291,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "2. Claude calls a tool:",
+        "loop_render, one look"
+      ],
+      "text_exact": true,
+      "frames": [
+        230,
+        337
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "result",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 343,
+      "last_frame": 449,
+      "text": "3. Back comes a loop,\nmachine-checked seamless",
+      "complete_frame": 403,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "3. Back comes a loop,",
+        "machine-checked",
+        "seamless"
+      ],
+      "text_exact": true,
+      "frames": [
+        343,
+        449
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "local",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 455,
+      "last_frame": 562,
+      "text": "51 MCP tools.\nAll on your computer.",
+      "complete_frame": 516,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "51 MCP tools.",
+        "All on your",
+        "computer."
+      ],
+      "text_exact": true,
+      "frames": [
+        455,
+        562
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 563,
+      "last_frame": 667,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 563,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        563,
+        667
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 563,
+      "last_frame": 667,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 563,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        563,
+        667
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 573,
+      "last_frame": 667,
+      "text": "funkbox",
+      "complete_frame": 586,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        573,
+        667
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 592,
+      "last_frame": 667,
+      "text": "Works with Claude. Free, open source.",
+      "complete_frame": 592,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Works with Claude.",
+        "Free, open source."
+      ],
+      "text_exact": true,
+      "frames": [
+        592,
+        667
+      ]
+    }
+  ]
+}

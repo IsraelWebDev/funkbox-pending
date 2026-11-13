@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-13",
+ "format": "how-to",
+ "selling_point": "S3",
+ "candidates": [
+  "how-to + S3 + 'Video from a chat with Claude: 3 steps': ride this month's wave of 'how to make videos with Claude' MCP guides by doing it for real: the plugin install line, one real loop_render MCP call made today, and the seamless loop it returned [chosen]",
+  "trend-reaction + S4 + 'AI video still garbles on-screen words': answer the long-running complaint about baked-in, misspelled text with the text audit [passed: the best-documented reports are from 2025, too old for an event, and S4 led on 2026-11-08]",
+  "behind-the-scenes + S2 + 'This Short's render, timed': today's M-render on a 4-core CPU [passed: same selling point and format as 2026-11-02, and the 4-core CPU render was the close of yesterday's post]",
+  "use-case + S10 + 'Six ad scenes from six sentences': FastSD stills for an ad [passed: FastSD is not installed on this runner, so it could only show old outputs]"
+ ],
+ "trend": {
+  "summary": "Guides on making videos by asking Claude keep appearing this month: connect a video tool to Claude over MCP, describe the video in chat, and the tool renders it.",
+  "kind": "genre",
+  "origin": "web",
+  "demo": "funkbox does this for real in the video: the README's one-line Claude Code plugin install, then a real MCP call made today to funkbox's server (it listed 51 tools; loop_render with look lava-lamp), shown as a code card of its transcript, then the loop that call rendered, which passed the machine loop check.",
+  "sources": [
+   {
+    "title": "How to Make Videos With Claude in 2026 (Step-by-Step) - Clippie",
+    "url": "https://clippie.ai/blog/how-to-make-videos-with-claude",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "Can Claude Make Videos? Every Way to Do It (2026) - JSON2Video",
+    "url": "https://json2video.com/claude-video/",
+    "date": "2026-10-18"
+   }
+  ]
+ },
+ "angle": "Everyone is publishing 'how to make video with Claude' guides; this one is the how-to done on camera: install the funkbox plugin with one line, Claude calls one MCP tool (loop_render), and a machine-checked seamless loop comes back, all rendered on the same computer.",
+ "hook": "Video from a chat with Claude: 3 steps",
+ "novelty": "First how-to, and the first post on S3 (Claude drives funkbox over MCP): it shows a real MCP tool call and its output, not a feature, look, format or cost argument.",
+ "claims": [
+  {
+   "text": "1. Install the plugin: one line in Claude Code",
+   "fact": "F5"
+  },
+  {
+   "text": "2. Claude calls a tool: loop_render, one look",
+   "fact": "F4"
+  },
+  {
+   "text": "3. Back comes a loop, machine-checked seamless",
+   "fact": "F6"
+  },
+  {
+   "text": "51 MCP tools",
+   "fact": "M-tools"
+  },
+  {
+   "text": "All on your computer.",
+   "fact": "F2"
+  },
+  {
+   "text": "Works with Claude. Free, open source.",
+   "fact": "F1"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  },
+  {
+   "text": "Install the funkbox plugin in Claude Code: one line",
+   "fact": "F5"
+  }
+ ]
+}

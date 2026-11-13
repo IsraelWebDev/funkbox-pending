@@ -1,0 +1,11 @@
+{
+ "observation": "This month's 'make videos with Claude' guides (Clippie 2026-11-04, JSON2Video 2026-10-18, CraftStory 2026-10-27) all describe the same loop: describe the video in chat, the tool renders it, then ask for targeted changes. Iterating in chat only works if Claude can see what moved. In today's real loop_render MCP call, the result was the text summary plus one still (the loop's PNG poster frame), so Claude judges a 4-second moving loop from a single frame.",
+ "suggestion": "Make loop_render (and reel_render) return a filmstrip as the image block instead of the single poster frame: 6 frames evenly spaced across one cycle in a 3x2 sheet, downscaled to about 900 px, built from frames the render already produced. Claude can then see motion, speed and the seam in the chat and propose the next edit.",
+ "evidence": [
+  "https://clippie.ai/blog/how-to-make-videos-with-claude",
+  "https://json2video.com/claude-video/",
+  "https://craftstory.com/blog/make-ai-videos-from-claude-mcp/"
+ ],
+ "effort": "small",
+ "would_enable": "A how-to Short that is one chat screen: the prompt, the loop_render call and a filmstrip of the loop appearing in the conversation, then one follow-up edit."
+}

@@ -1,0 +1,56 @@
+{
+  "day": "2026-11-13",
+  "measured_at": "2026-11-13T14:12:38Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 51,
+      "say": "Claude drives it through 51 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 11,
+      "say": "11 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [],
+      "say": "changes since the last promo: none"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 22.27,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "22 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 9,
+        "ok": true
+      },
+      "say": "the text audit checked 9 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 59.0,
+        "frames": 668,
+        "under": 60
+      },
+      "say": "this video rendered in 59 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 60 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}
