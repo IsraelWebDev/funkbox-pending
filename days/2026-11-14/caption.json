@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "A Black Friday poster where $89 stays $89: exact text, exported to PNG, SVG and PDF",
+  "description": "A Black Friday poster where $89 stays $89.\nEvery word comes from a copy deck and the text audit checks it byte for byte; the poster exports to PNG, SVG and PDF, and the PDF is still sharp zoomed 12x. GLOWMOP is a fictional brand. This Short rendered in under 40 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "Black Friday",
+   "poster design",
+   "sale banner",
+   "typography",
+   "SVG",
+   "open source",
+   "AI design",
+   "funkbox"
+  ]
+ },
+ "x": {
+  "text": "A Black Friday poster where $89 stays $89.\n\nIn IsraelWebDev/funkbox every word comes from a copy deck and is checked byte for byte, then the poster exports to PNG, SVG and PDF. Zoomed 12x, the PDF is still sharp.\n\nFictional brand. #BlackFriday #design"
+ }
+}

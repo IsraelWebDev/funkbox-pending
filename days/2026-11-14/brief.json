@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-14",
+ "format": "trend-reaction",
+ "selling_point": "S9",
+ "candidates": [
+  "trend-reaction + S9 + 'A Black Friday poster where $89 stays $89': ride this month's wave of AI-made Black Friday sale banners (prompt guides warn the discount can come out as '4O% OOF' and say to check prices and codes by eye) by making one with funkbox: a fictional GLOWMOP story poster whose six strings come from a copy deck and are audited, exported to PNG, SVG and PDF, with the PNG and the PDF zoomed 12x side by side [chosen]",
+  "tip + S7 + 'Cuts that land on the beat': the beat grid detected from the day's music, every cut within 20 ms of a beat [passed: beat-snapped cuts were half of 2026-11-09's post]",
+  "behind-the-scenes + S2 + 'This Short, timed: 31 s on 4 CPU cores': today's M-render [passed: same format and selling point as 2026-11-02, and the CPU render time closed four of the last six X posts]",
+  "use-case + S10 + 'Sale-banner backgrounds from a sentence': FastSD stills for a holiday banner [passed: FastSD is not installed on this runner, so it could only show old outputs]"
+ ],
+ "trend": {
+  "summary": "A genre this month, ahead of Black Friday (27 Nov 2026): people making Black Friday sale banners, posters and Stories with AI image tools. The guides centre on getting the text right: Miraflow (17 Oct) warns that repeating a discount can turn '40% OFF' into '4O% OOF' and to ask for the number once; Segmind (11 Nov) generated a 20-render sale kit and found a closing 'exactly these text elements' clause kept the text exact, recommends checking the coupon line by eye, and saw a longer translated line run into the product.",
+  "kind": "genre",
+  "origin": "web",
+  "demo": "funkbox makes one of these in the video: a 1080x1920 Story-size Black Friday poster for the fictional GLOWMOP brand (BLACK FRIDAY, 40% OFF, $149 struck through, $89, CODE: BF40), every string from a copy deck and checked by the poster's text audit, exported as PNG, SVG and PDF (assets/poster/), and the same 12x zoom of the '$89' from the PNG and from the PDF (work/zoom.py).",
+  "sources": [
+   {
+    "title": "AI Sale Banners for Black Friday: 20 Renders, 3 Models, $1.05 (Segmind blog)",
+    "url": "https://blog.segmind.com/ai-sale-banners-for-black-friday-20-renders-3-models-1-05/",
+    "date": "2026-11-11"
+   },
+   {
+    "title": "AI Black Friday prompts for product photos and sale ads, 2026 (Miraflow blog)",
+    "url": "https://miraflow.ai/blog/ai-black-friday-prompts-product-photos-sale-ads-2026",
+    "date": "2026-10-17"
+   }
+  ]
+ },
+ "angle": "Sale-banner guides this month are about keeping the price and the code right and checking them by eye. funkbox's answer, shown on screen: a Black Friday poster whose words are typed once in a copy deck, drawn exactly and audited, then exported as vectors, so the $89 is still sharp when the PDF is zoomed 12x next to the PNG.",
+ "hook": "A Black Friday poster where $89 stays $89",
+ "novelty": "First promo built around a seasonal sale poster, and the first to show vector export: the same poster as PNG, SVG and PDF with a 12x zoom of PNG against PDF. Earlier poster posts (10-31, 11-01) were about Hebrew lettering and tracing an emblem, not sale prices or sharpness at size.",
+ "claims": [
+  {
+   "text": "A Black Friday poster where $89 stays $89 (on screen over the poster, every string from its copy deck)",
+   "fact": "F7 F13"
+  },
+  {
+   "text": "Every string checked against its copy deck (over the docs/reel.md text-audit card; the poster's own audit is assets/poster/sale.text_audit.json)",
+   "fact": "F13"
+  },
+  {
+   "text": "The PNG, zoomed 12x / Its PDF, same 12x: still sharp",
+   "fact": "F22"
+  },
+  {
+   "text": "Same poster as PNG, SVG and PDF",
+   "fact": "F22"
+  },
+  {
+   "text": "Exact text. Free, open source. (end card)",
+   "fact": "F7 F1"
+  },
+  {
+   "text": "GLOWMOP is a fictional brand (description)",
+   "fact": "F15"
+  },
+  {
+   "text": "this Short rendered in under 40 seconds on a 4-core CPU with no GPU (description, X text)",
+   "fact": "M-render"
+  },
+  {
+   "text": "runs locally (description)",
+   "fact": "F2"
+  }
+ ]
+}

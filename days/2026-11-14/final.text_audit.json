@@ -1,0 +1,198 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "poster",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 115,
+      "text": "A Black Friday poster\nwhere $89 stays $89",
+      "complete_frame": 67,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "A Black Friday poster",
+        "where $89 stays $89"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        115
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "audit",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 121,
+      "last_frame": 214,
+      "text": "Every string checked\nagainst its copy deck",
+      "complete_frame": 174,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Every string checked",
+        "against its copy deck"
+      ],
+      "text_exact": true,
+      "frames": [
+        121,
+        214
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "zoom-png",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 221,
+      "last_frame": 296,
+      "text": "The PNG, zoomed 12x",
+      "complete_frame": 259,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "The PNG,",
+        "zoomed 12x"
+      ],
+      "text_exact": true,
+      "frames": [
+        221,
+        296
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "zoom-pdf",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 302,
+      "last_frame": 395,
+      "text": "Its PDF, same 12x:\nstill sharp",
+      "complete_frame": 355,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Its PDF, same 12x:",
+        "still sharp"
+      ],
+      "text_exact": true,
+      "frames": [
+        302,
+        395
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "formats",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 401,
+      "last_frame": 494,
+      "text": "Same poster as\nPNG, SVG and PDF",
+      "complete_frame": 454,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Same poster as",
+        "PNG, SVG and PDF"
+      ],
+      "text_exact": true,
+      "frames": [
+        401,
+        494
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 495,
+      "last_frame": 599,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 495,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        495,
+        599
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 495,
+      "last_frame": 599,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 495,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        495,
+        599
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 505,
+      "last_frame": 599,
+      "text": "funkbox",
+      "complete_frame": 518,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        505,
+        599
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 524,
+      "last_frame": 599,
+      "text": "Exact text. Free, open source.",
+      "complete_frame": 524,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Exact text. Free, open",
+        "source."
+      ],
+      "text_exact": true,
+      "frames": [
+        524,
+        599
+      ]
+    }
+  ]
+}

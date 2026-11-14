@@ -1,0 +1,182 @@
+{
+ "version": 1,
+ "name": "sale",
+ "canvas": {
+  "preset": "story",
+  "background": "#0a0a0f"
+ },
+ "brand": {
+  "primary": "#ffd23f",
+  "secondary": "#e0245e",
+  "text": "#ffffff",
+  "font_display": "Anton",
+  "font_caption": "Oswald:600"
+ },
+ "layers": [
+  {
+   "id": "bg",
+   "type": "gradient",
+   "kind": "linear",
+   "angle": 170,
+   "stops": [
+    "#14141c",
+    "#0a0a0f",
+    "#2a0a18"
+   ]
+  },
+  {
+   "id": "slab",
+   "type": "shape",
+   "kind": "polygon",
+   "points": [
+    [
+     0,
+     0.13
+    ],
+    [
+     1,
+     0.1
+    ],
+    [
+     1,
+     0.3
+    ],
+    [
+     0,
+     0.33
+    ]
+   ],
+   "fill": "#ffd23f"
+  },
+  {
+   "id": "event",
+   "type": "text",
+   "style": "display",
+   "size": 0.06,
+   "x": 0.06,
+   "y": 0.035,
+   "max_width": 0.88,
+   "align": "center",
+   "color": "#ffffff",
+   "wrap": false,
+   "copy_id": "event"
+  },
+  {
+   "id": "off",
+   "type": "text",
+   "style": "display",
+   "size": 0.13,
+   "x": 0.04,
+   "y": 0.14,
+   "max_width": 0.92,
+   "align": "center",
+   "color": "#0a0a0f",
+   "skew_y": -3.2,
+   "wrap": false,
+   "copy_id": "off"
+  },
+  {
+   "id": "was",
+   "type": "text",
+   "style": "display",
+   "size": 0.065,
+   "x": 0.08,
+   "y": 0.375,
+   "max_width": 0.38,
+   "align": "center",
+   "color": "#9a9aa8",
+   "wrap": false,
+   "copy_id": "was"
+  },
+  {
+   "id": "strike",
+   "type": "shape",
+   "kind": "polyline",
+   "points": [
+    [
+     0.13,
+     0.43
+    ],
+    [
+     0.4,
+     0.395
+    ]
+   ],
+   "width": 0.012,
+   "fill": "#e0245e"
+  },
+  {
+   "id": "now",
+   "type": "text",
+   "style": "display",
+   "size": 0.095,
+   "x": 0.5,
+   "y": 0.355,
+   "max_width": 0.44,
+   "align": "center",
+   "color": "#ffd23f",
+   "wrap": false,
+   "copy_id": "now"
+  },
+  {
+   "id": "codebox",
+   "type": "shape",
+   "kind": "polygon",
+   "points": [
+    [
+     0.2,
+     0.475
+    ],
+    [
+     0.8,
+     0.475
+    ],
+    [
+     0.8,
+     0.53
+    ],
+    [
+     0.2,
+     0.53
+    ]
+   ],
+   "fill": "#0a0a0f",
+   "stroke": "#ffffff",
+   "stroke_px": 6
+  },
+  {
+   "id": "code",
+   "type": "text",
+   "style": "caption",
+   "size": 0.035,
+   "x": 0.18,
+   "y": 0.482,
+   "max_width": 0.64,
+   "align": "center",
+   "color": "#ffffff",
+   "wrap": false,
+   "copy_id": "code"
+  },
+  {
+   "id": "brand",
+   "type": "text",
+   "style": "caption",
+   "size": 0.03,
+   "x": 0.1,
+   "y": 0.56,
+   "max_width": 0.8,
+   "align": "center",
+   "color": "#e0245e",
+   "wrap": false,
+   "copy_id": "brand"
+  }
+ ],
+ "export": {
+  "formats": [
+   "png",
+   "svg",
+   "pdf"
+  ]
+ },
+ "copy": "sale.copy.json"
+}

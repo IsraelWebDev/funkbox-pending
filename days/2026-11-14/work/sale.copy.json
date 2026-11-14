@@ -1,0 +1,11 @@
+{
+  "brand_name": "GLOWMOP",
+  "lines": {
+    "event": { "text": "BLACK FRIDAY" },
+    "off": { "text": "40% OFF" },
+    "was": { "text": "$149" },
+    "now": { "text": "$89" },
+    "code": { "text": "CODE: BF40" },
+    "brand": { "text": "GLOWMOP" }
+  }
+}

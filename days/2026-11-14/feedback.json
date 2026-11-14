@@ -1,0 +1,10 @@
+{
+ "observation": "Creators making Black Friday sale kits this month produce one sale in many shapes and languages: Segmind's 11 Nov test made a homepage hero, an Instagram Story, an email header, a deal card and translated versions, and the translated Spanish line ('DESCUENTO') ran into the product on two of three models. Miraflow's 17 Oct guide lists the same spread (banners, Stories, email headers, thumbnails) for small sellers. funkbox already keeps every string exact (text audit) and resizes a poster to other canvases (stills/resize.py), but a copy deck is one language, and nothing flags a text layer that, after shrinking or resizing, overlaps another layer or the product.",
+ "suggestion": "Add a layout check to poster render and poster resize: after drawing, compare each text layer's drawn box (already in the text audit) with the other text, shape and product layers and the canvas edges, and fail or warn with the layer ids when they overlap. Pair it with per-language copy decks (\"copy\": {\"en\": \"sale.copy.json\", \"es\": \"sale.es.copy.json\"} and --lang), so one poster renders a localized set in every size, each string audited and each layout checked.",
+ "evidence": [
+  "https://blog.segmind.com/ai-sale-banners-for-black-friday-20-renders-3-models-1-05/",
+  "https://miraflow.ai/blog/ai-black-friday-prompts-product-photos-sale-ads-2026"
+ ],
+ "effort": "medium",
+ "would_enable": "A promo showing one sale poster rendered in English, Spanish and Hebrew across Story, square and banner sizes, with the layout check catching a long translated line before it hits the product."
+}

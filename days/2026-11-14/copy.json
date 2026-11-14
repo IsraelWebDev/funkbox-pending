@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "A Black Friday poster\nwhere $89 stays $89"
+  },
+  "p1": {
+   "text": "Every string checked\nagainst its copy deck"
+  },
+  "p2": {
+   "text": "The PNG, zoomed 12x"
+  },
+  "p3": {
+   "text": "Its PDF, same 12x:\nstill sharp"
+  },
+  "p4": {
+   "text": "Same poster as\nPNG, SVG and PDF"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "Exact text. Free, open source."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}
