@@ -1,0 +1,183 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 136,
+      "text": "A song's 8-second loop.\nFind the seam.",
+      "complete_frame": 79,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "A song's 8-second",
+        "loop.",
+        "Find the seam."
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        136
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "seam",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 143,
+      "last_frame": 291,
+      "text": "It wraps around here.\nSee the cut?",
+      "complete_frame": 213,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "It wraps around",
+        "here.",
+        "See the cut?"
+      ],
+      "text_exact": true,
+      "frames": [
+        143,
+        291
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "sidecar",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 297,
+      "last_frame": 428,
+      "text": "New: its JSON file now\nrecords the seam check",
+      "complete_frame": 371,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "New: its JSON file now",
+        "records the seam",
+        "check"
+      ],
+      "text_exact": true,
+      "frames": [
+        297,
+        428
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "more",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 434,
+      "last_frame": 548,
+      "text": "Both loops here:\nmachine-checked seamless",
+      "complete_frame": 499,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Both loops here:",
+        "machine-checked",
+        "seamless"
+      ],
+      "text_exact": true,
+      "frames": [
+        434,
+        548
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 549,
+      "last_frame": 653,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 549,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        549,
+        653
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 549,
+      "last_frame": 653,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 549,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        549,
+        653
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 559,
+      "last_frame": 653,
+      "text": "Loops that close",
+      "complete_frame": 591,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Loops",
+        "that",
+        "close"
+      ],
+      "text_exact": true,
+      "frames": [
+        559,
+        653
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 597,
+      "last_frame": 653,
+      "text": "Free, open source, runs locally",
+      "complete_frame": 597,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally"
+      ],
+      "text_exact": true,
+      "frames": [
+        597,
+        653
+      ]
+    }
+  ]
+}

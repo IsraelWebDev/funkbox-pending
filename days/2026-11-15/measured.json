@@ -1,0 +1,60 @@
+{
+  "day": "2026-11-15",
+  "measured_at": "2026-11-15T13:54:56Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 51,
+      "say": "Claude drives it through 51 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 12,
+      "say": "12 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "c2cf0a7 Regenerate docs/catalog.json for the new loop_render description",
+        "32b3c9b Promo playbook: weigh the owner's performance notes when picking the idea",
+        "d760b46 Record the loop seam check in the JSON sidecar"
+      ],
+      "say": "changes since the last promo: Regenerate docs/catalog.json for the new loop_render description; Promo playbook: weigh the owner's performance notes when picking the idea; Record the loop seam check in the JSON sidecar"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 21.8,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "22 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 8,
+        "ok": true
+      },
+      "say": "the text audit checked 8 on-screen strings: all exact"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 50.4,
+        "frames": 654,
+        "under": 60
+      },
+      "say": "this video rendered in 50 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 60 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+ "observation": "Musicians making the short vertical loop that plays behind a track want it to react to their music: the Oct 26 Hypebot round-up of nine tools for this job points them to audio-reactive makers where you upload the song and pick a 3-8 second section, and the canvas guides (Suno.bi, ClipMix) warn that the jump from last frame to first must be invisible. funkbox can do one or the other, not both: a loop with settings.audio is audio-reactive, but its loop check is skipped, and since 2026-11-14 the sidecar even says so ({\"status\": \"skipped\", \"reason\": \"audio\"}), because a cut of the music is not seamless unless the music is.",
+ "suggestion": "Add an audio-loop mode to loop render / loop_render: given a track and a start time, detect the beat grid (the reel engine already detects one from music), snap the loop length to a whole number of bars inside 3-8 s, cut that section, crossfade its last 50-100 ms into its start so the audio wraps, and drive iAudio from that wrapped section. Then the picture is a function of a periodic signal and the existing loop check can run again (loop_check status ok instead of skipped).",
+ "evidence": [
+  "https://www.hypebot.com/9-free-or-cheap-tools-for-music-visualizers-and-spotify-canvas-loops/",
+  "https://suno.bi/en/blog/ai-music-video-for-spotify-canvas-sunomv-2026-guide",
+  "https://www.clipmixai.com/blog/how-to-make-a-music-visualizer-for-your-song"
+ ],
+ "effort": "medium",
+ "would_enable": "A use-case Short where the loop pulses to a real 2-bar section of a track and the sidecar card shows loop_check status ok with the audio on: an audio-reactive loop that is still machine-checked seamless."
+}

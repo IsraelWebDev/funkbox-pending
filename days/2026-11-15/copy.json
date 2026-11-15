@@ -1,0 +1,26 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "A song's 8-second loop.\nFind the seam."
+  },
+  "p1": {
+   "text": "It wraps around here.\nSee the cut?"
+  },
+  "p2": {
+   "text": "New: its JSON file now\nrecords the seam check"
+  },
+  "p3": {
+   "text": "Both loops here:\nmachine-checked seamless"
+  },
+  "end_head": {
+   "text": "Loops that close"
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally"
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

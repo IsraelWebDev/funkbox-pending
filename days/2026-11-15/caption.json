@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "A song's 8-second vertical loop. Find the seam: funkbox checks it by machine and writes it down",
+  "description": "A song's 8-second loop. Find the seam.\nfunkbox rendered this 1080x1920 loop from a shader, played it here straight through the point where its last frame wraps to its first, and checked that seam by machine. New this week: the result is written into the loop's own JSON file (shown on screen, verbatim).\nThis Short rendered in under 60 seconds on a 4-core CPU with no GPU; all 8 on-screen strings matched the approved copy. No video model.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "seamless loop",
+   "shader",
+   "GLSL",
+   "music visuals",
+   "vertical video",
+   "open source",
+   "funkbox",
+   "loop"
+  ]
+ },
+ "x": {
+  "text": "A song's 8-second vertical loop. Find the seam.\n\nIsraelWebDev/funkbox renders it from a shader, checks by machine that the last frame flows into the first, and now writes that check into the loop's own JSON file.\n\nFree, runs locally.\n\n#GLSL #musicvideo"
+ }
+}

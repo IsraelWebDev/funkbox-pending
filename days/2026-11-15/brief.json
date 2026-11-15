@@ -1,0 +1,54 @@
+{
+ "date": "2026-11-15",
+ "format": "use-case",
+ "selling_point": "S8",
+ "candidates": [
+  "use-case + S8 + 'A song's 8-second loop. Find the seam.': the short 9:16 loop musicians put behind a track (guides this autumn say it is 3-8 s, vertical, and its cut point must be invisible, and tell you to watch it 10-15 times to find a jump). funkbox renders an 8 s 1080x1920 loop, the video plays it straight through its seam, and the sidecar card shows the loop_check entry that this week's commit now writes into the loop's JSON file [chosen]",
+  "whats-new + S11 + 'The seam check, now in the file': the loop_check sidecar commit on its own [passed: S11 led on 2026-11-11 (inside the 4-day rule), and one commit alone is thin; folded into the chosen use-case as its proof]",
+  "behind-the-scenes + S2 + 'This Short on 4 CPU cores': today's M-render [passed: same format and selling point as 2026-11-02, and a CPU render time closed several recent X posts]",
+  "how-to + S4 + '3 steps to captions that cannot change': a second numbered how-to to test the owner's 2026-11-13 note [passed: how-to ran on 2026-11-13, inside the 2-day format rule; it is allowed from 2026-11-16]",
+  "use-case + S10 + 'Cover art from a sentence': FastSD stills for a release [passed: FastSD is not installed on this runner, so it could only show old outputs]"
+ ],
+ "trend": null,
+ "angle": "A concrete job: the 8-second vertical loop that plays behind a song. Guides for it say the cut where the last frame jumps back to the first must be invisible and that you should check it by watching it play over and over. funkbox renders the loop from a shader, plays it on screen straight through its seam, and (new since the last promo) writes the machine seam check into the loop's own JSON file, shown verbatim.",
+ "hook": "A song's 8-second loop. Find the seam.",
+ "novelty": "First promo built around a musician's job (a short vertical loop for a track), the first that plays a loop through its own seam on screen and dares the viewer to find it, and the first to show the loop_check entry the sidecar gained on 2026-11-14. Earlier loop posts (11-03, 11-10, 11-11) showed new looks and masks, not the seam itself.",
+ "claims": [
+  {
+   "text": "A song's 8-second loop (on screen over the 8 s 1080x1920 loop funkbox rendered today, assets/canvas-loop.mp4)",
+   "fact": "F6"
+  },
+  {
+   "text": "It wraps around here. See the cut? (the shot plays through the loop's last frame into its first)",
+   "fact": "F6"
+  },
+  {
+   "text": "New: its JSON file now records the seam check (over the card of assets/canvas-loop.json lines 51-58)",
+   "fact": "M-commits"
+  },
+  {
+   "text": "Both loops here: machine-checked seamless (canvas-loop and loop-acid-plasma, both rendered by funkbox loop render with the check on; their sidecars record loop_check status ok)",
+   "fact": "F6"
+  },
+  {
+   "text": "Free, open source, runs locally (end card, description)",
+   "fact": "F1"
+  },
+  {
+   "text": "runs on your own computer, no NVIDIA GPU needed (description, X text)",
+   "fact": "F2 F3"
+  },
+  {
+   "text": "this Short rendered in under 60 seconds on a 4-core CPU with no GPU (description)",
+   "fact": "M-render"
+  },
+  {
+   "text": "Made with funkbox; no video model (description)",
+   "fact": "F19"
+  },
+  {
+   "text": "all 8 on-screen strings matched the approved copy (description)",
+   "fact": "M-audit"
+  }
+ ]
+}
