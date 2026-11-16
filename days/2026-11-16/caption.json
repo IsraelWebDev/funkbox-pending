@@ -1,0 +1,18 @@
+{
+ "youtube": {
+  "title": "A Short cut on the beat in 3 steps: one music line, shot lengths in beats, render",
+  "description": "A Short cut on the beat: 3 steps.\n1. Add a song: one music line. 2. Give each shot a length in beats. 3. Render: every cut lands on a beat. This video rendered in under 50 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "video editing",
+   "beat sync",
+   "shorts",
+   "open source",
+   "music video",
+   "how to"
+  ]
+ },
+ "x": {
+  "text": "A Short cut on the beat, 3 steps:\n\n1. Add a song: one music line\n2. Give each shot a length in beats (\"beats:4\")\n3. Render: every cut lands on a beat\n\nRendered in under 50 s on 4 CPU cores, no GPU. IsraelWebDev/funkbox\n\n#VideoEditing #opensource"
+ }
+}

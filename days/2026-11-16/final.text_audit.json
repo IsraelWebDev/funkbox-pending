@@ -1,0 +1,200 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 91,
+      "text": "A Short cut on the beat:\n3 steps",
+      "complete_frame": 54,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "A Short cut on the",
+        "beat:",
+        "3 steps"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        91
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "song",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 97,
+      "last_frame": 184,
+      "text": "1. Add a song:\none music line",
+      "complete_frame": 147,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "1. Add a song:",
+        "one music line"
+      ],
+      "text_exact": true,
+      "frames": [
+        97,
+        184
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "beats",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 191,
+      "last_frame": 338,
+      "text": "2. Give each shot\na length in beats",
+      "complete_frame": 263,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "2. Give each shot",
+        "a length in beats"
+      ],
+      "text_exact": true,
+      "frames": [
+        191,
+        338
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "render",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 344,
+      "last_frame": 430,
+      "text": "3. Render: every cut\nlands on a beat",
+      "complete_frame": 393,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "3. Render: every cut",
+        "lands on a beat"
+      ],
+      "text_exact": true,
+      "frames": [
+        344,
+        430
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "local",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 528,
+      "last_frame": 615,
+      "text": "No video model.\nAll on your computer.",
+      "complete_frame": 578,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "No video model.",
+        "All on your",
+        "computer."
+      ],
+      "text_exact": true,
+      "frames": [
+        528,
+        615
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 616,
+      "last_frame": 720,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 616,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        616,
+        720
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 616,
+      "last_frame": 720,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 616,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        616,
+        720
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 626,
+      "last_frame": 720,
+      "text": "funkbox",
+      "complete_frame": 639,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        626,
+        720
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 645,
+      "last_frame": 720,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 645,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        645,
+        720
+      ]
+    }
+  ]
+}

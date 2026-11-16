@@ -1,0 +1,13 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {"text": "A Short cut on the beat:\n3 steps"},
+  "p1": {"text": "1. Add a song:\none music line"},
+  "p2": {"text": "2. Give each shot\na length in beats"},
+  "p3": {"text": "3. Render: every cut\nlands on a beat"},
+  "p4": {"text": "No video model.\nAll on your computer."},
+  "end_head": {"text": "funkbox"},
+  "end_sub": {"text": "Free, open source, runs locally."},
+  "url": {"text": "github.com/IsraelWebDev/funkbox"}
+ }
+}

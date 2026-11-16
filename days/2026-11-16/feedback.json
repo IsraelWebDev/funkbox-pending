@@ -1,0 +1,11 @@
+{
+ "observation": "Beat-sync music video tools are pitched hard at Short creators right now: Freebeat's Shorts pages sell a song turned into a 9:16 video with cuts and camera moves synced to the beat, plus animated lyrics; BeatSync PRO runs one landing page per genre (lo-fi, trap, house, hyperpop) for the same promise. The pitch is 'synced', but none of them shows proof of how close the cuts land. funkbox already measures it: today's reel storyboard printed every cut's distance from the nearest beat (3 to 15 ms), but that number disappears after the run.",
+ "suggestion": "Add a beat audit next to the text audit: when snap_cuts_to_beats is on, the render writes final.beat_audit.json with the detected BPM, each cut's time and its offset from the nearest beat, and ok=false if any cut is off by more than a threshold (say 30 ms). Have promo/measure.py expose it as an M-beats fact so a post can say 'every cut within N ms of a beat' and the reviewer can check it.",
+ "evidence": [
+  "https://freebeat.ai/ugc/en/use-case/ai-music-video-generator-youtube-shorts",
+  "https://freebeat.ai/social-music-content/youtube-shorts-music-video",
+  "https://beatsyncpro.ai/blog/lo-fi-music-video-maker-2026.html"
+ ],
+ "effort": "small",
+ "would_enable": "A behind-the-scenes or myth-vs-fact Short whose claim is a measured number: 'nine cuts, every one within 15 ms of the beat', checked by machine like the text audit."
+}

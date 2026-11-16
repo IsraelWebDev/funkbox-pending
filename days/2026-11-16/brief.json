@@ -1,0 +1,26 @@
+{
+ "date": "2026-11-16",
+ "format": "how-to",
+ "selling_point": "S7",
+ "candidates": [
+  "how-to + S7 + 'A Short cut on the beat: 3 steps': a second numbered how-to (the owner's notes ask to test the 2026-11-13 format on a new topic): add a song, write each shot's length in beats (a real shot-list line from docs/reel.md), render; the video itself is cut on its own beats [chosen]",
+  "how-to + S10 + 'Ad scenes from sentences: 3 steps': FastSD stills from a description [passed: FastSD is not installed on this runner, so it could only show old outputs]",
+  "whats-new + S11 + 'This soundtrack was written as a score': today's only commit, the promo's daily-rotating music style [passed: it changes the promo tooling, not a feature a funkbox user gets]",
+  "trend-reaction + S8 + 'Edit the video while it plays': react to Adobe's Project Live Set preview (Variety, 2026-11-11) [passed: trend-reaction ran on 2026-11-14 and S8 on 2026-11-15, and funkbox does not edit live video, so the tie-in would be forced]"
+ ],
+ "trend": null,
+ "angle": "A numbered 3-step how-to on cutting a Short to music: one music line, shot lengths written in beats (shown as a real shot-list line), then render; the video proves it by cutting on its own beats, including three quick one-beat-pair cuts.",
+ "hook": "A Short cut on the beat: 3 steps",
+ "novelty": "First post on cutting to the beat as the topic (S7 ran once, as a preset comparison on 2026-11-09), and the second numbered how-to, the format the owner wants retested on a new topic; the proof is the edit rhythm of the video itself, not a feature or a render time.",
+ "claims": [
+  {"text": "A Short cut on the beat: 3 steps", "fact": "F11"},
+  {"text": "1. Add a song: one music line", "fact": "F11"},
+  {"text": "2. Give each shot a length in beats", "fact": "F11"},
+  {"text": "3. Render: every cut lands on a beat", "fact": "F11"},
+  {"text": "No video model.", "fact": "F19"},
+  {"text": "All on your computer.", "fact": "F2"},
+  {"text": "Free, open source, runs locally.", "fact": "F1"},
+  {"text": "This video rendered in under 50 seconds on a 4-core CPU with no GPU", "fact": "M-render"},
+  {"text": "Made with funkbox", "fact": "F18"}
+ ]
+}
