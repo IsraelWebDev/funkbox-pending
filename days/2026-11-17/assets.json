@@ -1,0 +1,284 @@
+{
+  "day": "2026-11-17",
+  "seed": 20261117,
+  "assets": [
+    {
+      "id": "loop-liquid-disco",
+      "kind": "video",
+      "path": "assets/loop-liquid-disco.mp4",
+      "note": "seamless shader loop, preset liquid-disco seed 995, 4 s",
+      "seconds": 4
+    },
+    {
+      "id": "loop-acid-plasma",
+      "kind": "video",
+      "path": "assets/loop-acid-plasma.mp4",
+      "note": "seamless shader loop, preset acid-plasma seed 240, 4 s",
+      "seconds": 4
+    },
+    {
+      "id": "demo-ad",
+      "kind": "video",
+      "path": "assets/demo-ad.mp4",
+      "note": "the GLOWMOP demo ad made with funkbox (23 s, 9:16, has its own captions)",
+      "seconds": 23.4
+    },
+    {
+      "id": "fastsd-scenes",
+      "kind": "image",
+      "path": "assets/fastsd-scenes.jpg",
+      "note": "six FastSD scenes generated on an Intel iGPU",
+      "size": [
+        684,
+        458
+      ]
+    },
+    {
+      "id": "poster-variations",
+      "kind": "image",
+      "path": "assets/poster-variations.jpg",
+      "note": "one poster in four palettes, exact text",
+      "size": [
+        1100,
+        301
+      ]
+    },
+    {
+      "id": "storyboard",
+      "kind": "image",
+      "path": "assets/storyboard.png",
+      "note": "storyboard of the demo ad: one tile per shot",
+      "size": [
+        900,
+        1757
+      ]
+    },
+    {
+      "id": "social-preview",
+      "kind": "image",
+      "path": "assets/social-preview.png",
+      "note": "repo social card",
+      "size": [
+        1280,
+        640
+      ]
+    },
+    {
+      "id": "scene-dog",
+      "kind": "image",
+      "path": "assets/scene-dog.jpg",
+      "note": "FastSD scene, upscaled",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "scene-machine",
+      "kind": "image",
+      "path": "assets/scene-machine.jpg",
+      "note": "FastSD scene, upscaled",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "card-reel-json",
+      "kind": "image",
+      "path": "assets/card-reel-json.png",
+      "note": "a real shot from the demo ad's shot list (examples/mimic/mimic.reel.json lines 25-36, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "examples/mimic/mimic.reel.json:25-36",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9768,
+        0.4823
+      ]
+    },
+    {
+      "id": "card-copy-json",
+      "kind": "image",
+      "path": "assets/card-copy-json.png",
+      "note": "the demo ad's copy deck: every caption comes from here (examples/mimic/copy.json lines 3-18, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "examples/mimic/copy.json:3-18",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9547,
+        0.4917
+      ]
+    },
+    {
+      "id": "card-install",
+      "kind": "image",
+      "path": "assets/card-install.png",
+      "note": "the install commands (README.md lines 107-109, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "README.md:107-109",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9547,
+        0.2005
+      ]
+    },
+    {
+      "id": "card-loop-recipe",
+      "kind": "image",
+      "path": "assets/card-loop-recipe.png",
+      "note": "the disco-cat loop recipe (examples/disco_cat.json lines 1-10, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "examples/disco_cat.json:1-10",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9715,
+        0.4693
+      ]
+    },
+    {
+      "id": "card-frame-json",
+      "kind": "image",
+      "path": "assets/card-frame-json.png",
+      "note": "a push-in on a screen recording, from the docs (docs/reel.md lines 204-206, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "docs/reel.md:204-206",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9715,
+        0.2453
+      ]
+    },
+    {
+      "id": "card-text-exact",
+      "kind": "image",
+      "path": "assets/card-text-exact.png",
+      "note": "how the text audit works, from the docs (docs/reel.md lines 9-11, verbatim). Its text fills text_rect (top part); a caption must not cover or sit beside it: anchor captions at the bottom, and push in only where lint allows",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "docs/reel.md:9-11",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.637,
+        0.4021
+      ]
+    },
+    {
+      "id": "key",
+      "kind": "image",
+      "path": "assets/key.png",
+      "note": "the day's key image: its colours are the day's palette (reel brand.from)"
+    },
+    {
+      "id": "music",
+      "kind": "music",
+      "path": "assets/music.mp3",
+      "note": "the day's music bed, style funk-shuffle (funk shuffle: organ or electric piano, slap bass, clean guitar, shuffled hats), 105 BPM, 30 s (leave audio.bpm out of reel.json: the grid is detected from this file)",
+      "bpm": 105,
+      "style": "funk-shuffle"
+    },
+    {
+      "id": "card-audio-docs",
+      "kind": "image",
+      "path": "assets/card-audio-docs.png",
+      "note": "the docs paragraph for the new audio-loop mode (docs/loops.md lines 179-181, verbatim). Its text fills text_rect (top part); anchor captions at the bottom",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "docs/loops.md:179-181",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.637,
+        0.4245
+      ]
+    },
+    {
+      "id": "card-audio-section",
+      "kind": "image",
+      "path": "assets/card-audio-section.png",
+      "note": "the audio_section funkbox wrote into today's loop file (real output of this run) (kick-rings.json lines 44-53, verbatim). Its text fills text_rect (top part); anchor captions at the bottom",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "kick-rings.json:44-53",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.7316,
+        0.4167
+      ]
+    },
+    {
+      "id": "card-shader-audio",
+      "kind": "image",
+      "path": "assets/card-shader-audio.png",
+      "note": "today's shader: the line where the bass (iAudio.x) pushes the rings out (kick_rings.frag line 7-7, verbatim). Its text fills text_rect (top part); anchor captions at the bottom",
+      "size": [
+        1080,
+        1920
+      ],
+      "source": "kick_rings.frag:7-7",
+      "text_rect": [
+        0.0185,
+        0.0885,
+        0.9714,
+        0.1141
+      ]
+    },
+    {
+      "id": "kick-rings",
+      "kind": "video",
+      "path": "assets/kick-rings.mp4",
+      "note": "audio loop rendered today with --audio-loop from the day's music (2 bars at 105 BPM from 4.0 s), vapor palette, loop check ok",
+      "seconds": 4.566667
+    },
+    {
+      "id": "kick-rings-toxic",
+      "kind": "video",
+      "path": "assets/kick-rings-toxic.mp4",
+      "note": "same shader, toxic palette, section from 12 s, loop check ok",
+      "seconds": 4.566667
+    }
+  ],
+  "key_image": "assets/key.png",
+  "bpm": 105,
+  "music": {
+    "style": "funk-shuffle",
+    "bpm": 105,
+    "key": "A",
+    "scale": "mixolydian",
+    "programs": {
+      "pad": 4,
+      "bass": 36,
+      "arp": 27
+    },
+    "soundfont": "GeneralUser GS",
+    "note": "funk shuffle: organ or electric piano, slap bass, clean guitar, shuffled hats",
+    "tries": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-17",
+ "format": "whats-new",
+ "selling_point": "S11",
+ "candidates": [
+  "whats-new S11: the new audio-loop mode, a shader loop that pulses to a song and still loops (picked: shipped since the last promo, never shown; music visualizers and Spotify Canvas loops are what music creators keep asking AI tools for)",
+  "trend-reaction S11 on the Seedance 2.5 Flash / Gemini Omni 1.2 Flash releases (https://www.kombitz.com/2026/11/07/ai-image-video-model-news-roundup-november-7-2026/): passed, funkbox could only comment on a cloud model, not make anything like it",
+  "myth-vs-fact S4: 'AI can't get on-screen text right' answered with the text audit: passed, myth-vs-fact ran on 11-12 and the copy lock is not new",
+  "behind-the-scenes S2: this Short's render time on a 4-core CPU: passed, the 11-02 promo was exactly this"
+ ],
+ "trend": null,
+ "angle": "New since the last promo: audio-loop mode. funkbox cut a two-bar section out of today's music, a GLSL shader written for this run reads its bass, mid and treble, and the loop still passed funkbox's seam check. Shown: the loop in two palettes, the one shader line where the bass pushes the rings out, and the section funkbox wrote into the loop's JSON file.",
+ "hook": "Pulses to the music. Still loops.",
+ "novelty": "Earlier loop promos (11-10, 11-11, 11-15) were silent shaders cut to music afterwards; this is the first loop that reacts to the music itself, and the first time the audio section funkbox picked is shown on screen.",
+ "claims": [
+  {
+   "text": "New: a loop that reacts to music",
+   "fact": "M-commits"
+  },
+  {
+   "text": "Still loops; the seam is still checked by machine",
+   "fact": "F6"
+  },
+  {
+   "text": "Render: under 40 s, 4 CPU cores, no GPU",
+   "fact": "M-render"
+  },
+  {
+   "text": "4 CPU cores, no GPU",
+   "fact": "M-machine"
+  },
+  {
+   "text": "Free, open source, runs locally",
+   "fact": "F1"
+  },
+  {
+   "text": "runs locally",
+   "fact": "F2"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}

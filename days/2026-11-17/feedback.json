@@ -1,0 +1,12 @@
+{
+ "observation": "AI music-visualizer tools sell motion that follows the beat and the song's structure, not just loudness: Freebeat describes BPM-aware analysis that keeps motion on beats and drops and plans loops so the end flows back to the start (Spotify Canvas use), and Neural Frames cites 8-stem analysis. funkbox's new audio loop gives a shader only iAudio (bass, mid, treble, level per frame), so a shader can swell with the bass but cannot flash exactly on beat 1 of a bar, even though the audio-loop cutter already detects the beats and bars.",
+ "suggestion": "Expose the beat grid the audio-loop cutter already computes as a uniform, e.g. iBeat = (beat phase 0..1, bar phase 0..1, beat index, onset strength), filled for audio loops (and reels' detected grid). Because an audio loop is a whole number of bars, beat and bar phase are loop-safe by construction; add one preset look that uses it and a line in the loop check report.",
+ "evidence": [
+  "https://freebeat.ai/music-visualizer",
+  "https://neuralframes.com/tools/music-visualizer",
+  "https://www.renderforest.com/blog/how-to-make-music-visualizer-ai",
+  "https://freebeat.ai/articles/music-visualizer-for-spotify-canvas-best-practices-and-tools-in-2026"
+ ],
+ "effort": "small",
+ "would_enable": "A promo where a shader strobes exactly on every downbeat of a song and still passes the seam check, with the beat audit's numbers on screen as proof."
+}

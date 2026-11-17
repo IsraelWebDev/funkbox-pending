@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Re-render reviewed (final.mp4 sha 5f46297..., differs from the earlier FAIL's render as expected). Check 1: 1080x1920 vertical, 21.23 s, 30 fps; looked at 12 frames (0.5-20.9 s) plus every frame 322-333 and 426-433. Captions legible, nothing cut off (shader line 7 fits at full res), no black/blank frames, end card (url top/bottom, funkbox, Free, open source, runs locally.) readable. Previous FAIL fixed: seam->section (frame 326) is now a hard cut, the p2 caption ends at 325 and never overlaps the kick-rings.json card; the white flash at 429 is gone, section->render is a clean dissolve with no caption over it (p3 starts at 434). Check 2: text_audit ok (8 strings exact), lint: OK, no background text beside any caption box. Check 3: audio-loop mode = M-commits ec11d26; seam checked by machine = F6, kick-rings.json and kick-rings-toxic.json loop_check status ok; 'under 40 s, 4 CPU cores, no GPU' = M-render say_rough (32.3 s, under 40) and M-machine (4 cores, gpu false); F1/F2/F18 fine. Shader card is line 7 of the real assets/work/kick_rings.frag; JSON card lines match kick-rings.json audio section. Check 4: trend null. Check 5: spelling clean; X text 224 chars, no URL; title 83 chars. Check 6: first music-reactive loop; 11-10/11-11/11-15 loops were silent, 11-16 was beat-cut editing; angle is new. Check 7: no owner_approval.json, nothing objectionable.",
+  "video_sha256": "5f4629782248c2140b7b24b878e6ee275db995df40a0d657fa5a0cdf35d30fd8",
+  "caption_sha256": "24896b3e43a8df82a67b4f30aeef1b9e50e851573c7bbe2a4317ccf1459745dd",
+  "at": "2026-11-17T13:56:04+00:00"
+}

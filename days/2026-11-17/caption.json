@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "Pulses to the music, still loops: funkbox's new audio-loop mode, from a GLSL shader",
+  "description": "Pulses to the music. Still loops.\nNew in funkbox: a shader loop that reacts to a song, and the seam is still checked by machine. Rendered in under 40 s on 4 CPU cores, no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "GLSL",
+   "shader",
+   "music visualizer",
+   "seamless loop",
+   "audio reactive",
+   "open source",
+   "Shorts"
+  ]
+ },
+ "x": {
+  "text": "Pulses to the music. Still loops.\n\nNew in IsraelWebDev/funkbox: a shader loop that reacts to a song, and the seam is still checked by machine. This Short rendered in under 40 s on 4 CPU cores, no GPU.\n\n#GLSL #musicvisualizer"
+ }
+}

@@ -1,0 +1,53 @@
+{
+  "reel": "final",
+  "fps": 30,
+  "bpm": 104.99,
+  "grid": "detected",
+  "threshold_ms": 30.0,
+  "frame_ms": 33.3,
+  "ok": true,
+  "max_offset_ms": 15.7,
+  "over": [],
+  "cuts": [
+    {
+      "cut": "shader",
+      "frame": 120,
+      "time_s": 4.0,
+      "beat_s": 4.002,
+      "offset_ms": -2.0,
+      "ok": true
+    },
+    {
+      "cut": "seam",
+      "frame": 223,
+      "time_s": 7.4333,
+      "beat_s": 7.4309,
+      "offset_ms": 2.4,
+      "ok": true
+    },
+    {
+      "cut": "section",
+      "frame": 326,
+      "time_s": 10.8667,
+      "beat_s": 10.8598,
+      "offset_ms": 6.9,
+      "ok": true
+    },
+    {
+      "cut": "render",
+      "frame": 429,
+      "time_s": 14.3,
+      "beat_s": 14.2887,
+      "offset_ms": 11.3,
+      "ok": true
+    },
+    {
+      "cut": "end_card",
+      "frame": 532,
+      "time_s": 17.7333,
+      "beat_s": 17.7176,
+      "offset_ms": 15.7,
+      "ok": true
+    }
+  ]
+}

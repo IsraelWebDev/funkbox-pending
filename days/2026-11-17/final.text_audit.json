@@ -1,0 +1,178 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 6,
+      "last_frame": 119,
+      "text": "Pulses to the music.\nStill loops.",
+      "complete_frame": 70,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Pulses to the",
+        "music.",
+        "Still loops."
+      ],
+      "text_exact": true,
+      "frames": [
+        6,
+        119
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "shader",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 125,
+      "last_frame": 222,
+      "text": "New: a loop that\nreacts to music",
+      "complete_frame": 180,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "New: a loop that",
+        "reacts to music"
+      ],
+      "text_exact": true,
+      "frames": [
+        125,
+        222
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "seam",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 228,
+      "last_frame": 325,
+      "text": "The seam is still\nchecked by machine",
+      "complete_frame": 283,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "The seam is still",
+        "checked by machine"
+      ],
+      "text_exact": true,
+      "frames": [
+        228,
+        325
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "render",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 434,
+      "last_frame": 531,
+      "text": "Render: under 40 s,\n4 CPU cores, no GPU",
+      "complete_frame": 489,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Render: under 40 s,",
+        "4 CPU cores, no GPU"
+      ],
+      "text_exact": true,
+      "frames": [
+        434,
+        531
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 532,
+      "last_frame": 636,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 532,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        532,
+        636
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 532,
+      "last_frame": 636,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 532,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        532,
+        636
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 542,
+      "last_frame": 636,
+      "text": "funkbox",
+      "complete_frame": 555,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        542,
+        636
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 561,
+      "last_frame": 636,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 561,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        561,
+        636
+      ]
+    }
+  ]
+}
