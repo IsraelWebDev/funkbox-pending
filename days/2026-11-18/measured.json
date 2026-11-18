@@ -1,0 +1,68 @@
+{
+  "day": "2026-11-18",
+  "measured_at": "2026-11-18T13:52:36Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 51,
+      "say": "Claude drives it through 51 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 12,
+      "say": "12 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [],
+      "say": "changes since the last promo: none"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 21.27,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "21 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 8,
+        "spoken": 0,
+        "ok": true
+      },
+      "say": "the text audit checked 8 on-screen strings: all exact"
+    },
+    "M-beats": {
+      "value": {
+        "cuts": 5,
+        "bpm": 98.01,
+        "grid": "detected",
+        "max_offset_ms": 15.1,
+        "within_ms": 16,
+        "ok": true
+      },
+      "say": "every cut lands within 16 ms of the detected beat (5 cuts at 98 BPM)"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 36.7,
+        "frames": 638,
+        "under": 40
+      },
+      "say": "this video rendered in 37 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 40 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "This dog was typed, not filmed: FastSD stills turned into an ad with camera moves, no video model",
+  "description": "This dog was typed, not filmed.\nThe demo ad's scenes are FastSD pictures from one-line descriptions, drawn on an Intel iGPU, then moved with parallax and Ken Burns.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "FastSD",
+   "Stable Diffusion",
+   "AI images",
+   "Ken Burns",
+   "parallax",
+   "open source",
+   "Shorts"
+  ]
+ },
+ "x": {
+  "text": "This dog was typed, not filmed.\n\nEach scene in the IsraelWebDev/funkbox demo ad began as a one-line description. FastSD drew it on an Intel iGPU, a few seconds an image once warm; camera moves did the rest. No video model.\n\n#StableDiffusion"
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "version": 3,
+ "settings": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "safe_area": "reels"
+ },
+ "brand": {
+  "from": "assets/key.png",
+  "primary": "#e0245e",
+  "secondary": "#12141c",
+  "text": "#ffffff"
+ },
+ "copy": "copy.json",
+ "audio": {
+  "music": "assets/music.mp3",
+  "snap_cuts_to_beats": true,
+  "voiceover": false,
+  "music_gain_db": -10
+ },
+ "shots": [
+  {
+   "id": "hook",
+   "source": {
+    "image": "assets/scene-dog.jpg"
+   },
+   "duration": "beats:6",
+   "motion": {
+    "type": "kenburns",
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      -0.04,
+      0.04
+     ]
+    ]
+   },
+   "caption": {
+    "copy_id": "hook",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "auto"
+   }
+  },
+  {
+   "id": "drawn",
+   "source": {
+    "image": "assets/scene-machine.jpg"
+   },
+   "duration": "beats:6",
+   "transition_in": "auto",
+   "motion": {
+    "type": "parallax",
+    "push": 0.08,
+    "orbit_deg": 2,
+    "dof": 0.25
+   },
+   "caption": {
+    "copy_id": "p1",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "bottom"
+   }
+  },
+  {
+   "id": "move",
+   "source": {
+    "image": "assets/scene-dog.jpg"
+   },
+   "duration": "beats:5",
+   "transition_in": "auto",
+   "motion": {
+    "type": "parallax",
+    "push": 0.1,
+    "orbit_deg": 0,
+    "dof": 0.25
+   },
+   "caption": {
+    "copy_id": "p2",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "bottom"
+   }
+  },
+  {
+   "id": "sheet",
+   "source": {
+    "image": "assets/fastsd-scenes.jpg",
+    "fit": "contain",
+    "pad": "blur"
+   },
+   "duration": "beats:5",
+   "transition_in": "auto",
+   "motion": {
+    "type": "none"
+   },
+   "caption": {
+    "copy_id": "p3",
+    "style": "auto-box",
+    "reveal": "typewriter",
+    "anchor": "top"
+   }
+  },
+  {
+   "id": "ad",
+   "source": {
+    "video": "assets/demo-ad.mp4",
+    "trim": [
+     3.6,
+     8.6
+    ]
+   },
+   "duration": "beats:7",
+   "transition_in": "auto",
+   "motion": {
+    "type": "frame",
+    "from": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "to": [
+     0.06,
+     0.06,
+     0.88,
+     0.88
+    ],
+    "at": [
+     0.05,
+     0.9
+    ],
+    "ease": "out"
+   }
+  }
+ ],
+ "end_card": {
+  "template": "brand-split",
+  "duration": 3.5,
+  "audio": "keep",
+  "copy": {
+   "headline": "end_head",
+   "sub": "end_sub",
+   "url": "url"
+  },
+  "headline_reveal": "typewriter"
+ }
+}

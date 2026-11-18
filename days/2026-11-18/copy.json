@@ -1,0 +1,26 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "This dog was typed,\nnot filmed."
+  },
+  "p1": {
+   "text": "FastSD drew it on an Intel iGPU,\na few seconds an image once warm"
+  },
+  "p2": {
+   "text": "Motion: camera moves on a still,\nnot a video model"
+  },
+  "p3": {
+   "text": "Typed scenes,\ncut into one ad"
+  },
+  "end_head": {
+   "text": "Pictures from a sentence"
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "observation": "This week's image-model news puts transparent output up front: ByteDance Seed's Seedream 5.5 (Nov 9) ships transparent RGBA output, and Oakgen's week-of-Nov-9 roundup notes it lets creators skip a separate background-removal step. Ad makers keep compositing generated subjects over other footage (product B-roll, stickers, overlays), and a cut-out is the step between a generated picture and that composite.",
+ "suggestion": "Add a transparent option to image_generate (MCP) and funkbox image generate --transparent (CLI): after FastSD draws the picture, run the existing remove_background cut-out on it and save an RGBA PNG next to the original, reporting the cut-out's quality score (and the GIMP advice when it is poor), so one call goes from a description to a layer that reel product shots, posters and loops can use.",
+ "evidence": [
+  "https://oakgen.ai/blog/ai-creative-news-week-of-2026-11-09"
+ ],
+ "effort": "small",
+ "would_enable": "A promo where one sentence becomes a cut-out subject dropped onto a fresh shader loop, all in one MCP call plus a render."
+}

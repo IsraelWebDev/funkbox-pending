@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Re-render after the earlier FAIL: p3 now reads 'Typed scenes, cut into one ad' (no scene count), so the count problem is fixed. Looked at 14 frames myself: 21.27 s, 1080x1920 vertical, captions legible, nothing cut off, no black or glitched frames, end card readable (headline, sub, url top and bottom). The sheet caption box sits just above the six-tile grid without covering it. text_audit ok:true (8 strings exact), lint: OK, voiceover false, so no heard.json needed. Assets checked by md5: scene-dog.jpg and scene-machine.jpg are examples/mimic/shots/dog.jpg and machine.jpg, and fastsd-scenes.jpg is docs/gallery/fastsd-scenes.jpg, so 'this dog was typed' is true (mimic README gives the dog prompt). Claims map to facts: FastSD on Intel iGPU, a few seconds once warm (F8); scenes from FastSD (F16); camera moves, not a video model (F19/F10); one ad (F15); free, open source, local (F1/F2). The X 'each scene ... began as a one-line description' matches F16 (scenes are FastSD, the bottle is code-drawn). No superlatives, competitors or testimonials. trend is null. Spelling clean. X text is 240 chars with no URL, title 97 chars. The angle (where the demo ad's pictures came from) is new against the last 14 posts. No owner_approval, nothing objectionable.",
+  "video_sha256": "db0d59d04d9c01cfaf7e6f379bfaea56f410a95e3cb3c643fcd5867c3a5e2aad",
+  "caption_sha256": "e12f553010489e94a0fde768d7c79184df44b4fd845651953a3408177db0ef4c",
+  "at": "2026-11-18T13:54:10+00:00"
+}

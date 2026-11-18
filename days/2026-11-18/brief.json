@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-18",
+ "format": "feature-spotlight",
+ "selling_point": "S10",
+ "candidates": [
+  "feature-spotlight S10: the GLOWMOP demo ad's scenes are FastSD pictures typed as one-line descriptions, then moved with parallax and Ken Burns; the Short shows the stills, then the same stills cut into the ad (picked: S10 has not led a promo in the last 14 days, and it answers this week's run of new image models with a local one)",
+  "trend-reaction S5 on this week's ad tools that make reviewable ad variations from one brief (https://oakgen.ai/blog/ai-creative-news-week-of-2026-11-09): passed, 'one ad, four screen shapes' ran on 11-04 and the tie-in would be a comparison with named products",
+  "myth-vs-fact S2: 'AI video needs a 16 GB GPU', from the local video model guides (https://www.aifire.co/p/best-open-source-ai-video-models-2026-ltx-2-wan-2-2-guide): passed, the 11-12 myth-vs-fact already said 'no GPU' and recent captions repeat the 4-core render time",
+  "use-case S6: a screen recording turned into a Short: passed, ran on 11-06"
+ ],
+ "trend": null,
+ "angle": "The pictures in funkbox's demo ad were not filmed or stock: each scene was typed as a one-line description and drawn by FastSD on an Intel iGPU, a few seconds per image once warm. funkbox then moved them with camera moves (parallax, Ken Burns), no video model, and cut them into the 23 s GLOWMOP ad. Shown: the dog and machine scenes moving, a sheet of six of its scenes, then a push-in on the finished ad.",
+ "hook": "This dog was typed, not filmed.",
+ "novelty": "No promo in the last 14 days led with FastSD: earlier posts were shader loops, posters, beat cuts and MCP. This is the first to show where the demo ad's pictures came from and how a still becomes a moving shot.",
+ "claims": [
+  {
+   "text": "This dog was typed, not filmed (a FastSD picture from a description)",
+   "fact": "F8"
+  },
+  {
+   "text": "The demo ad's scenes came from FastSD",
+   "fact": "F16"
+  },
+  {
+   "text": "Drawn by FastSD on an Intel iGPU, a few seconds per image once warm",
+   "fact": "F8"
+  },
+  {
+   "text": "Motion from camera moves (parallax, Ken Burns), not a video model",
+   "fact": "F19"
+  },
+  {
+   "text": "stills with parallax and Ken Burns",
+   "fact": "F10"
+  },
+  {
+   "text": "Typed scenes, cut into one ad (the 23 s GLOWMOP demo ad, whose scenes came from FastSD, F16)",
+   "fact": "F15"
+  },
+  {
+   "text": "Free, open source",
+   "fact": "F1"
+  },
+  {
+   "text": "runs locally",
+   "fact": "F2"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}
