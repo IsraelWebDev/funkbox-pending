@@ -7,5 +7,6 @@
   "https://adsuploader.com/docs/media-uploads/aspect-ratio-variations"
  ],
  "effort": "small",
- "would_enable": "A tip or behind-the-scenes promo that shows the one-look check: a four-row storyboard sheet catching a crop that cuts the subject in 16:9, fixed with a per-format focus line."
+ "would_enable": "A tip or behind-the-scenes promo that shows the one-look check: a four-row storyboard sheet catching a crop that cuts the subject in 16:9, fixed with a per-format focus line.",
+ "pr": "https://github.com/IsraelWebDev/funkbox/pull/42"
 }
