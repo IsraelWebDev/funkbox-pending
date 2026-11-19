@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Re-render reviewed (video sha b94ee05c..., differs from the earlier FAIL review as expected). Checked 17 frames (1.0-23.1 s, incl. full-res step2, hook, step3, wide, end card): 1080x1920 vertical, 23.27 s, 30 fps; no black/blank frames or glitches; captions legible; end card readable (headline, sub, url top and bottom). Earlier FAIL fixed: step2 now shows the whole code card, the formats line [\"9x16\", \"16x9\", \"1x1\", \"4x5\"] is fully in frame, title bar unclipped, and the p2 caption sits on empty card space below the code with no code text peeking out. Hook/step3 captions now sit in the grid gap, all four cells visible. Wide shot: the blur-pad ghost of the inner caption is unreadable, not peeking text. final.text_audit ok (9 strings exact); lint OK; voiceover false; no owner_approval.json. Claims: F9 (one edit, 9:16/16:9/1:1/4:5), F13 (byte-for-byte audit), F1, F2, F18, M-render say_rough (47.4 s < 50, 4 cores, no GPU per M-machine); inner dog.reel.json really has the formats line and all four inner text audits are ok. No superlatives, competitors or testimonials. trend null. Spelling clean; X text 237 chars, no URL; YouTube title 73 chars. Not a repeat: first S5 post in the last 14; numbered how-to format also used 11-13 and 11-16 but topic and proof (four real renders side by side) are new, lint variety OK. Nothing off-brand.",
+  "video_sha256": "b94ee05cb477b32216649425b87523b7be9501124f32f54fe1e18ecebbebc791",
+  "caption_sha256": "48491593124d07248b6b3a0dface4dcc8422d97c46a4cff8d462b96b6e37f26f",
+  "at": "2026-11-19T13:56:18+00:00"
+}

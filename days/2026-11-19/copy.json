@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "One ad, four sizes:\n3 steps"
+  },
+  "p1": {
+   "text": "1. Write the shot\nlist once"
+  },
+  "p2": {
+   "text": "2. Add one line:\nfour formats"
+  },
+  "p3": {
+   "text": "3. Render: 9:16,\n16:9, 1:1 and 4:5"
+  },
+  "p4": {
+   "text": "Every size: captions\nchecked byte for byte"
+  },
+  "end_head": {
+   "text": "One edit.\nFour sizes."
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

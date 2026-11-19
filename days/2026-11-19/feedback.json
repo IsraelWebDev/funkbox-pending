@@ -1,0 +1,11 @@
+{
+ "observation": "Ad makers now ship every creative in several aspect ratios (9:16 for Reels/Shorts, 4:5 and 1:1 for feeds, 16:9), and the 2026 resize guides all warn about the same failure: a plain crop moves or cuts the subject, logo or call to action, and the big jumps (1:1 to 9:16) need manual checking per size (Pencil's Auto-Resize docs, Segwise's resize guide, Ads Uploader's aspect-ratio docs). funkbox renders all four from one edit, but its storyboard shows one format at a time, so checking every size before a render means one storyboard call and one image per format; making today's promo, I had to render all four just to see them side by side.",
+ "suggestion": "`funkbox reel storyboard --format all` (and reel_storyboard format=\"all\"): one contact sheet with a row per declared format (each shot's midpoint frame at that size, labelled with the format), so a crop that cuts the subject or a caption that lands badly in one size is caught in one look before rendering.",
+ "evidence": [
+  "https://help.trypencil.com/en/articles/15076079-how-can-i-use-ai-auto-resize-to-resize-one-creative-into-every-format-i-need",
+  "https://segwise.ai/blog/resize-ad-creatives-every-platform",
+  "https://adsuploader.com/docs/media-uploads/aspect-ratio-variations"
+ ],
+ "effort": "small",
+ "would_enable": "A tip or behind-the-scenes promo that shows the one-look check: a four-row storyboard sheet catching a crop that cuts the subject in 16:9, fixed with a per-format focus line."
+}

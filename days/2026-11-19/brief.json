@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-19",
+ "format": "how-to",
+ "selling_point": "S5",
+ "candidates": [
+  "how-to + S5 + 'One ad, four sizes: 3 steps': a numbered how-to (the owner's notes ask to keep testing the 2026-11-13 numbered format on new topics) on the job ad makers keep describing in 2026 guides: one creative, delivered as 9:16, 16:9, 1:1 and 4:5. Today's shot list (a real file) adds one formats line; the video shows the four real renders it made, each with its own text audit [chosen: S5 has not run in the last 14 posts]",
+  "trend-reaction + S3 + 'Video tools are moving into chat': ride the week's MCP launches of hosted video tools in chat apps (Oakgen roundup, 2026-11-13) [passed: the angle would have to name other products, which FACTS.md bars, and S3 was the 2026-11-13 post]",
+  "myth-vs-fact + S2 + 'Myth: AI video needs an NVIDIA card': answer it with today's measured CPU-only render [passed: the 2026-11-12 myth-vs-fact already used the no-GPU render as its proof, so a follower has seen it]",
+  "whats-new + S10 + 'Cut the dog out of its photo': yesterday's commit, image_generate's transparent cutout, riding the week's transparent-output image models [passed: whats-new and feature-spotlight ran in the previous 2 days and S10 was yesterday, so lint's variety rules rule it out today]"
+ ],
+ "trend": null,
+ "angle": "A numbered 3-step how-to for resizing an ad: write the shot list once, add one formats line, render; the proof is today's own 4.5-second dog ad rendered by funkbox in 9:16, 16:9, 1:1 and 4:5 from that one file, shown side by side, each with its caption laid out for its size and checked by its own text audit.",
+ "hook": "One ad, four sizes: 3 steps",
+ "novelty": "First post on S5 (one edit, many formats) in the log; earlier posts were all single 9:16 outputs. The four real renders from one shot list, shown together in a grid, and the real formats line on a code card, have not appeared before.",
+ "claims": [
+  {
+   "text": "One ad, four sizes: 3 steps",
+   "fact": "F9"
+  },
+  {
+   "text": "1. Write the shot list once",
+   "fact": "F9"
+  },
+  {
+   "text": "2. Add one line: four formats",
+   "fact": "F9"
+  },
+  {
+   "text": "3. Render: 9:16, 16:9, 1:1 and 4:5",
+   "fact": "F9"
+  },
+  {
+   "text": "Every size: captions checked byte for byte",
+   "fact": "F13"
+  },
+  {
+   "text": "One edit. Four sizes.",
+   "fact": "F9"
+  },
+  {
+   "text": "Free, open source, runs locally.",
+   "fact": "F1"
+  },
+  {
+   "text": "Runs on your own computer",
+   "fact": "F2"
+  },
+  {
+   "text": "This Short rendered in under 50 seconds on a 4-core CPU with no GPU",
+   "fact": "M-render"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}

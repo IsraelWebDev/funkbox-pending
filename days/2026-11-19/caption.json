@@ -1,0 +1,10 @@
+{
+ "youtube": {
+  "title": "One ad, four sizes in 3 steps: 9:16, 16:9, 1:1 and 4:5 from one shot list",
+  "description": "One ad, four sizes: 3 steps. Write the shot list once, add one formats line, render.\nEvery size gets its own text audit: each caption checked byte for byte. This Short rendered in under 50 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": ["funkbox", "video ads", "aspect ratio", "9:16", "open source", "local AI", "shorts", "how to"]
+ },
+ "x": {
+  "text": "One ad, four sizes, 3 steps:\n\n1. Write the shot list once\n2. Add one line: \"formats\": 9x16, 16x9, 1x1, 4x5\n3. Render: four videos, each caption checked byte for byte\n\nRuns on your own computer. IsraelWebDev/funkbox\n\n#videoads #opensource"
+ }
+}
