@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-20",
+ "format": "use-case",
+ "selling_point": "S9",
+ "candidates": [
+  "use-case + S9 + 'Round badge. Curved words. Every letter right.': a concrete job, a round club patch (fictional Night Owl Run Club) whose name and motto run around the ring. funkbox renders it today from a poster file: the same two lines first set straight, then bent along the ring with arched text, and its text audit still checks every string exactly (F21, never claimed in the log). Circular badge text is a known weak spot of image generators (a 2026 hands-on test of five logo tools got misspellings such as 'Blubird' on its circular 'Bluebird Bakery' badge; an Adobe community thread reports generated text coming out misspelled) [chosen: S9 and F21's arched text have not run in the last 4 days; no post has shown text bent along a curve]",
+  "behind-the-scenes + S2 + 'No GPU in this machine': how today's Short was rendered, from measured.json [passed: the 2026-11-12 myth-vs-fact and the 2026-11-16/17 X posts already quoted the CPU-only render, so a follower has seen it]",
+  "trend-reaction + S1 + 'Video models now bill by the second': ride Seedance 2.5 Flash's Nov 13-15 launch and its per-second rate card [passed: the angle needs another tool's price, which FACTS.md bars]",
+  "tip + S8 + 'A logo that draws itself on': ride the outline-trace logo reveal style in 2026 logo-animation roundups [passed: funkbox has no draw-on reveal today, so it could only comment on the style, not make it; logged as product feedback instead]"
+ ],
+ "trend": null,
+ "angle": "A round club patch made with funkbox: the same two lines of text shown first straight above and below the badge, then bent along its ring with arched text (an arc setting per line), and still checked letter for letter by the text audit.",
+ "hook": "Round badge. Curved words. Every letter right.",
+ "novelty": "First post on text bent along a curve (F21): earlier poster posts (2026-11-14 Black Friday) showed straight text and vector export. The before/after of the same words, straight then arched round a badge, has not been shown.",
+ "claims": [
+  {
+   "text": "Round badge. Curved words. Every letter right.",
+   "fact": "F21"
+  },
+  {
+   "text": "Before: the words, set straight",
+   "fact": "F21"
+  },
+  {
+   "text": "After: same words, bent round the ring",
+   "fact": "F21"
+  },
+  {
+   "text": "Bent, and still checked letter for letter",
+   "fact": "F21"
+  },
+  {
+   "text": "Curved text. Exact text.",
+   "fact": "F21"
+  },
+  {
+   "text": "Free, open source, runs locally.",
+   "fact": "F1"
+  },
+  {
+   "text": "Runs on your own computer, no accounts or credits",
+   "fact": "F2"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}

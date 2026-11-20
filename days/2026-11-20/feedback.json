@@ -1,0 +1,11 @@
+{
+ "observation": "People making circular badge and patch logos with AI keep hitting the same two problems: the lettering around the ring (a 2026 hands-on test of five logo tools on a circular 'Bluebird Bakery' badge found only one got the text right every time; an Adobe community bug thread reports generated text coming out skewed and misspelled), and placing ring text by hand. funkbox already gets the letters exact, but making today's patch still took hand arithmetic: each arched line needs its arc radius, x, y and max_width worked out from the circle so it sits centred on the ring, and scaling the badge meant recomputing all of them (and the readability floor then refused the smaller line until min_text was lowered).",
+ "suggestion": "Add a `ring` placement to poster text layers: {\"cx\", \"cy\", \"r\" (canvas widths), \"side\": \"top\" | \"bottom\"}. funkbox sets the arc (a frown on top, a smile below), centres the line on the circle at that side and caps its width to the ring, so a round badge is a circle shape plus two text layers with the same cx/cy/r. Validation, the text audit entry (geometry records the ring) and docs/stills.md cover it.",
+ "evidence": [
+  "https://dev.to/techsifted/best-ai-image-generator-for-logo-design-in-2026-4ff5",
+  "https://community.adobe.com/bug-reports-403/generative-ai-is-skewing-up-the-text-and-making-spelling-errors-on-its-own-1549964",
+  "https://www.veed.io/create/logos/circle-logo"
+ ],
+ "effort": "small",
+ "would_enable": "A how-to: 'A round badge in 3 lines': one circle, two ring lines (top and bottom), render; or a use-case that resizes one badge and its ring text follows."
+}

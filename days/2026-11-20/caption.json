@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "Round badge, curved words, every letter right: a run-club patch made with funkbox",
+  "description": "Round badge. Curved words. Every letter right.\nThe same two lines, set straight, then bent along the ring with arched text, and the text audit still checks every string exactly.\nFictional club, made for this demo.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "badge design",
+   "curved text",
+   "logo design",
+   "typography",
+   "open source",
+   "poster",
+   "shorts"
+  ]
+ },
+ "x": {
+  "text": "Round badge. Curved words. Every letter right.\n\nIn IsraelWebDev/funkbox a poster's text can bend along an arc around a badge's ring, and the text audit still checks every string exactly. Free, open source, runs locally.\n\n#typography #logodesign"
+ }
+}

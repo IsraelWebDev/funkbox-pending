@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Re-render after earlier FAIL (new video sha ab8be509...). (1) 12 frames over 0.3-20.8 s plus 2 full-size audit-shot frames: 1080x1920 vertical, 21.1 s; captions legible and fully typed, nothing cut at edges, no black/blank/glitched frames; before shot shows NIGHT OWL RUN CLUB / THURSDAYS AFTER DARK straight above/below the badge, after/close shots show the same words arched on the ring; end card 'Curved text. Exact text.' + 'Free, open source, runs locally.' + URL readable. (2) text_audit ok:true (8 strings exact), lint: OK, no voiceover; no background text beside caption boxes. (3) Claims map to F21 (arched text, audit checks every string; owl-patch.text_audit.json shows both arched lines text_exact with arc geometry), F1/F2, F18; the earlier 'one arc setting' overclaim is gone from copy p2, YouTube description and X text; audit card text (docs/reel.md) matches F12/F13. No superlatives, competitors, testimonials or invented numbers. (4) trend null. (5) Spelling clean; X text 244 chars, no URL; YT title 81 chars. (6) First curved-text post; differs from 11-14 poster post and all last-14 posts. (7) Nothing objectionable; fictional club disclosed; no owner_approval needed. Nit, not blocking: the captionless docs/reel.md card leaves the lower ~half of the frame empty and its window header is cropped off by the push-in.",
+  "video_sha256": "ab8be5098aeeafb94e197fdc21d237a56cf091f35cd106c9ddba5b0f00c78bbe",
+  "caption_sha256": "3879f0047b48929fd1308af4765b0a422b0db66c2e60b51a8736f240c4572865",
+  "at": "2026-11-20T13:53:34+00:00"
+}

@@ -1,0 +1,182 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 116,
+      "text": "Round badge.\nCurved words.\nEvery letter right.",
+      "complete_frame": 68,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Round badge.",
+        "Curved words.",
+        "Every letter right."
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        116
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "before",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 122,
+      "last_frame": 214,
+      "text": "Before: the words,\nset straight",
+      "complete_frame": 174,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Before: the words,",
+        "set straight"
+      ],
+      "text_exact": true,
+      "frames": [
+        122,
+        214
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "after",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 220,
+      "last_frame": 312,
+      "text": "After: same words,\nbent round the ring",
+      "complete_frame": 272,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "After: same words,",
+        "bent round the ring"
+      ],
+      "text_exact": true,
+      "frames": [
+        220,
+        312
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "close",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 416,
+      "last_frame": 527,
+      "text": "Bent, and still\nchecked letter\nfor letter",
+      "complete_frame": 479,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Bent, and still",
+        "checked letter",
+        "for letter"
+      ],
+      "text_exact": true,
+      "frames": [
+        416,
+        527
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 528,
+      "last_frame": 632,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 528,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        528,
+        632
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 528,
+      "last_frame": 632,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 528,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        528,
+        632
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 538,
+      "last_frame": 632,
+      "text": "Curved text.\nExact text.",
+      "complete_frame": 587,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Curved",
+        "text.",
+        "Exact",
+        "text."
+      ],
+      "text_exact": true,
+      "frames": [
+        538,
+        632
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 593,
+      "last_frame": 632,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 593,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        593,
+        632
+      ]
+    }
+  ]
+}
