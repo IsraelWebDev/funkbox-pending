@@ -7,5 +7,6 @@
   "https://www.veed.io/create/logos/circle-logo"
  ],
  "effort": "small",
- "would_enable": "A how-to: 'A round badge in 3 lines': one circle, two ring lines (top and bottom), render; or a use-case that resizes one badge and its ring text follows."
+ "would_enable": "A how-to: 'A round badge in 3 lines': one circle, two ring lines (top and bottom), render; or a use-case that resizes one badge and its ring text follows.",
+ "pr": "https://github.com/IsraelWebDev/funkbox/pull/43"
 }
