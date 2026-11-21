@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "Every word I say\nis on screen"
+  },
+  "p1": {
+   "text": "I only read lines\nfrom the copy deck"
+  },
+  "p2": {
+   "text": "The voice runs locally.\nNo cloud, no keys."
+  },
+  "p3": {
+   "text": "The music ducks\nunder each line"
+  },
+  "p4": {
+   "text": "Each line is heard\nback and checked"
+  },
+  "end_head": {
+   "text": "Text to voice,\non your computer"
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

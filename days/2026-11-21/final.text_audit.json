@@ -1,0 +1,280 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": {
+    "mode": "kokoro",
+    "voice": "kokoro:af_heart"
+  },
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "voiceover",
+      "shot": "hook",
+      "slot": "voiceover",
+      "instance": "hook",
+      "copy_id": "hook",
+      "text": "Every word I say is on screen",
+      "deck_text": "Every word I say\nis on screen",
+      "say_declared": false,
+      "pronounce_declared": false,
+      "text_exact": true,
+      "first_frame": 3,
+      "last_frame": 51,
+      "complete_frame": 51,
+      "frames": [
+        3,
+        51
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 99,
+      "text": "Every word I say\nis on screen",
+      "complete_frame": 59,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Every word I say",
+        "is on screen"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        99
+      ]
+    },
+    {
+      "kind": "voiceover",
+      "shot": "deck",
+      "slot": "voiceover",
+      "instance": "p1",
+      "copy_id": "p1",
+      "text": "I only read lines from the copy deck",
+      "deck_text": "I only read lines\nfrom the copy deck",
+      "say_declared": false,
+      "pronounce_declared": false,
+      "text_exact": true,
+      "first_frame": 103,
+      "last_frame": 161,
+      "complete_frame": 161,
+      "frames": [
+        103,
+        161
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "deck",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 105,
+      "last_frame": 216,
+      "text": "I only read lines\nfrom the copy deck",
+      "complete_frame": 168,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "I only read lines",
+        "from the copy deck"
+      ],
+      "text_exact": true,
+      "frames": [
+        105,
+        216
+      ]
+    },
+    {
+      "kind": "voiceover",
+      "shot": "local",
+      "slot": "voiceover",
+      "instance": "p2",
+      "copy_id": "p2",
+      "text": "The voice runs locally. No cloud, no keys.",
+      "deck_text": "The voice runs locally.\nNo cloud, no keys.",
+      "say_declared": false,
+      "pronounce_declared": false,
+      "text_exact": true,
+      "first_frame": 220,
+      "last_frame": 307,
+      "complete_frame": 307,
+      "frames": [
+        220,
+        307
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "local",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 222,
+      "last_frame": 332,
+      "text": "The voice runs locally.\nNo cloud, no keys.",
+      "complete_frame": 284,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "The voice runs locally.",
+        "No cloud, no keys."
+      ],
+      "text_exact": true,
+      "frames": [
+        222,
+        332
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "duck",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 338,
+      "last_frame": 416,
+      "text": "The music ducks\nunder each line",
+      "complete_frame": 383,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "The music ducks",
+        "under each line"
+      ],
+      "text_exact": true,
+      "frames": [
+        338,
+        416
+      ]
+    },
+    {
+      "kind": "voiceover",
+      "shot": "check",
+      "slot": "voiceover",
+      "instance": "p4",
+      "copy_id": "p4",
+      "text": "Each line is heard back and checked",
+      "deck_text": "Each line is heard\nback and checked",
+      "say_declared": false,
+      "pronounce_declared": false,
+      "text_exact": true,
+      "first_frame": 420,
+      "last_frame": 471,
+      "complete_frame": 471,
+      "frames": [
+        420,
+        471
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "check",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 422,
+      "last_frame": 532,
+      "text": "Each line is heard\nback and checked",
+      "complete_frame": 484,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Each line is heard",
+        "back and checked"
+      ],
+      "text_exact": true,
+      "frames": [
+        422,
+        532
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 533,
+      "last_frame": 637,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 533,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        533,
+        637
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 533,
+      "last_frame": 637,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 533,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        533,
+        637
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 543,
+      "last_frame": 637,
+      "text": "Text to voice,\non your computer",
+      "complete_frame": 607,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Text to",
+        "voice,",
+        "on your",
+        "computer"
+      ],
+      "text_exact": true,
+      "frames": [
+        543,
+        637
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 613,
+      "last_frame": 637,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 613,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        613,
+        637
+      ]
+    }
+  ]
+}

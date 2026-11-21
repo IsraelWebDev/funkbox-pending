@@ -1,0 +1,12 @@
+{
+ "observation": "Faceless-Shorts workflows in 2026 are built around an AI voiceover read from a script, with captions synced to the narration (Creatomate's n8n template, updated 1 Oct 2026, transcribes the generated voiceover to make its subtitles; the Metricool and Pictory faceless-channel guides list voiceover then captions as the core steps). Burned-in captions are only half of it: platforms also take an uploaded caption file (YouTube accepts SRT and WebVTT), which makes the words searchable and accessible and lets viewers turn them off. funkbox already knows every caption's exact text and its first and last frame (the text audit), and every spoken line, but a reel render writes no caption file, so a creator has to retype or re-transcribe words funkbox already has exactly.",
+ "suggestion": "Have `funkbox reel render` also write `<output>.srt` next to the video: one cue per caption entry in the text audit (start and end from its first and last frame, the exact approved text), so the uploaded captions match the burned-in ones byte for byte. Unit test on a small reel and a docs line in docs/reel.md.",
+ "evidence": [
+  "https://creatomate.com/blog/how-to-auto-generate-faceless-shorts-with-chatgpt-and-n8n",
+  "https://metricool.com/faceless-youtube-channel/",
+  "https://support.google.com/youtube/answer/2734698"
+ ],
+ "effort": "small",
+ "would_enable": "A tip: 'Captions twice, same words': the burned-in caption and the uploaded .srt, both from the approved deck, shown side by side.",
+ "pr": ""
+}

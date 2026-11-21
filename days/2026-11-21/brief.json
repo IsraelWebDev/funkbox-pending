@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-21",
+ "format": "feature-spotlight",
+ "selling_point": "S7",
+ "candidates": [
+  "feature-spotlight + S7 + 'Every word I say is on screen': the first promo on this channel that speaks. A local Kokoro voice reads 4 of its own caption lines from the approved copy deck (this Short's own copy.json shown as a code card), the music ducks under each line, and promo/hear.py transcribes every spoken line back from the final video and checks it word for word (M-voice). Rides owner seed sd-0002 (the text-to-voice demo) and the faceless-Shorts pipeline guides where an AI voice reads a script over visuals [chosen: no earlier promo had a voiceover; S7 last ran 2026-11-16 as beat cuts, never the voice]",
+  "trend-reaction + S1 + 'Local voices are having a moment': ride Ollama for Mac adding local text-to-speech models (9to5Mac, 26 Oct 2026) [passed: the event is older than 7 days, and the story is another product's release rather than something funkbox makes]",
+  "behind-the-scenes + S2 + 'No GPU here, again': how this Short was rendered on a 4-core CPU with no GPU (M-render, M-machine) [passed: the CPU-only render was the hook on an earlier day and quoted in the 2026-11-16 and 11-17 X posts]",
+  "myth-vs-fact + S4 + 'Myth: AI captions drift from the script': the text audit proves every caption matches the approved copy [passed: myth-vs-fact ran on 2026-11-12, and the copy lock was the 2026-11-08 tip; today's voice angle covers the audit's newest part instead]"
+ ],
+ "trend": null,
+ "angle": "This Short talks: a local voice (Kokoro af_heart) reads four of its own caption lines from this Short's approved copy deck, shown as a code card of the day's real copy.json, the music ducks under each spoken line, and every spoken line is transcribed back from the final video and checked against the deck.",
+ "hook": "Every word I say is on screen",
+ "novelty": "The first promo on this channel with a voice. Earlier posts were music-only; none showed the voiceover, the copy deck's say field, or the speech-to-text check that each spoken line was heard as written.",
+ "claims": [
+  {
+   "text": "Every word I say is on screen",
+   "fact": "M-voice"
+  },
+  {
+   "text": "I only read lines from the copy deck",
+   "fact": "F12"
+  },
+  {
+   "text": "The voice runs locally. No cloud, no keys.",
+   "fact": "F11"
+  },
+  {
+   "text": "No cloud, no keys",
+   "fact": "F2"
+  },
+  {
+   "text": "The music ducks under each line",
+   "fact": "F11"
+  },
+  {
+   "text": "Each line is heard back and checked",
+   "fact": "M-voice"
+  },
+  {
+   "text": "Text to voice, on your computer",
+   "fact": "F11"
+  },
+  {
+   "text": "Free, open source, runs locally.",
+   "fact": "F1"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+  "reel": "final",
+  "fps": 30,
+  "bpm": 107.99,
+  "grid": "detected",
+  "threshold_ms": 30.0,
+  "frame_ms": 33.3,
+  "ok": true,
+  "max_offset_ms": 12.8,
+  "over": [],
+  "cuts": [
+    {
+      "cut": "deck",
+      "frame": 100,
+      "time_s": 3.3333,
+      "beat_s": 3.3337,
+      "offset_ms": -0.4,
+      "ok": true
+    },
+    {
+      "cut": "local",
+      "frame": 217,
+      "time_s": 7.2333,
+      "beat_s": 7.223,
+      "offset_ms": 10.3,
+      "ok": true
+    },
+    {
+      "cut": "duck",
+      "frame": 333,
+      "time_s": 11.1,
+      "beat_s": 11.1122,
+      "offset_ms": -12.2,
+      "ok": true
+    },
+    {
+      "cut": "check",
+      "frame": 417,
+      "time_s": 13.9,
+      "beat_s": 13.8903,
+      "offset_ms": 9.7,
+      "ok": true
+    },
+    {
+      "cut": "end_card",
+      "frame": 533,
+      "time_s": 17.7667,
+      "beat_s": 17.7795,
+      "offset_ms": -12.8,
+      "ok": true
+    }
+  ]
+}

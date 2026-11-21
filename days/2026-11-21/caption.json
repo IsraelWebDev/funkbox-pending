@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "This Short reads its own captions: a local voice, every spoken line checked against the script",
+  "description": "Every word I say is on screen.\nA local Kokoro voice reads lines from the approved copy deck, the music ducks under each one, and every spoken line is transcribed back from the video and checked.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "text to speech",
+   "voiceover",
+   "Kokoro",
+   "open source",
+   "AI video",
+   "Shorts",
+   "local AI"
+  ]
+ },
+ "x": {
+  "text": "Every word this Short says is on screen.\n\nIn IsraelWebDev/funkbox a local Kokoro voice reads only lines from the approved copy deck, the music ducks under each, and every spoken line is transcribed back and checked. No cloud, no keys.\n\n#TextToSpeech"
+ }
+}

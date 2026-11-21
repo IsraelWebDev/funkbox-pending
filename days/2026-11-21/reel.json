@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "settings": {"width": 1080, "height": 1920, "fps": 30, "safe_area": "reels"},
+  "brand": {"from": "assets/key.png", "primary": "#e0245e", "secondary": "#12141c", "text": "#ffffff"},
+  "copy": "copy.json",
+  "audio": {
+    "music": "assets/music.mp3",
+    "snap_cuts_to_beats": true,
+    "voiceover": true,
+    "voice": "kokoro:af_heart",
+    "duck_db": -10,
+    "music_gain_db": -10
+  },
+  "shots": [
+    {"id": "hook", "source": {"video": "assets/loop-liquid-disco.mp4", "loop": true}, "duration": "beats:6",
+     "motion": {"type": "none"}, "vo": "hook",
+     "caption": {"copy_id": "hook", "style": "auto-box", "reveal": "typewriter", "anchor": "center"}},
+    {"id": "deck", "source": {"image": "assets/card-day-copy.png"}, "duration": "beats:7", "transition_in": "auto",
+     "motion": {"type": "frame", "from": [0.0, 0.0, 1.0, 1.0], "to": [0.02, 0.02, 0.96, 0.96], "at": [0.05, 0.9], "ease": "out"},
+     "vo": "p1",
+     "caption": {"copy_id": "p1", "style": "auto-box", "reveal": "typewriter", "anchor": "bottom"}},
+    {"id": "local", "source": {"video": "assets/loop-party-poster.mp4", "loop": true}, "duration": "beats:7", "transition_in": "auto",
+     "motion": {"type": "none"}, "vo": "p2",
+     "caption": {"copy_id": "p2", "style": "auto-box", "reveal": "typewriter", "anchor": "auto"}},
+    {"id": "duck", "source": {"image": "assets/scene-dog.jpg"}, "duration": "beats:5", "transition_in": "auto",
+     "motion": {"type": "kenburns"},
+     "caption": {"copy_id": "p3", "style": "auto-box", "reveal": "typewriter", "anchor": "bottom"}},
+    {"id": "check", "source": {"image": "assets/scene-machine.jpg"}, "duration": "beats:7", "transition_in": "auto",
+     "motion": {"type": "kenburns"}, "vo": "p4",
+     "caption": {"copy_id": "p4", "style": "auto-box", "reveal": "typewriter", "anchor": "bottom"}}
+  ],
+  "end_card": {"template": "brand-split", "duration": 3.5, "audio": "keep",
+    "copy": {"headline": "end_head", "sub": "end_sub", "url": "url"}, "headline_reveal": "typewriter"}
+}

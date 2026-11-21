@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Re-render after the earlier FAIL; the earlier problem is fixed: the 'deck' shot now shows card-day-copy.png, a code card of this Short's own copy.json (labelled 'this Short's copy deck', lines hook/p1/p2/p3/p4 match copy.json exactly), so 'I only read lines from the copy deck' is true on screen. CHECKED: 12 frames from 0.5 s to 21.0 s plus a full-res deck frame: captions legible, nothing cut off, no black/blank/glitched frames, end card readable (headline, sub, URL top and bottom); 21.27 s, 1080x1920, 30 fps, vertical. text_audit ok:true; lint: OK. Voiceover: heard.json video_sha256 matches final.mp4 (ef2b20d4...), all 4 lines heard word for word (only trailing periods differ); each voiceover (hook, p1, p2, p4) has a same-id caption in the same shot typing in alongside it and staying up after; filtergraph shows music at -10 dB and ducked under each of the 4 voice windows. Claims: map to F1, F2, F11, F12 and M-voice; every say equals its caption; no superlatives, numbers, competitors or testimonials. trend null. X text 249 chars, no URL; YouTube title 94 chars; spelling clean. The angle (first voiceover promo) is new against the last 14 posts. Nothing objectionable; no owner_approval.json needed.",
+  "video_sha256": "ef2b20d426917ba5c824a82ba3b6f229a8962c478ed772047a51078e5c466e81",
+  "caption_sha256": "072976d118d3084fd78aa60e5460319c5fce65f55616c691d477efc54774a6c2",
+  "at": "2026-11-21T13:52:54+00:00"
+}
