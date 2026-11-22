@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-22",
+ "format": "how-to",
+ "selling_point": "S4",
+ "candidates": [
+  "how-to + S4 + 'Captions that match the script: 3 steps': a numbered how-to (the owner's notes ask to keep testing the 2026-11-13 numbered format on new topics) on the copy lock: Claude proposes the words, you approve them and the copy is hash-locked, the render checks every caption byte for byte and, new since PR #44 merged, writes an .srt with the same exact text. Rides the week's flood of auto-caption editors (an agent that adds cuts, captions and titles launched 2026-11-19: https://www.veed.io/newsroom/veed-ai-video-editing-agent) without naming any of them [chosen: S4 has not run in the last 14 posts, and the .srt export is new]",
+  "whats-new + S11 + 'funkbox now edits your own camera clips': the ten video commits since the last promos (video_import, video_highlights, video_edit with stabilize and grade presets, transcribe, word-timed captions, cutplan) [passed: there is no camera footage in the day's asset pack to prove it on screen, and a whats-new without the edit shown would be a caption over unrelated footage]",
+  "trend-reaction + S3 + 'Agents that edit your timeline': ride the week's agent-edits-your-video launches (https://www.veed.io/newsroom/veed-ai-video-editing-agent, 2026-11-19; https://kompozy.io/news/kino-ai-launch, 2026-11-04) with Claude driving funkbox's 57 MCP tools [passed: the angle leans on comparing named products, which FACTS.md bars, and S3 is close to the 2026-11-13 post]",
+  "myth-vs-fact + S2 + 'Myth: rendering video needs a graphics card': today's measured CPU-only render [passed: the 2026-11-12 myth-vs-fact already used a no-GPU render as its proof]"
+ ],
+ "trend": null,
+ "angle": "A numbered 3-step how-to for captions that never drift from the approved script: Claude proposes the wording and you approve it, the approved copy is hash-locked, and the render's text audit checks every on-screen string byte for byte; the same render now also writes an .srt file with the exact approved words for upload. The proof is the real copy deck and the real docs paragraph on screen, and this Short's own audit (9 strings, all exact).",
+ "hook": "Captions that match the script: 3 steps",
+ "novelty": "First post on S4 (the copy lock) in the last 14: no post has shown the approval step, the hash lock or project_approve_copy on screen, and none has mentioned the new .srt export (merged from the 2026-11-21 run's product PR).",
+ "claims": [
+  {
+   "text": "Captions that match the script: 3 steps",
+   "fact": "F13"
+  },
+  {
+   "text": "1. Claude proposes, you approve",
+   "fact": "F12"
+  },
+  {
+   "text": "2. Approved copy is hash-locked",
+   "fact": "F12"
+  },
+  {
+   "text": "3. Render checks every caption, byte for byte",
+   "fact": "F13"
+  },
+  {
+   "text": "Plus an .srt file with the same exact words",
+   "fact": "M-commits"
+  },
+  {
+   "text": "Approve once. Exact every render.",
+   "fact": "F13"
+  },
+  {
+   "text": "Free, open source, runs locally.",
+   "fact": "F1"
+  },
+  {
+   "text": "This Short's text audit: 9 on-screen strings, all exact",
+   "fact": "M-audit"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}

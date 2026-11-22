@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "Captions that match the script in 3 steps: approve, lock, render (plus an exact .srt)",
+  "description": "Captions that match the script: 3 steps. Claude proposes the words, you approve them, and the approved copy is hash-locked.\nEvery render checks each caption byte for byte, and now also writes an .srt with the same exact words. This Short's audit: 9 on-screen strings, all exact.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "captions",
+   "subtitles",
+   "srt",
+   "open source",
+   "local AI",
+   "shorts",
+   "how to"
+  ]
+ },
+ "x": {
+  "text": "Captions that match the script, 3 steps:\n\n1. Claude proposes the words, you approve\n2. The approved copy is hash-locked\n3. Render: each caption checked byte for byte, plus an exact .srt\n\nThis Short: 9 strings, all exact. IsraelWebDev/funkbox #subtitles"
+ }
+}

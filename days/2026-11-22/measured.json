@@ -1,0 +1,81 @@
+{
+  "day": "2026-11-22",
+  "measured_at": "2026-11-22T13:52:08Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 57,
+      "say": "Claude drives it through 57 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 12,
+      "say": "12 shader effects to layer"
+    },
+    "M-commits": {
+      "value": [
+        "4585799 Propose cuts for approval: pauses and repeated takes (T-4) (#55)",
+        "7e922ea Caption words at their real times from words.json (T-3) (#54)",
+        "31e08cf Add speech to text for video: funkbox video transcribe (T-1) (#53)",
+        "cbe160b Stabilize shaky sources in video edit, by default (#52)",
+        "d9aa9b8 Fix flash joins that ended the picture early on some camera files (#51)",
+        "17f3e48 Add preview mode to video_edit (#50)",
+        "ab0a53d Add grade and frame presets to video_edit (#49)",
+        "4f18873 Add video_highlights: propose moments by motion, dropping repeats (#48)",
+        "0fd01be Add video_edit: render a cut list into one graded 9:16 video (#47)",
+        "dccd1b5 Add video_import: copy a clip folder into the inputs folder (#46)",
+        "72956de video: contact sheet of frames every N seconds, with times",
+        "196d8f8 reel render --audit also writes <name>.srt: closed captions with the exact approved text"
+      ],
+      "say": "changes since the last promo: Propose cuts for approval: pauses and repeated takes (T-4) (#55); Caption words at their real times from words.json (T-3) (#54); Add speech to text for video: funkbox video transcribe (T-1) (#53); Stabilize shaky sources in video edit, by default (#52); Fix flash joins that ended the picture early on some camera files (#51); Add preview mode to video_edit (#50); Add grade and frame presets to video_edit (#49); Add video_highlights: propose moments by motion, dropping repeats (#48); Add video_edit: render a cut list into one graded 9:16 video (#47); Add video_import: copy a clip folder into the inputs folder (#46); video: contact sheet of frames every N seconds, with times; reel render --audit also writes <name>.srt: closed captions with the exact approved text"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 20.63,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "21 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 9,
+        "spoken": 0,
+        "ok": true
+      },
+      "say": "the text audit checked 9 on-screen strings: all exact"
+    },
+    "M-beats": {
+      "value": {
+        "cuts": 5,
+        "bpm": 104.99,
+        "grid": "detected",
+        "max_offset_ms": 16.5,
+        "within_ms": 17,
+        "ok": true
+      },
+      "say": "every cut lands within 17 ms of the detected beat (5 cuts at 105 BPM)"
+    },
+    "M-render": {
+      "value": {
+        "seconds": 47.8,
+        "frames": 619,
+        "under": 50
+      },
+      "say": "this video rendered in 48 seconds on a 4-core CPU with no GPU (software OpenGL)",
+      "say_rough": "this video rendered in under 50 seconds on a 4-core CPU with no GPU (software OpenGL)"
+    }
+  }
+}

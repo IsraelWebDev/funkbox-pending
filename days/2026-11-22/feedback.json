@@ -1,0 +1,12 @@
+{
+ "observation": "Short-form creators editing talking-head clips want the 'um's and 'uh's gone, not only the silences: filler-word removal is a headline feature in this month's caption and jump-cut tool roundups (OpusClip's filler-word remover list, 2026; Captions' and Kapwing's filler-word guides; CapCut detects fillers during caption generation), and the guides note fillers also litter auto-captions. funkbox's new video cutplan (#55) proposes long pauses and repeated takes for approval, but a spoken 'um' between two words is neither, so it stays in the cut.",
+ "suggestion": "Add filler words to `funkbox video cutplan` / video_cutplan: each word in words.json that matches a filler list (default um, uh, uhm, er, erm, ah, hmm; `fillers=[...]` to change it, `fillers=[]` to turn it off) is proposed for removal with the reason 'filler: um', merged with the pause and retake spans, so the approved plan renders without them. Unit tests on a synthetic words.json and a docs line in docs/video.md.",
+ "evidence": [
+  "https://www.opus.pro/blog/best-filler-word-removers",
+  "https://captions.ai/blog/remove-filler-words-videos",
+  "https://www.kapwing.com/tools/smart-cut/filler-words",
+  "https://www.capcut.com/tools/filler-words"
+ ],
+ "effort": "small",
+ "would_enable": "A how-to or tip promo on cleaning a talking-head take: transcribe, cutplan proposes pauses, a retake and three 'um's, approve, render."
+}

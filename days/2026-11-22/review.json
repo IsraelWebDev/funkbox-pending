@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Re-render (sha 0fa3e18e...) after the earlier FAIL: step 3 no longer uses demo-ad.mp4 and its burned-in GLOWMOP caption; it is now the still assets/scene-dog.jpg with only this promo's p3 caption, so the double-caption problem is gone. Checked: 20.63 s, 1080x1920 vertical, 30 fps; 14 frames looked at (1.0-20.4 s), captions legible and fully typed by shot end, nothing cut off, no black or glitched frames (blackdetect found none), caption boxes sit clear of the code-card text on steps 1-2 and no background text peeks beside any box; end card readable with URL top and bottom. final.text_audit.json ok true, 9 strings exact; lint: OK; voiceover false so no heard.json needed. Claims: steps 1-2 map to F12, step 3/hook/end headline to F13, .srt line to M-commits 196d8f8 (final.srt holds the exact caption text), 'Free, open source, runs locally' to F1/F2, '9 strings, all exact' to M-audit, Made with funkbox to F18; no say fields, no superlatives, competitors or Anthropic claims. Trend null. Spelling clean; X text 252 chars, no URL; YouTube title 85 chars. No owner_approval.json. Not a repeat: first copy-lock/approval/.srt angle in the last 14 posts; it is the third numbered 3-step how-to in a week (11-16, 11-19), which lint allows. Minor, not blocking: the dog still under step 3 is decorative (from the GLOWMOP demo ad whose copy deck step 1 shows) rather than proof of the audit; the end-card sub line is on screen only about 0.65 s at the end.",
+  "video_sha256": "0fa3e18e6010932a83342209722592af95d3ffa3c603d96047ba63ab72c4a499",
+  "caption_sha256": "f80193f58cfac877c87723a6e90a4dfc2177aa54835221faa98c32c57a3c6dc6",
+  "at": "2026-11-22T13:53:36+00:00"
+}

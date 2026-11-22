@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "Captions that match\nthe script: 3 steps"
+  },
+  "p1": {
+   "text": "1. Claude proposes,\nyou approve"
+  },
+  "p2": {
+   "text": "2. Approved copy\nis hash-locked"
+  },
+  "p3": {
+   "text": "3. Render checks\nevery caption,\nbyte for byte"
+  },
+  "p4": {
+   "text": "Plus an .srt file with\nthe same exact words"
+  },
+  "end_head": {
+   "text": "Approve once.\nExact every render."
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

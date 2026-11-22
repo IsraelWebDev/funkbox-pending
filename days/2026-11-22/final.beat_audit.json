@@ -1,0 +1,53 @@
+{
+  "reel": "final",
+  "fps": 30,
+  "bpm": 104.99,
+  "grid": "detected",
+  "threshold_ms": 30.0,
+  "frame_ms": 33.3,
+  "ok": true,
+  "max_offset_ms": 16.5,
+  "over": [],
+  "cuts": [
+    {
+      "cut": "step1",
+      "frame": 86,
+      "time_s": 2.8667,
+      "beat_s": 2.859,
+      "offset_ms": 7.7,
+      "ok": true
+    },
+    {
+      "cut": "step2",
+      "frame": 189,
+      "time_s": 6.3,
+      "beat_s": 6.2879,
+      "offset_ms": 12.1,
+      "ok": true
+    },
+    {
+      "cut": "step3",
+      "frame": 292,
+      "time_s": 9.7333,
+      "beat_s": 9.7168,
+      "offset_ms": 16.5,
+      "ok": true
+    },
+    {
+      "cut": "srt",
+      "frame": 412,
+      "time_s": 13.7333,
+      "beat_s": 13.7172,
+      "offset_ms": 16.1,
+      "ok": true
+    },
+    {
+      "cut": "end_card",
+      "frame": 514,
+      "time_s": 17.1333,
+      "beat_s": 17.1461,
+      "offset_ms": -12.8,
+      "ok": true
+    }
+  ]
+}

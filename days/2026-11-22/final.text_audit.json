@@ -1,0 +1,203 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 85,
+      "text": "Captions that match\nthe script: 3 steps",
+      "complete_frame": 51,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Captions that match",
+        "the script: 3 steps"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        85
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "step1",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 91,
+      "last_frame": 188,
+      "text": "1. Claude proposes,\nyou approve",
+      "complete_frame": 146,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "1. Claude proposes,",
+        "you approve"
+      ],
+      "text_exact": true,
+      "frames": [
+        91,
+        188
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "step2",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 194,
+      "last_frame": 291,
+      "text": "2. Approved copy\nis hash-locked",
+      "complete_frame": 249,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "2. Approved copy",
+        "is hash-locked"
+      ],
+      "text_exact": true,
+      "frames": [
+        194,
+        291
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "step3",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 297,
+      "last_frame": 411,
+      "text": "3. Render checks\nevery caption,\nbyte for byte",
+      "complete_frame": 362,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "3. Render checks",
+        "every caption,",
+        "byte for byte"
+      ],
+      "text_exact": true,
+      "frames": [
+        297,
+        411
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "srt",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 417,
+      "last_frame": 513,
+      "text": "Plus an .srt file with\nthe same exact words",
+      "complete_frame": 472,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Plus an .srt file with",
+        "the same exact words"
+      ],
+      "text_exact": true,
+      "frames": [
+        417,
+        513
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 514,
+      "last_frame": 618,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 514,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        514,
+        618
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 514,
+      "last_frame": 618,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 514,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        514,
+        618
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 524,
+      "last_frame": 618,
+      "text": "Approve once.\nExact every render.",
+      "complete_frame": 593,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Approve",
+        "once.",
+        "Exact",
+        "every",
+        "render."
+      ],
+      "text_exact": true,
+      "frames": [
+        524,
+        618
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 599,
+      "last_frame": 618,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 599,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        599,
+        618
+      ]
+    }
+  ]
+}

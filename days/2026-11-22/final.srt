@@ -1,0 +1,25 @@
+1
+00:00:00,167 --> 00:00:02,867
+Captions that match
+the script: 3 steps
+
+2
+00:00:03,033 --> 00:00:06,300
+1. Claude proposes,
+you approve
+
+3
+00:00:06,467 --> 00:00:09,733
+2. Approved copy
+is hash-locked
+
+4
+00:00:09,900 --> 00:00:13,733
+3. Render checks
+every caption,
+byte for byte
+
+5
+00:00:13,900 --> 00:00:17,133
+Plus an .srt file with
+the same exact words
