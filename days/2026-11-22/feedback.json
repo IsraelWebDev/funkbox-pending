@@ -8,5 +8,6 @@
   "https://www.capcut.com/tools/filler-words"
  ],
  "effort": "small",
- "would_enable": "A how-to or tip promo on cleaning a talking-head take: transcribe, cutplan proposes pauses, a retake and three 'um's, approve, render."
+ "would_enable": "A how-to or tip promo on cleaning a talking-head take: transcribe, cutplan proposes pauses, a retake and three 'um's, approve, render.",
+ "pr": "https://github.com/IsraelWebDev/funkbox/pull/57"
 }
