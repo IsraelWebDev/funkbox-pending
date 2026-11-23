@@ -1,0 +1,12 @@
+{
+ "observation": "Creators cleaning up talking-head clips want ums and uhs cut automatically (every major editor now advertises it: https://www.descript.com/tools/remove-filler-from-video, https://www.kapwing.com/tools/smart-cut/filler-words), and open-source Claude Code editing skills are spreading (OpenChatCut, video-use). But Whisper, which funkbox's video_transcribe uses via faster-whisper, tends to leave fillers out of its transcript, and funkbox's cut plan only finds a filler 'when the transcript wrote it down' (docs/video.md). Whisper users keep fillers by giving an initial prompt that contains them (openai/whisper discussion #1174, HF whisper discussion 30).",
+ "suggestion": "Add a 'prompt' option to video_transcribe (MCP tool and CLI --prompt), passed to faster-whisper as initial_prompt, with a ready-made value 'fillers' that expands to a short disfluent prompt (English, and Hebrew when the language is he), so the transcript keeps um/uh and video_cutplan's filler proposals actually fire. Document it next to cutplan's fillers option.",
+ "evidence": [
+  "https://github.com/openai/whisper/discussions/1174",
+  "https://huggingface.co/spaces/openai/whisper/discussions/30",
+  "https://www.descript.com/tools/remove-filler-from-video",
+  "https://github.com/0xsline/OpenChatCut"
+ ],
+ "effort": "small",
+ "would_enable": "A how-to Short where funkbox transcribes a real recorded clip, proposes its ums for removal, and cuts them after approval, shown before and after."
+}

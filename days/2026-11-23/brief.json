@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-23",
+ "format": "whats-new",
+ "selling_point": "S11",
+ "candidates": [
+  "whats-new S11: this week's talking-head cleanup, the cut plan now proposes um/uh/er/hmm (and Hebrew filler sounds) for removal and subtitles keep off faces, shown as the real code (picked: shipped since the last promo, never shown, and it is exactly what creators editing talking heads ask tools for)",
+  "trend-reaction genre: open-source agents that let Claude Code edit talking-head video (https://github.com/0xsline/OpenChatCut, https://github.com/csoop/video-use, https://www.mindstudio.ai/blog/claude-code-video-editing-skill): passed, there is no recorded speaker clip in the run to demo a real cut on, so it would be captions over unrelated footage",
+  "trend-reaction event: the Nov 13 AI video leaderboard update (https://emergent.sh/news/best-ai-video-models-2026-elo-rankings): passed, cloud model rankings and per-second prices are things funkbox can only comment on, not make",
+  "myth-vs-fact S2: 'AI video needs an NVIDIA card', answered with this Short's CPU render: passed, the CPU render time was in the 11-16, 11-17 and 11-19 posts"
+ ],
+ "trend": null,
+ "angle": "New since the last promo: funkbox's cut plan for talking-head video now proposes filler words for removal (um, uh, er, hmm and the Hebrew filler sounds), and burned-in subtitles default to anchor auto, which keeps them off faces. Shown as the real lines: the FILLERS list in funkbox/video/cutfind.py and the anchor auto branch in funkbox/video/clip.py.",
+ "hook": "Um. Uh. Hmm. Proposed for cutting.",
+ "novelty": "Every earlier promo was about making visuals (loops, posters, ads, captions from approved copy); this is the first about cleaning up a recorded talking head, and the first to show funkbox's video-editing code.",
+ "claims": [
+  {
+   "text": "Um, uh, er and hmm are proposed for cutting by the cut plan (new)",
+   "fact": "M-commits"
+  },
+  {
+   "text": "Hebrew filler sounds too",
+   "fact": "M-commits"
+  },
+  {
+   "text": "New: subtitles keep off faces",
+   "fact": "M-commits"
+  },
+  {
+   "text": "Free, open source, runs locally",
+   "fact": "F1"
+  },
+  {
+   "text": "runs locally",
+   "fact": "F2"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}

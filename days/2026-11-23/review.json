@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Frames: 10 extracted (0.5-20.2 s) and viewed; 1080x1920 vertical, 20.3 s; captions legible in boxes, nothing cut off, no black/blank frames or glitches; code cards show real lines (cutfind.py FILLERS lines 29-39, clip.py anchor auto lines 438-441, verified against the checkout) and are readable at full size; captions sit clear of code text; end card (funkbox / Free, open source, runs locally / URL) readable. text_audit ok:true, 8 strings exact; lint: OK; no voiceover. Claims: um/uh/er/hmm proposed for cutting -> M-commits #57 + FILLERS list in code includes er, hmm; Hebrew filler sounds -> M-commits #58; subtitles keep off faces -> M-commits #61-#63; free/open source/runs locally -> F1/F2; Made with funkbox -> F18. No superlatives, invented numbers, competitors (feedback.json links are not posted), or Anthropic claims. trend null. Title 96 chars, X text 252 chars with no URL; spelling clean. Not a repeat: last 14 posts covered loops, beat cuts, audio loops, FastSD ad, multi-format, badge, voice, caption lock; talking-head cleanup is a new angle. Nothing unsuitable for the owner; no owner_approval needed.",
+  "video_sha256": "80cf8788270c2da5438ebb6e707dd0c73ce1e3981062883c9b07447a673a3027",
+  "caption_sha256": "9bc10ed1e93964d82a61e41d71af3341dddef5265413344af580c2a3534e0a90",
+  "at": "2026-11-23T13:50:29+00:00"
+}

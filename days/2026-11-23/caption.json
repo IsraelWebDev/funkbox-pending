@@ -1,0 +1,18 @@
+{
+ "youtube": {
+  "title": "Um. Uh. Hmm. Proposed for cutting: new in funkbox's cut plan, plus subtitles that keep off faces",
+  "description": "Um. Uh. Hmm. Proposed for cutting.\nNew in funkbox: the cut plan flags filler words (Hebrew filler sounds too), and burned-in subtitles keep off faces.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "video editing",
+   "filler words",
+   "subtitles",
+   "open source",
+   "talking head",
+   "shorts"
+  ]
+ },
+ "x": {
+  "text": "Um. Uh. Hmm. Proposed for cutting.\n\nNew in IsraelWebDev/funkbox: the cut plan flags filler words in a talking-head video (Hebrew filler sounds too), and burned-in subtitles now keep off faces. Free, open source, runs locally.\n\n#videoediting #opensource"
+ }
+}

@@ -1,0 +1,45 @@
+{
+  "reel": "final",
+  "fps": 30,
+  "bpm": 99.98,
+  "grid": "detected",
+  "threshold_ms": 30.0,
+  "frame_ms": 33.3,
+  "ok": true,
+  "max_offset_ms": 5.4,
+  "over": [],
+  "cuts": [
+    {
+      "cut": "fillers",
+      "frame": 108,
+      "time_s": 3.6,
+      "beat_s": 3.6027,
+      "offset_ms": -2.7,
+      "ok": true
+    },
+    {
+      "cut": "hebrew",
+      "frame": 252,
+      "time_s": 8.4,
+      "beat_s": 8.4037,
+      "offset_ms": -3.7,
+      "ok": true
+    },
+    {
+      "cut": "faces",
+      "frame": 360,
+      "time_s": 12.0,
+      "beat_s": 12.0044,
+      "offset_ms": -4.4,
+      "ok": true
+    },
+    {
+      "cut": "end_card",
+      "frame": 504,
+      "time_s": 16.8,
+      "beat_s": 16.8054,
+      "offset_ms": -5.4,
+      "ok": true
+    }
+  ]
+}

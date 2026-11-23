@@ -1,0 +1,26 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "Um. Uh. Hmm.\nProposed for cutting."
+  },
+  "p1": {
+   "text": "New: cut plan flags\num, uh, er, hmm"
+  },
+  "p2": {
+   "text": "Hebrew filler sounds too"
+  },
+  "p3": {
+   "text": "New: subtitles\nkeep off faces"
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}
