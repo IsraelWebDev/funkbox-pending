@@ -8,5 +8,6 @@
   "https://github.com/0xsline/OpenChatCut"
  ],
  "effort": "small",
- "would_enable": "A how-to Short where funkbox transcribes a real recorded clip, proposes its ums for removal, and cuts them after approval, shown before and after."
+ "would_enable": "A how-to Short where funkbox transcribes a real recorded clip, proposes its ums for removal, and cuts them after approval, shown before and after.",
+ "pr": "https://github.com/IsraelWebDev/funkbox/pull/65"
 }
