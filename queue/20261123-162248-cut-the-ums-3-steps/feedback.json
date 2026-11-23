@@ -1,0 +1,9 @@
+{
+  "observation": "No creator research done today. From the PR #66 test: the default cut left audible ums until the trailing edge was extended, so a creator demo would have shown the old bug.",
+  "suggestion": "A check that a cut leaves no filler audible, measured on the output with a transcript, not just the word timings.",
+  "evidence": [
+    "https://github.com/IsraelWebDev/funkbox/pull/66"
+  ],
+  "effort": "medium",
+  "would_enable": "A how-to that proves the cut removes the sound, not just the word."
+}

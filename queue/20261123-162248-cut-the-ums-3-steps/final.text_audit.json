@@ -1,0 +1,183 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 87,
+      "text": "3 STEPS TO CUT THE UMS OUT OF A TALK",
+      "complete_frame": 52,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "3 STEPS TO CUT THE",
+        "UMS OUT OF A TALK"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        87
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "s1",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "s1",
+      "first_frame": 93,
+      "last_frame": 193,
+      "text": "1. funkbox video transcribe talk.mp4",
+      "complete_frame": 150,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "1. funkbox video",
+        "transcribe talk.mp4"
+      ],
+      "text_exact": true,
+      "frames": [
+        93,
+        193
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "s2",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "s2",
+      "first_frame": 199,
+      "last_frame": 299,
+      "text": "2. funkbox video cutplan talk.mp4 --words talk.words.json",
+      "complete_frame": 256,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "2. funkbox video",
+        "cutplan talk.mp4",
+        "--words",
+        "talk.words.json"
+      ],
+      "text_exact": true,
+      "frames": [
+        199,
+        299
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "s3",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "s3",
+      "first_frame": 305,
+      "last_frame": 405,
+      "text": "3. funkbox video edit cuts.json",
+      "complete_frame": 362,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "3. funkbox video",
+        "edit cuts.json"
+      ],
+      "text_exact": true,
+      "frames": [
+        305,
+        405
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 406,
+      "last_frame": 510,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 406,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        406,
+        510
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 406,
+      "last_frame": 510,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 406,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        406,
+        510
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 416,
+      "last_frame": 510,
+      "text": "Cut the ums.\nYour computer.\nFree.",
+      "complete_frame": 485,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Cut the",
+        "ums.",
+        "Your",
+        "computer.",
+        "Free."
+      ],
+      "text_exact": true,
+      "frames": [
+        416,
+        510
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 491,
+      "last_frame": 510,
+      "text": "OPEN SOURCE, NO ACCOUNTS",
+      "complete_frame": 491,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "OPEN SOURCE, NO",
+        "ACCOUNTS"
+      ],
+      "text_exact": true,
+      "frames": [
+        491,
+        510
+      ]
+    }
+  ]
+}
