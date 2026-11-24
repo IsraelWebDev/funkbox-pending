@@ -1,0 +1,19 @@
+1
+00:00:00,167 --> 00:00:03,500
+Myth: AI video
+needs an NVIDIA card
+
+2
+00:00:03,700 --> 00:00:08,367
+Fact: OpenGL 3.3
+is enough
+
+3
+00:00:08,533 --> 00:00:12,567
+Stills: seconds each
+on an Intel iGPU
+
+4
+00:00:12,767 --> 00:00:16,733
+Rendered on 4 CPU
+cores, no GPU
