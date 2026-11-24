@@ -1,9 +1,0 @@
-{
-  "observation": "Filler cutting should keep the ums that belong: quoted words and sounds the speaker names, such as 'I say um, or uh'.",
-  "suggestion": "Let the cut plan list each kept filler with its reason, and let the owner flip one back to a cut before rendering.",
-  "evidence": [
-    "https://github.com/IsraelWebDev/funkbox/pull/68"
-  ],
-  "effort": "small",
-  "would_enable": "a promo showing a reviewed cut plan with one kept filler flipped to a cut by hand"
-}
