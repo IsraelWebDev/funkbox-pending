@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-25",
+  "format": "feature-spotlight",
+  "selling_point": "S1",
+  "candidates": [
+    "feature-spotlight S1: the same talk before and after the filler cut, rendered by funkbox",
+    "how-to S5: one talk cut in 3 steps (needs a real shot list, not this)",
+    "myth-vs-fact S2: AI video needs an NVIDIA card (already the 2026-11-24 promo)"
+  ],
+  "trend": null,
+  "angle": "Show a talk before and after the filler cut, with the cut proposed by funkbox and rendered only after approval.",
+  "hook": "Before: the ums. After: funkbox cut the filler ones.",
+  "novelty": "A rendered before and after of the cut, not only the cut plan (see the 2026-11-23 promo).",
+  "claims": [
+    {
+      "text": "funkbox proposes the filler cuts and renders them only after you approve the plan",
+      "fact": "F26"
+    },
+    {
+      "text": "the speech is transcribed to word timings on your computer",
+      "fact": "F25"
+    },
+    {
+      "text": "funkbox is free and open source",
+      "fact": "F1"
+    },
+    {
+      "text": "it runs on your own computer, with no account",
+      "fact": "F2"
+    },
+    {
+      "text": "every promo is made with funkbox",
+      "fact": "F18"
+    }
+  ]
+}

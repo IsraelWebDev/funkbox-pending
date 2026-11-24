@@ -1,0 +1,8 @@
+{
+  "command": "funkbox video edit <cuts.json> --name avatar-ums-after",
+  "plan": "evidence/avatar-ums.cutplan.json (made by funkbox video cutplan with the filler list default)",
+  "kept_fillers": "um (named as a sound after 'say'), uh (in a list of sounds)",
+  "rendered_duration_s": 17.87,
+  "output_sha256": "7fe1774534beefa773f227548279f7f2fda0434c434a0343cdce391d51de9371",
+  "note": "the rendered cut is not committed: it is a cut of the talk recording"
+}
