@@ -1,19 +1,17 @@
 {
- "youtube": {
-  "title": "Myth: AI video needs an NVIDIA card. This Short rendered on 4 CPU cores with no GPU",
-  "description": "Myth: AI video needs an NVIDIA card.\nFact: funkbox needs OpenGL 3.3; an Intel integrated GPU works. This Short rendered in under 40 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
-  "tags": [
-   "funkbox",
-   "AI video",
-   "no GPU",
-   "local AI",
-   "open source",
-   "shaders",
-   "Shorts",
-   "CPU"
-  ]
- },
- "x": {
-  "text": "Myth: AI video needs an NVIDIA card.\n\nFact: IsraelWebDev/funkbox needs OpenGL 3.3, and an Intel integrated GPU works. This Short rendered in under 40 seconds on a 4-core CPU with no GPU. Free, open source, runs locally.\n\n#LocalAI #opensource"
- }
+  "youtube": {
+    "title": "Before and after: the ums cut by funkbox",
+    "description": "Before: um and uh left in. After: funkbox proposed the cuts, and they were rendered after approval.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "tags": [
+      "funkbox",
+      "video editing",
+      "filler words",
+      "open source",
+      "local ai",
+      "shorts"
+    ]
+  },
+  "x": {
+    "text": "Before: the ums. After: funkbox cut them. The cut plan proposes filler cuts, and you approve before anything renders. Runs locally, no account.\n\nIsraelWebDev/funkbox #videoediting #opensource"
+  }
 }

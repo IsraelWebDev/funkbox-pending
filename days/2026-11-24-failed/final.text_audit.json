@@ -1,0 +1,178 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 104,
+      "text": "Myth: AI video\nneeds an NVIDIA card",
+      "complete_frame": 61,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Myth: AI video",
+        "needs an NVIDIA",
+        "card"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        104
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "fact",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 111,
+      "last_frame": 250,
+      "text": "Fact: OpenGL 3.3\nis enough",
+      "complete_frame": 164,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Fact: OpenGL 3.3",
+        "is enough"
+      ],
+      "text_exact": true,
+      "frames": [
+        111,
+        250
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "stills",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 256,
+      "last_frame": 376,
+      "text": "Stills: seconds each\non an Intel iGPU",
+      "complete_frame": 324,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Stills: seconds each",
+        "on an Intel iGPU"
+      ],
+      "text_exact": true,
+      "frames": [
+        256,
+        376
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "proof",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 383,
+      "last_frame": 501,
+      "text": "Rendered on 4 CPU\ncores, no GPU",
+      "complete_frame": 447,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Rendered on 4 CPU",
+        "cores, no GPU"
+      ],
+      "text_exact": true,
+      "frames": [
+        383,
+        501
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 502,
+      "last_frame": 606,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 502,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        502,
+        606
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 502,
+      "last_frame": 606,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 502,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        502,
+        606
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 512,
+      "last_frame": 606,
+      "text": "funkbox",
+      "complete_frame": 525,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        512,
+        606
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 531,
+      "last_frame": 606,
+      "text": "Free, open source, runs locally",
+      "complete_frame": 531,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally"
+      ],
+      "text_exact": true,
+      "frames": [
+        531,
+        606
+      ]
+    }
+  ]
+}

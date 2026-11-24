@@ -1,45 +1,37 @@
 {
- "date": "2026-11-24",
- "format": "myth-vs-fact",
- "selling_point": "S2",
- "candidates": [
-  "myth-vs-fact + S2 + 'Myth: AI video needs an NVIDIA card': answer the NVIDIA-first assumption of local AI video guides (CUDA as a hard requirement, VRAM tiers) with this Short, rendered on a 4-core CPU with no GPU, plus FastSD stills on an Intel iGPU [chosen]",
-  "trend-reaction + S10 + 'Open image weights, on your own laptop': ride this month's open-weights image releases (MiniMax H3-Image, Nov 10-11) with FastSD stills on an Intel iGPU [passed: the release is outside the 7-day event window, its licence excludes the US/EU, and FastSD is not installed on this runner, so the stills would be old outputs]",
-  "feature-spotlight + S6 + 'Push in on a screen recording; it never changes what was recorded': the reel frame motion on a recording (docs/reel.md) [passed: no screen recording among today's assets, only a docs card, so the video could not show the feature working]",
-  "trend-reaction + S1 + 'Cheaper per second is still per second': react to this month's per-second price cuts on cloud video models (Gemini Omni 1.2 Flash, Seedance 2.5 Flash) [passed: needs prices of other tools, which FACTS.md forbids, and the sources are older than 7 days]"
- ],
- "trend": null,
- "angle": "Local AI video guides this year treat an NVIDIA card as the price of entry (CUDA required, VRAM tiers); funkbox's answer is the hardware this Short was rendered on: 4 CPU cores and no GPU, with its stills from an Intel iGPU.",
- "hook": "Myth: AI video needs an NVIDIA card",
- "novelty": "First post to lead on hardware (S2, unused in the last 14 posts): the machine itself is the subject, a CPU-only cloud box with software OpenGL, and the Intel iGPU stills; earlier posts led on features, looks, formats or cost.",
- "claims": [
-  {
-   "text": "Fact: OpenGL 3.3 is enough",
-   "fact": "F3"
-  },
-  {
-   "text": "Stills: seconds each on an Intel iGPU",
-   "fact": "F8"
-  },
-  {
-   "text": "Rendered on 4 CPU cores, no GPU",
-   "fact": "M-machine"
-  },
-  {
-   "text": "rendered in under 40 seconds on 4 CPU cores with no GPU",
-   "fact": "M-render"
-  },
-  {
-   "text": "No NVIDIA GPU needed; an Intel integrated GPU works",
-   "fact": "F3"
-  },
-  {
-   "text": "Free, open source, runs locally",
-   "fact": "F1"
-  },
-  {
-   "text": "Made with funkbox",
-   "fact": "F18"
-  }
- ]
+  "date": "2026-11-24",
+  "format": "feature-spotlight",
+  "selling_point": "S1",
+  "candidates": [
+    "feature-spotlight S1: the same talk before and after the filler cut, rendered by funkbox",
+    "how-to S5: one talk cut in 3 steps (needs a real shot list, not this)",
+    "myth-vs-fact S2: AI video needs an NVIDIA card (already the 2026-11-24 promo)"
+  ],
+  "trend": null,
+  "angle": "Show a talk before and after the filler cut, with the cut proposed by funkbox and rendered only after approval.",
+  "hook": "Before: the ums. After: funkbox cut them.",
+  "novelty": "A rendered before and after of the cut, not only the cut plan (see the 2026-11-23 promo).",
+  "claims": [
+    {
+      "text": "funkbox proposes the filler cuts and renders them only after you approve the plan",
+      "fact": "F26"
+    },
+    {
+      "text": "the speech is transcribed to word timings on your computer",
+      "fact": "F25"
+    },
+    {
+      "text": "funkbox is free and open source",
+      "fact": "F1"
+    },
+    {
+      "text": "it runs on your own computer, with no account",
+      "fact": "F2"
+    },
+    {
+      "text": "every promo is made with funkbox",
+      "fact": "F18"
+    }
+  ],
+  "queued_as": "20261124-193149-avatar-filler-cut"
 }

@@ -1,13 +1,9 @@
 {
- "observation": "Local AI video guides this year are NVIDIA-first: the LTX team's guide treats an NVIDIA GPU with CUDA as a hard requirement, MiniMax H3 guides tier quality by VRAM from RTX 2060 to RTX 5090, and Mac users write up their own workarounds and timings (5 s of video in about 8 minutes on an M4 Max). The question people without an NVIDIA card keep asking is 'will it run on MY machine, and how slowly?', and they only find out after a long install and a first render.",
- "suggestion": "Add `funkbox doctor --bench`: after the usual checks, render a short shader loop off-screen at 1080x1920 on whatever OpenGL backend doctor found (GPU or software), print frames per second, and estimate how long a 20-second vertical Short's frames would take on this machine. One command answers 'is my laptop enough?' before the user commits to anything.",
- "evidence": [
-  "https://ltx.io/model/model-blog/run-video-generation-model-locally",
-  "https://www.mindstudio.ai/blog/minimax-h3-run-locally-guide",
-  "https://note.com/nao12821/n/n6ec6b23d8a8c?hl=en",
-  "https://lekhai.app/blog/best-local-ai-video-generation-tools-2026/"
- ],
- "effort": "small",
- "would_enable": "A tip or myth-vs-fact promo that shows `funkbox doctor --bench` on three machines (CPU-only, Intel iGPU, a GPU) with their measured frames per second, instead of one machine per post.",
- "pr": "https://github.com/IsraelWebDev/funkbox/pull/70"
+  "observation": "Filler cutting should keep the ums that belong: quoted words and sounds the speaker names, such as 'I say um, or uh'.",
+  "suggestion": "Let the cut plan list each kept filler with its reason, and let the owner flip one back to a cut before rendering.",
+  "evidence": [
+    "https://github.com/IsraelWebDev/funkbox/pull/68"
+  ],
+  "effort": "small",
+  "would_enable": "a promo showing a reviewed cut plan with one kept filler flipped to a cut by hand"
 }

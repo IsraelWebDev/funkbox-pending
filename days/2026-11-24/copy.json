@@ -1,26 +1,75 @@
 {
  "brand_name": "funkbox",
  "lines": {
-  "hook": {
-   "text": "Myth: AI video\nneeds an NVIDIA card"
+  "b01": {
+   "text": "Um, so today I wanted to,"
   },
-  "p1": {
-   "text": "Fact: OpenGL 3.3\nis enough"
+  "b02": {
+   "text": "uh, test something small."
   },
-  "p2": {
-   "text": "Stills: seconds each\non an Intel iGPU"
+  "b03": {
+   "text": "I'm recording a short clip, um,"
   },
-  "p3": {
-   "text": "Rendered on 4 CPU\ncores, no GPU"
+  "b04": {
+   "text": "where I talk the way people really talk."
+  },
+  "b05": {
+   "text": "Uh, there are pauses,"
+  },
+  "b06": {
+   "text": "and sometimes I say um,"
+  },
+  "b07": {
+   "text": "or uh, in the middle of a sentence."
+  },
+  "before_label": {
+   "text": "BEFORE  ·  um and uh left in"
+  },
+  "title_head": {
+   "text": "AFTER"
+  },
+  "title_sub": {
+   "text": "funkbox cut the ums"
+  },
+  "a01": {
+   "text": "so today I wanted to,"
+  },
+  "a02": {
+   "text": "test something small."
+  },
+  "a03": {
+   "text": "I'm recording a short clip,"
+  },
+  "a04": {
+   "text": "where I talk the way people really"
+  },
+  "a05": {
+   "text": "talk."
+  },
+  "a06": {
+   "text": "there are pauses,"
+  },
+  "a07": {
+   "text": "and sometimes I say um,"
+  },
+  "a08": {
+   "text": "or uh, in the middle of a"
+  },
+  "a09": {
+   "text": "sentence."
+  },
+  "after_label": {
+   "text": "AFTER  ·  filler cut by funkbox"
   },
   "end_head": {
    "text": "funkbox"
   },
   "end_sub": {
-   "text": "Free, open source, runs locally"
+   "text": "Free and open source. Runs on your own computer."
   },
   "url": {
    "text": "github.com/IsraelWebDev/funkbox"
   }
- }
+ },
+ "pronounce": {}
 }

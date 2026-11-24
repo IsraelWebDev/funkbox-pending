@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "Myth: AI video needs an NVIDIA card. This Short rendered on 4 CPU cores with no GPU",
+  "description": "Myth: AI video needs an NVIDIA card.\nFact: funkbox needs OpenGL 3.3; an Intel integrated GPU works. This Short rendered in under 40 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "AI video",
+   "no GPU",
+   "local AI",
+   "open source",
+   "shaders",
+   "Shorts",
+   "CPU"
+  ]
+ },
+ "x": {
+  "text": "Myth: AI video needs an NVIDIA card.\n\nFact: IsraelWebDev/funkbox needs OpenGL 3.3, and an Intel integrated GPU works. This Short rendered in under 40 seconds on a 4-core CPU with no GPU. Free, open source, runs locally.\n\n#LocalAI #opensource"
+ }
+}
