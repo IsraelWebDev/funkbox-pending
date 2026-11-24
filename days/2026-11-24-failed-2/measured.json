@@ -1,0 +1,56 @@
+{
+  "day": "2026-11-24",
+  "measured_at": "2026-11-24T19:35:35Z",
+  "facts": {
+    "M-machine": {
+      "value": {
+        "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz",
+        "cores": 4,
+        "opengl": "software only: renders work but are slower",
+        "gpu": false
+      },
+      "say": "a 4-core CPU with no GPU (software OpenGL)"
+    },
+    "M-tools": {
+      "value": 58,
+      "say": "Claude drives it through 58 MCP tools"
+    },
+    "M-presets": {
+      "value": 9,
+      "say": "9 ready-made loop looks"
+    },
+    "M-shaders": {
+      "value": 12,
+      "say": "12 shader effects to layer"
+    },
+    "M-tests": {
+      "value": 1484,
+      "say": "1484 automated tests in the repo"
+    },
+    "M-commits": {
+      "value": [
+        "04d390e Facts: add doctor --bench (F27) and update the MCP tool count to 58 (F4)",
+        "040ece7 Add funkbox doctor --bench: time this machine's frames and estimate a Short's render (#70)",
+        "c046ef2 Add a smaller label caption style for banners and footers (#69)"
+      ],
+      "say": "changes since the last promo: Facts: add doctor --bench (F27) and update the MCP tool count to 58 (F4); Add funkbox doctor --bench: time this machine's frames and estimate a Short's render (#70); Add a smaller label caption style for banners and footers (#69)"
+    },
+    "M-video": {
+      "value": {
+        "seconds": 28.4,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0
+      },
+      "say": "28 seconds, 1080x1920"
+    },
+    "M-audit": {
+      "value": {
+        "strings": 38,
+        "spoken": 0,
+        "ok": true
+      },
+      "say": "the text audit checked 38 on-screen strings: all exact"
+    }
+  }
+}

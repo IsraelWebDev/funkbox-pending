@@ -242,16 +242,7 @@
     "reveal": "none",
     "anchor": "center"
    },
-   "callouts": [
-    {
-     "copy_id": "title_sub",
-     "at": [
-      0.5,
-      0.31
-     ],
-     "style": "label"
-    }
-   ]
+   "callouts": []
   },
   {
    "id": "a01",

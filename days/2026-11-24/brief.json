@@ -9,7 +9,7 @@
   ],
   "trend": null,
   "angle": "Show a talk before and after the filler cut, with the cut proposed by funkbox and rendered only after approval.",
-  "hook": "Before: the ums. After: funkbox cut them.",
+  "hook": "Before: the ums. After: funkbox cut the filler ones.",
   "novelty": "A rendered before and after of the cut, not only the cut plan (see the 2026-11-23 promo).",
   "claims": [
     {
@@ -33,5 +33,5 @@
       "fact": "F18"
     }
   ],
-  "queued_as": "20261124-193149-avatar-filler-cut"
+  "queued_as": "20261124-201534-avatar-filler-cut-v2"
 }

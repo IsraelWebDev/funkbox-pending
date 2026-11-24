@@ -1,7 +1,7 @@
 {
   "youtube": {
-    "title": "Before and after: the ums cut by funkbox",
-    "description": "Before: um and uh left in. After: funkbox proposed the cuts, and they were rendered after approval.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+    "title": "Before and after: the filler ums cut by funkbox",
+    "description": "Before: um and uh left in. After: funkbox's cut plan removed the filler ums and kept the two quoted sounds, on purpose. The cut was rendered after approval.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
     "tags": [
       "funkbox",
       "video editing",
@@ -12,6 +12,6 @@
     ]
   },
   "x": {
-    "text": "Before: the ums. After: funkbox cut them. The cut plan proposes filler cuts, and you approve before anything renders. Runs locally, no account.\n\nIsraelWebDev/funkbox #videoediting #opensource"
+    "text": "Before: the ums. After: funkbox cut the filler ums and kept the two in quotes. The cut plan is proposed, and you approve before anything renders. Runs locally, no account.\n\nIsraelWebDev/funkbox #videoediting #opensource"
   }
 }

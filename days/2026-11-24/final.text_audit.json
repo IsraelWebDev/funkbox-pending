@@ -296,26 +296,6 @@
       ]
     },
     {
-      "kind": "callout",
-      "shot": "card",
-      "slot": "callout",
-      "instance": "0",
-      "copy_id": "title_sub",
-      "first_frame": 387,
-      "last_frame": 422,
-      "text": "funkbox cut the ums",
-      "complete_frame": 387,
-      "opaque_frame": null,
-      "drawn_lines": [
-        "funkbox cut the ums"
-      ],
-      "text_exact": true,
-      "frames": [
-        387,
-        422
-      ]
-    },
-    {
       "kind": "caption",
       "shot": "card",
       "slot": "caption",

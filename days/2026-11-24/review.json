@@ -1,8 +1,8 @@
 {
-  "verdict": "FAIL",
+  "verdict": "PASS",
   "reviewer": "reviewer agent",
-  "notes": "Checked: 9 frames over final.mp4 (28.4 s, 1080x1920, captions legible, nothing cut off, no blank frames, end card readable once the typed 'funk' completes to 'funkbox'); text_audit ok (38 strings exact); lint OK; no voiceover; every brief claim maps to F1/F2/F18/F25/F26; no trend; X text under 255 chars with no URL, YouTube title under 100; angle is new versus the last 14 posts (11-23 showed the cut plan only, this shows a rendered before/after). PROBLEM 1 (misleading, check 3/7): the AFTER section still contains the words um and uh on screen (a07 'and sometimes I say um,' and a08 'or uh, in the middle of a'), yet the card says 'funkbox cut the ums', the BEFORE label says 'um and uh left in' (implying the after has none), and the X text and YouTube title say 'funkbox cut them / the ums cut'. A viewer sees ums in the AFTER and the claim looks false. The kept quoted fillers are never explained on screen or in the caption. PROBLEM 2 (unsupported, check 3): the AFTER is a pre-made assets/avatar_after.mp4 cartoon avatar; day folder has no cut plan or edit output showing funkbox produced that cut, so 'cut proposed by funkbox and rendered after approval' is not evidenced here. Fix: show or caption the kept-quote filler honestly (or use a cut without leftover um/uh), and include evidence the after was rendered by funkbox video edit.",
-  "video_sha256": "b9ed4d84be88641c077ea668a7baedd885faabf2331fec69c3bf94a889ea4271",
-  "caption_sha256": "e8d9099bda7a41559703b18adde82ae92b820ec68258cad750f0f729c89160d9",
-  "at": "2026-11-24T19:36:18+00:00"
+  "notes": "Extracted and viewed 10+ frames across final.mp4 (28.4 s, 1080x1920 vertical): captions legible, nothing clipped, no blank frames, label/caption clear of the cartoon face, end card (brand-split, funkbox + free/open source + URL) readable. text_audit ok:true (37 strings exact), lint: OK, no voiceover. Claims: F26 (propose, render after approval), F25, F1, F2, F18 all map; no numbers beyond M-video (28 s); no superlatives/competitors/Anthropic mentions. The after cut honestly keeps two quoted sounds (um, uh after 'say'), disclosed in label/description/X text and matching evidence cutplan kept_fillers and feedback.json. No trend (null). X text 219 chars, no URL; YT title 47 chars; spelling clean. Angle (rendered before/after) is new vs the 2026-11-23 cut-plan promo; no 11-24 entries in posts.jsonl. No owner_approval needed.",
+  "video_sha256": "9ce7545b4d6e54a1d95068bb855dd1edad064fabf6b33f26d808dafa3620c299",
+  "caption_sha256": "a3fd46394971630bc85469b5678d118d5c01011b2adfa9116a31106644f31b34",
+  "at": "2026-11-24T20:23:06+00:00"
 }

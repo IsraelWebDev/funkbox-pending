@@ -1,6 +1,6 @@
 {
   "day": "2026-11-24",
-  "measured_at": "2026-11-24T19:35:35Z",
+  "measured_at": "2026-11-24T20:22:13Z",
   "facts": {
     "M-machine": {
       "value": {
@@ -46,11 +46,11 @@
     },
     "M-audit": {
       "value": {
-        "strings": 38,
+        "strings": 37,
         "spoken": 0,
         "ok": true
       },
-      "say": "the text audit checked 38 on-screen strings: all exact"
+      "say": "the text audit checked 37 on-screen strings: all exact"
     }
   }
 }
