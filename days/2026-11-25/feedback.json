@@ -7,5 +7,6 @@
   "https://async.com/blog/horizontal-to-vertical-video-converting/"
  ],
  "effort": "small",
- "would_enable": "A how-to that frames any screen recording vertically in 3 steps: record, run reel activity, paste the rectangle into the shot list."
+ "would_enable": "A how-to that frames any screen recording vertically in 3 steps: record, run reel activity, paste the rectangle into the shot list.",
+ "pr": "https://github.com/IsraelWebDev/funkbox/pull/72"
 }
