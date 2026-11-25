@@ -1,0 +1,11 @@
+{
+ "observation": "Turning wide footage vertical is the step creator guides keep flagging: a November 2026 guide on AI video lists cropping horizontal footage into vertical formats among the common mistakes, and reframing guides single out screen recordings, where tools that zoom to the active UI area are the selling point. Making today's Short, the push-in rectangle for the terminal had to be measured by hand from a screenshot of the recording.",
+ "suggestion": "Add `funkbox reel activity <clip>` (and the same helper in Python): it diffs a clip's frames over an optional trim and prints the bounding box of the pixels that change, as [x, y, w, h] source fractions ready to paste into a shot's frame \"to\" or \"focus\", so pushing in on the active window of a screen recording needs no hand measuring.",
+ "evidence": [
+  "https://blog.mean.ceo/ai-video-generation-trends-november-2026/",
+  "https://mintlify.com/hyeprlabs/clypai/features/smart-reframing",
+  "https://async.com/blog/horizontal-to-vertical-video-converting/"
+ ],
+ "effort": "small",
+ "would_enable": "A how-to that frames any screen recording vertically in 3 steps: record, run reel activity, paste the rectangle into the shot list."
+}

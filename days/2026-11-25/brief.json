@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-25",
+ "format": "tip",
+ "selling_point": "S6",
+ "candidates": [
+  "tip + S6 + 'Tip: a wide screen recording in a vertical Short': a real 16:9 terminal recording pushed in to 9:16 with one frame line; framing only crops and scales (F10, F14). CHOSEN: S6 and the tip format are both unused in the last 14 posts, and turning wide footage vertical is a mistake creator guides keep naming.",
+  "trend-reaction (genre) + S8 + 'Claude writes the GLSL, funkbox checks the seam': Claude shader skills were updated this month, but the sources are skill directory listings rather than people posting loops; too thin to call a genre, and loops were shown on 11-11, 11-15 and 11-17.",
+  "use-case + S8 + 'A Black Friday banner that never ends': Black Friday is two days out, but 11-14 already rode Black Friday (poster) and the looping-ad sources found are vendor pages or older than 30 days.",
+  "owner seed sd-0003 + S2 + 'No NVIDIA card? funkbox needs OpenGL 3.3' with doctor --bench (F27): the best fit for this week's change, but S2 was the focus of the 2026-11-24-failed folder and lint blocks it within 4 days; kept for a later run."
+ ],
+ "trend": null,
+ "angle": "A one-trick tip: a wide (16:9) screen recording becomes a vertical Short by pushing in on the part that matters with one \"frame\" line in the shot list, and the framing only crops and scales, so what was recorded is unchanged. The recording is a real terminal session of this week's funkbox doctor --bench, captured on the run's own machine.",
+ "hook": "Tip: a wide screen recording in a vertical Short",
+ "novelty": "The first promo built on a real screen recording, the first on S6 (framing that never alters the recording) and the first in the tip format; earlier posts showed loops, posters, captions, voice and filler cuts.",
+ "claims": [
+  {"text": "A wide screen recording becomes a vertical Short with a push-in", "fact": "F10"},
+  {"text": "One line in the shot list: \"type\": \"frame\"", "fact": "F10"},
+  {"text": "Framing only crops and scales; it never changes what was recorded", "fact": "F14"},
+  {"text": "Free, open source, runs locally", "fact": "F1, F2"},
+  {"text": "This Short was made with funkbox", "fact": "F18"},
+  {"text": "This Short rendered in under 50 seconds on a 4-core CPU with no GPU", "fact": "M-render"}
+ ]
+}

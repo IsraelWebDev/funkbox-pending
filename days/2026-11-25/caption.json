@@ -1,0 +1,10 @@
+{
+ "youtube": {
+  "title": "Tip: put a wide screen recording in a vertical Short with one push-in line",
+  "description": "Tip: a wide screen recording in a vertical Short.\nPush in on the part that matters with one shot-list line, \"type\": \"frame\". Framing only crops and scales: it never changes what was recorded.\nThis Short rendered in under 50 seconds on a 4-core CPU with no GPU. Made with funkbox.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox",
+  "tags": ["screen recording", "vertical video", "youtube shorts", "video editing", "open source", "funkbox"]
+ },
+ "x": {
+  "text": "Tip: a wide screen recording in a vertical Short.\n\nIn IsraelWebDev/funkbox, one shot-list line (\"type\": \"frame\") pushes in on the part that matters. Framing only crops and scales; it never changes what was recorded.\n\n#screenrecording #videoediting"
+ }
+}

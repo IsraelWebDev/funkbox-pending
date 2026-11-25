@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "reviewer": "reviewer agent",
+  "notes": "Re-render reviewed (video sha 321669eb..., differs from the earlier FAILed render as expected). Check 1: 22 frames looked at over 0-19.5 s; 20.0 s, 1080x1920, 30 fps, vertical. The earlier push glitch is fixed: shot 'push' now opens on the full-height terminal pane with the prompt and command fully in frame from the first frame (4.0 s) and eases in to the bench output; measured on screen.mp4 the text spans x 0.023-0.311 and the to-rect covers 0.021-0.313, so nothing is clipped (tight at the right edge but whole). No black/blank frames or glitches; the dark area under the pane is the recording's own empty screen. All captions legible, none over code-card or terminal text; end card readable with URL top and bottom. Check 2: text_audit ok (8 strings exact, no voiceover); lint: OK. Check 3: claims map to F10 (push-ins on screen recordings; one frame line, matching the docs/reel.md card), F14, F1, F2, F18, M-render 41.3 s under 50 and M-machine 4 cores, gpu false; no superlatives, competitors or testimonials. Check 4: trend null. Check 5: spelling clean; X text 247 chars, no URL; title 74 chars. Check 6: tip format, S6 and screen-recording angle are new against the last 14 posts (11-18 to 11-24). Check 7: nothing objectionable; no owner_approval.json needed.",
+  "video_sha256": "321669eb8d2d0bb1daeb68aa10f7fbeb0f3b900a38a303e8d8469406af59dbd1",
+  "caption_sha256": "66c7ff76c9f9dd35641ee5ab3b7c16a421f5a7458ef30553dc19ed3cde611e63",
+  "at": "2026-11-25T13:55:38+00:00"
+}

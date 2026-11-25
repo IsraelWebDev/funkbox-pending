@@ -1,0 +1,12 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {"text": "Tip: a wide screen recording\nin a vertical Short"},
+  "p1": {"text": "Push in on the part\nthat matters"},
+  "p2": {"text": "One line in the shot list:\n\"type\": \"frame\""},
+  "p3": {"text": "Framing only crops and scales.\nIt never changes what was recorded."},
+  "end_head": {"text": "Wide in.\nVertical out."},
+  "end_sub": {"text": "Free, open source, runs locally."},
+  "url": {"text": "github.com/IsraelWebDev/funkbox"}
+ }
+}

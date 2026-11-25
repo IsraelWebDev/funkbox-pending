@@ -1,0 +1,183 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "wide",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 111,
+      "text": "Tip: a wide screen recording\nin a vertical Short",
+      "complete_frame": 65,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Tip: a wide screen",
+        "recording",
+        "in a vertical Short"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        111
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "push",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 118,
+      "last_frame": 246,
+      "text": "Push in on the part\nthat matters",
+      "complete_frame": 184,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Push in on the part",
+        "that matters"
+      ],
+      "text_exact": true,
+      "frames": [
+        118,
+        246
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "line",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 252,
+      "last_frame": 382,
+      "text": "One line in the shot list:\n\"type\": \"frame\"",
+      "complete_frame": 325,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "One line in the shot",
+        "list:",
+        "\"type\": \"frame\""
+      ],
+      "text_exact": true,
+      "frames": [
+        252,
+        382
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "same",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 387,
+      "last_frame": 494,
+      "text": "Framing only crops and scales.\nIt never changes what was recorded.",
+      "complete_frame": 448,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Framing only crops",
+        "and scales.",
+        "It never changes what",
+        "was recorded."
+      ],
+      "text_exact": true,
+      "frames": [
+        387,
+        494
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 495,
+      "last_frame": 599,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 495,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        495,
+        599
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 495,
+      "last_frame": 599,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 495,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        495,
+        599
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 505,
+      "last_frame": 599,
+      "text": "Wide in.\nVertical out.",
+      "complete_frame": 550,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Wide in.",
+        "Vertical",
+        "out."
+      ],
+      "text_exact": true,
+      "frames": [
+        505,
+        599
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 556,
+      "last_frame": 599,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 556,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        556,
+        599
+      ]
+    }
+  ]
+}

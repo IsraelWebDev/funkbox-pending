@@ -1,0 +1,19 @@
+1
+00:00:00,167 --> 00:00:03,733
+Tip: a wide screen recording
+in a vertical Short
+
+2
+00:00:03,933 --> 00:00:08,233
+Push in on the part
+that matters
+
+3
+00:00:08,400 --> 00:00:12,767
+One line in the shot list:
+"type": "frame"
+
+4
+00:00:12,900 --> 00:00:16,500
+Framing only crops and scales.
+It never changes what was recorded.
