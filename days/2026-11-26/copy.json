@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "This Short, measured:\nis every cut on beat?"
+  },
+  "p1": {
+   "text": "9 cuts at 119 BPM.\nThe beats were found\nin the song itself."
+  },
+  "p2": {
+   "text": "Every cut lands within\n15 ms of the beat."
+  },
+  "p3": {
+   "text": "Rendered under 60 s.\n4 CPU cores. No GPU."
+  },
+  "p4": {
+   "text": "Text audit: 9 strings\non screen, all exact."
+  },
+  "end_head": {
+   "text": "funkbox"
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

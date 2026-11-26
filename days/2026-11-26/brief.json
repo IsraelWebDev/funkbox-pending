@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-26",
+ "format": "behind-the-scenes",
+ "selling_point": "S7",
+ "candidates": [
+  "behind-the-scenes + S7 + 'This Short, measured: how close is each cut?': the reel's own beat audit (M-beats: 9 cuts, each within 15 ms of the beat funkbox detected in the song) plus M-render and M-audit. CHOSEN: behind-the-scenes has not run since 11-02, no promo has ever quoted the measured beat accuracy, and beat-synced cutting is what this week's editing guides keep teaching (CapCut, cursa.app, Hollyland beat-edit guides).",
+  "owner seed sd-0003 + S2 + 'No NVIDIA card? Time your machine first' with doctor --bench (F27): still the best fit for this week's code (and Apple's FastFrames-L, ~17 Nov, is another CUDA-only local model), but lint blocks S2 within 4 days of the 2026-11-24-failed folder; it becomes legal on 2026-11-28. Kept for then.",
+  "trend-reaction (event) + S5 + 'Black Friday is tomorrow: one ad, every placement': Black Friday ad guides push many variants and short video (triplewhale, yotpo, videoai.me), but 11-19 already showed one ad in four sizes and 11-14 rode Black Friday; it would read as a repeat.",
+  "trend-reaction (genre) + S3 + 'A video from Claude Code, rendered on your own machine': Claude Code video skills are multiplying (digitalsamba toolkit, OpenMontage, Tella skills), but their listings are undated, so the 30-day genre rule cannot be shown, and 11-13 already did 'Video from a chat with Claude'."
+ ],
+ "trend": null,
+ "angle": "Behind the scenes of this very Short, told only in numbers funkbox measured while making it: 9 cuts snapped to the beat it detected in the day's 119 BPM song, every cut within 15 ms of that beat, a render under 60 seconds on a 4-core CPU with no GPU, and a text audit of 9 on-screen strings, all exact.",
+ "hook": "This Short, measured: is every cut on beat?",
+ "novelty": "No earlier post quoted the beat audit's measured accuracy (how many ms each cut sits from the beat) or used behind-the-scenes since 2026-11-02; 11-16 explained how to cut on the beat, today shows the measurement of this video's own cuts.",
+ "claims": [
+  {
+   "text": "9 cuts at 119 BPM; the beats were found in the song itself",
+   "fact": "M-beats"
+  },
+  {
+   "text": "Every cut lands within 15 ms of the beat",
+   "fact": "M-beats"
+  },
+  {
+   "text": "Rendered under 60 s. 4 CPU cores. No GPU.",
+   "fact": "M-render, M-machine"
+  },
+  {
+   "text": "Text audit: 9 strings on screen, all exact",
+   "fact": "M-audit, F13"
+  },
+  {
+   "text": "Cuts can follow a beat grid",
+   "fact": "F11"
+  },
+  {
+   "text": "Free, open source, runs locally",
+   "fact": "F1, F2"
+  },
+  {
+   "text": "Made with funkbox",
+   "fact": "F18"
+  }
+ ]
+}

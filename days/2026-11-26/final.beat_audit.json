@@ -1,0 +1,85 @@
+{
+  "reel": "final",
+  "fps": 30,
+  "bpm": 118.98,
+  "grid": "detected",
+  "threshold_ms": 30.0,
+  "frame_ms": 33.3,
+  "ok": true,
+  "max_offset_ms": 14.8,
+  "over": [],
+  "cuts": [
+    {
+      "cut": "cut1",
+      "frame": 76,
+      "time_s": 2.5333,
+      "beat_s": 2.5205,
+      "offset_ms": 12.8,
+      "ok": true
+    },
+    {
+      "cut": "cut2",
+      "frame": 106,
+      "time_s": 3.5333,
+      "beat_s": 3.5291,
+      "offset_ms": 4.2,
+      "ok": true
+    },
+    {
+      "cut": "cut3",
+      "frame": 136,
+      "time_s": 4.5333,
+      "beat_s": 4.5377,
+      "offset_ms": -4.4,
+      "ok": true
+    },
+    {
+      "cut": "grid",
+      "frame": 166,
+      "time_s": 5.5333,
+      "beat_s": 5.5463,
+      "offset_ms": -13.0,
+      "ok": true
+    },
+    {
+      "cut": "within",
+      "frame": 257,
+      "time_s": 8.5667,
+      "beat_s": 8.572,
+      "offset_ms": -5.3,
+      "ok": true
+    },
+    {
+      "cut": "demo",
+      "frame": 348,
+      "time_s": 11.6,
+      "beat_s": 11.5977,
+      "offset_ms": 2.3,
+      "ok": true
+    },
+    {
+      "cut": "render",
+      "frame": 408,
+      "time_s": 13.6,
+      "beat_s": 13.6148,
+      "offset_ms": -14.8,
+      "ok": true
+    },
+    {
+      "cut": "audit",
+      "frame": 499,
+      "time_s": 16.6333,
+      "beat_s": 16.6406,
+      "offset_ms": -7.3,
+      "ok": true
+    },
+    {
+      "cut": "end_card",
+      "frame": 590,
+      "time_s": 19.6667,
+      "beat_s": 19.6663,
+      "offset_ms": 0.4,
+      "ok": true
+    }
+  ]
+}

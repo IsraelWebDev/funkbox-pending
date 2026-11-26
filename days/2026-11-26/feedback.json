@@ -1,0 +1,11 @@
+{
+ "observation": "Beat-edit guides this month teach cutting in bar-sized blocks: a new shot on each downbeat, often every 4 beats, with motion kept inside the shot between cuts (cursa.app's CapCut beat-editing chapter; CapCut's montage-rhythm and sports beat-sync guides; Hollyland's Premiere beat-edit workflow). Making today's Short, every shot length had to be written as a beat count (beats:2, beats:6), and phrasing the edit in bars meant doing the 4x arithmetic by hand for each shot.",
+ "suggestion": "Accept \"duration\": \"bars:N\" in reel shots (and stagger) as N bars of the beat grid, 4 beats per bar by default with an optional audio.beats_per_bar, resolved exactly like beats:N so snapping and the beat audit work unchanged; validate it, document it in docs/reel.md next to beats:N.",
+ "evidence": [
+  "https://cursa.app/en/page/beat-based-editing-in-capcut-syncing-cuts-transitions-and-motion-to-music",
+  "https://www.capcut.com/create/music-video-pacing-emotional-montage-rhythm",
+  "https://store.hollyland.com/blogs/creator-hub/beat-edit-in-premiere-pro"
+ ],
+ "effort": "small",
+ "would_enable": "A how-to Short that phrases a whole edit in bars (\"one shot per bar\") with the beat audit showing each cut on the grid."
+}

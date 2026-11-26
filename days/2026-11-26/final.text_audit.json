@@ -1,0 +1,199 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 4,
+      "last_frame": 75,
+      "text": "This Short, measured:\nis every cut on beat?",
+      "complete_frame": 45,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "This Short, measured:",
+        "is every cut on beat?"
+      ],
+      "text_exact": true,
+      "frames": [
+        4,
+        75
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "grid",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 170,
+      "last_frame": 256,
+      "text": "9 cuts at 119 BPM.\nThe beats were found\nin the song itself.",
+      "complete_frame": 220,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "9 cuts at 119 BPM.",
+        "The beats were found",
+        "in the song itself."
+      ],
+      "text_exact": true,
+      "frames": [
+        170,
+        256
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "within",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 262,
+      "last_frame": 347,
+      "text": "Every cut lands within\n15 ms of the beat.",
+      "complete_frame": 311,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Every cut lands within",
+        "15 ms of the beat."
+      ],
+      "text_exact": true,
+      "frames": [
+        262,
+        347
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "render",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 413,
+      "last_frame": 498,
+      "text": "Rendered under 60 s.\n4 CPU cores. No GPU.",
+      "complete_frame": 462,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Rendered under 60 s.",
+        "4 CPU cores. No GPU."
+      ],
+      "text_exact": true,
+      "frames": [
+        413,
+        498
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "audit",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 504,
+      "last_frame": 589,
+      "text": "Text audit: 9 strings\non screen, all exact.",
+      "complete_frame": 553,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Text audit: 9 strings",
+        "on screen, all exact."
+      ],
+      "text_exact": true,
+      "frames": [
+        504,
+        589
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 590,
+      "last_frame": 694,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 590,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        590,
+        694
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 590,
+      "last_frame": 694,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 590,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        590,
+        694
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 600,
+      "last_frame": 694,
+      "text": "funkbox",
+      "complete_frame": 613,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        600,
+        694
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 619,
+      "last_frame": 694,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 619,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        619,
+        694
+      ]
+    }
+  ]
+}

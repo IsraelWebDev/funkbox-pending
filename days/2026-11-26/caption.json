@@ -1,0 +1,18 @@
+{
+ "youtube": {
+  "title": "This Short, measured: 9 cuts, each within 15 ms of the beat, rendered on a CPU with no GPU",
+  "description": "This Short, measured: is every cut on beat?\nfunkbox found the beat in the song, snapped all 9 cuts to it and audited every caption. Rendered in under 60 seconds on 4 CPU cores, no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "beat sync",
+   "video editing",
+   "open source",
+   "shorts",
+   "music video",
+   "behind the scenes"
+  ]
+ },
+ "x": {
+  "text": "This Short, measured.\n\n9 cuts, each within 15 ms of the beat IsraelWebDev/funkbox detected in the song. 9 on-screen strings, all exact. Rendered in under 60 s on 4 CPU cores with no GPU.\n\nFree, open source, runs locally. #videoediting #opensource"
+ }
+}

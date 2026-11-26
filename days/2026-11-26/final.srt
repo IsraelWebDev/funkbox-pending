@@ -1,0 +1,25 @@
+1
+00:00:00,133 --> 00:00:02,533
+This Short, measured:
+is every cut on beat?
+
+2
+00:00:05,667 --> 00:00:08,567
+9 cuts at 119 BPM.
+The beats were found
+in the song itself.
+
+3
+00:00:08,733 --> 00:00:11,600
+Every cut lands within
+15 ms of the beat.
+
+4
+00:00:13,767 --> 00:00:16,633
+Rendered under 60 s.
+4 CPU cores. No GPU.
+
+5
+00:00:16,800 --> 00:00:19,667
+Text audit: 9 strings
+on screen, all exact.
