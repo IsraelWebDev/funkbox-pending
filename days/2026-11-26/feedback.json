@@ -7,5 +7,6 @@
   "https://store.hollyland.com/blogs/creator-hub/beat-edit-in-premiere-pro"
  ],
  "effort": "small",
- "would_enable": "A how-to Short that phrases a whole edit in bars (\"one shot per bar\") with the beat audit showing each cut on the grid."
+ "would_enable": "A how-to Short that phrases a whole edit in bars (\"one shot per bar\") with the beat audit showing each cut on the grid.",
+ "pr": "https://github.com/IsraelWebDev/funkbox/pull/73"
 }
