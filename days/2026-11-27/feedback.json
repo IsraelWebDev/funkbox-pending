@@ -9,5 +9,6 @@
   "https://freebeat.ai/articles/music-visualizer-for-spotify-canvas-best-practices-and-tools-in-2026"
  ],
  "effort": "small",
- "would_enable": "A how-to: 'A Spotify Canvas loop in one command', showing the rendered 8 s loop playing twice with the seam check's result."
+ "would_enable": "A how-to: 'A Spotify Canvas loop in one command', showing the rendered 8 s loop playing twice with the seam check's result.",
+ "pr": "https://github.com/IsraelWebDev/funkbox/pull/75"
 }
