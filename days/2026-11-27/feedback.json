@@ -1,0 +1,13 @@
+{
+ "observation": "Short looping visuals for music (Spotify Canvas: 9:16, a few seconds, seamless) are a whole product category right now: dedicated AI Canvas makers (freebeat, Kling's Canvas maker, Dreamina, LoopCanvas launched on Product Hunt) and Fiverr gigs selling Canvas loops. Their pages promise 'seamless' but at least one guide admits manual loop trimming is needed. funkbox already renders machine-checked seamless loops (F6), but a creator has to know the Canvas spec and pass the right size and length by hand.",
+ "suggestion": "Add a 'canvas' target to `funkbox loop render` (and the loop MCP tool): `--target canvas` sets 9:16 at 720x1280, clamps --seconds into Canvas's 3-8 s window, and fails with a named reason if an explicit size or length falls outside it; the loop check still runs. Documented in docs with the one-line command.",
+ "evidence": [
+  "https://freebeat.ai/articles/8-best-ai-tools-for-creating-spotify-canvas-and-looping-music-visuals-in-2026",
+  "https://kling.ai/topics/spotify-canvas-maker",
+  "https://dreamina.capcut.com/ai-video/spotify-canvas",
+  "https://www.producthunt.com/p/loopcanvas-ai",
+  "https://freebeat.ai/articles/music-visualizer-for-spotify-canvas-best-practices-and-tools-in-2026"
+ ],
+ "effort": "small",
+ "would_enable": "A how-to: 'A Spotify Canvas loop in one command', showing the rendered 8 s loop playing twice with the seam check's result."
+}

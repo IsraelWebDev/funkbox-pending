@@ -1,0 +1,29 @@
+{
+ "brand_name": "funkbox",
+ "lines": {
+  "hook": {
+   "text": "Did a shot start\non the wrong frame?"
+  },
+  "p1": {
+   "text": "New in funkbox:\nframe review."
+  },
+  "p2": {
+   "text": "First and last frame\nof every shot,\non one sheet."
+  },
+  "p3": {
+   "text": "Shot s3 opens with its\ncaption mid-reveal: \"ME\"."
+  },
+  "p4": {
+   "text": "Every promo here is\nchecked by a second\nAI agent."
+  },
+  "end_head": {
+   "text": "Look before you post."
+  },
+  "end_sub": {
+   "text": "Free, open source, runs locally."
+  },
+  "url": {
+   "text": "github.com/IsraelWebDev/funkbox"
+  }
+ }
+}

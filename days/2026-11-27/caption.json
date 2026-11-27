@@ -1,0 +1,19 @@
+{
+ "youtube": {
+  "title": "Did a shot start on the wrong frame? New in funkbox: frame review, every shot on one sheet",
+  "description": "Did a shot start on the wrong frame? New in funkbox: frame review.\n`funkbox reel review` writes one sheet with the first and last frame of every shot. Here it is on the GLOWMOP demo ad: shot s3 opens with its caption mid-reveal.\nEvery promo on this channel is checked by a second AI agent before it posts. This Short rendered in under 60 seconds on a 4-core CPU with no GPU.\nFree, open source, runs locally: https://github.com/IsraelWebDev/funkbox\nMade with funkbox.",
+  "tags": [
+   "funkbox",
+   "video editing",
+   "frame review",
+   "open source",
+   "shorts",
+   "local AI",
+   "Claude",
+   "video QA"
+  ]
+ },
+ "x": {
+  "text": "Did a shot start on the wrong frame?\n\nNew in IsraelWebDev/funkbox: frame review. One sheet with the first and last frame of every shot, so you look before you post. Here, the demo ad's shot s3 opens mid-reveal.\n\n#videoediting #opensource"
+ }
+}

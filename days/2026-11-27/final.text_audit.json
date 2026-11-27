@@ -1,0 +1,204 @@
+{
+  "reel": "final",
+  "copy_deck": "copy.json",
+  "tts": null,
+  "fps": 30,
+  "ok": true,
+  "missing": [],
+  "inexact": [],
+  "never_fully_typed": [],
+  "entries": [
+    {
+      "kind": "caption",
+      "shot": "hook",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "hook",
+      "first_frame": 5,
+      "last_frame": 89,
+      "text": "Did a shot start\non the wrong frame?",
+      "complete_frame": 53,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Did a shot start",
+        "on the wrong frame?"
+      ],
+      "text_exact": true,
+      "frames": [
+        5,
+        89
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "sheet",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p1",
+      "first_frame": 168,
+      "last_frame": 269,
+      "text": "New in funkbox:\nframe review.",
+      "complete_frame": 225,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "New in funkbox:",
+        "frame review."
+      ],
+      "text_exact": true,
+      "frames": [
+        168,
+        269
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "rows",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p2",
+      "first_frame": 275,
+      "last_frame": 359,
+      "text": "First and last frame\nof every shot,\non one sheet.",
+      "complete_frame": 323,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "First and last frame",
+        "of every shot,",
+        "on one sheet."
+      ],
+      "text_exact": true,
+      "frames": [
+        275,
+        359
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "catch",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p3",
+      "first_frame": 365,
+      "last_frame": 467,
+      "text": "Shot s3 opens with its\ncaption mid-reveal: \"ME\".",
+      "complete_frame": 423,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Shot s3 opens with its",
+        "caption mid-reveal:",
+        "\"ME\"."
+      ],
+      "text_exact": true,
+      "frames": [
+        365,
+        467
+      ]
+    },
+    {
+      "kind": "caption",
+      "shot": "agent",
+      "slot": "caption",
+      "instance": "main",
+      "copy_id": "p4",
+      "first_frame": 473,
+      "last_frame": 575,
+      "text": "Every promo here is\nchecked by a second\nAI agent.",
+      "complete_frame": 531,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Every promo here is",
+        "checked by a second",
+        "AI agent."
+      ],
+      "text_exact": true,
+      "frames": [
+        473,
+        575
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "bottom",
+      "copy_id": "url",
+      "first_frame": 576,
+      "last_frame": 680,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 576,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        576,
+        680
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "url",
+      "instance": "top",
+      "copy_id": "url",
+      "first_frame": 576,
+      "last_frame": 680,
+      "text": "github.com/IsraelWebDev/funkbox",
+      "complete_frame": 576,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "github.com/IsraelWebDev/funkbox"
+      ],
+      "text_exact": true,
+      "frames": [
+        576,
+        680
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "headline",
+      "instance": "main",
+      "copy_id": "end_head",
+      "first_frame": 586,
+      "last_frame": 680,
+      "text": "Look before you post.",
+      "complete_frame": 629,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Look",
+        "before",
+        "you",
+        "post."
+      ],
+      "text_exact": true,
+      "frames": [
+        586,
+        680
+      ]
+    },
+    {
+      "kind": "end_card",
+      "shot": "end_card",
+      "slot": "sub",
+      "instance": "main",
+      "copy_id": "end_sub",
+      "first_frame": 635,
+      "last_frame": 680,
+      "text": "Free, open source, runs locally.",
+      "complete_frame": 635,
+      "opaque_frame": null,
+      "drawn_lines": [
+        "Free, open source,",
+        "runs locally."
+      ],
+      "text_exact": true,
+      "frames": [
+        635,
+        680
+      ]
+    }
+  ]
+}

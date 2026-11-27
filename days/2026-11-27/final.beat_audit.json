@@ -1,0 +1,61 @@
+{
+  "reel": "final",
+  "fps": 30,
+  "bpm": 99.98,
+  "grid": "detected",
+  "threshold_ms": 30.0,
+  "frame_ms": 33.3,
+  "ok": true,
+  "max_offset_ms": 3.2,
+  "over": [],
+  "cuts": [
+    {
+      "cut": "ad",
+      "frame": 90,
+      "time_s": 3.0,
+      "beat_s": 2.9968,
+      "offset_ms": 3.2,
+      "ok": true
+    },
+    {
+      "cut": "sheet",
+      "frame": 162,
+      "time_s": 5.4,
+      "beat_s": 5.3973,
+      "offset_ms": 2.7,
+      "ok": true
+    },
+    {
+      "cut": "rows",
+      "frame": 270,
+      "time_s": 9.0,
+      "beat_s": 8.998,
+      "offset_ms": 2.0,
+      "ok": true
+    },
+    {
+      "cut": "catch",
+      "frame": 360,
+      "time_s": 12.0,
+      "beat_s": 11.9986,
+      "offset_ms": 1.4,
+      "ok": true
+    },
+    {
+      "cut": "agent",
+      "frame": 468,
+      "time_s": 15.6,
+      "beat_s": 15.5993,
+      "offset_ms": 0.7,
+      "ok": true
+    },
+    {
+      "cut": "end_card",
+      "frame": 576,
+      "time_s": 19.2,
+      "beat_s": 19.2,
+      "offset_ms": 0.0,
+      "ok": true
+    }
+  ]
+}

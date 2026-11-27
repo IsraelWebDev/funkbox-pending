@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-27",
+ "format": "whats-new",
+ "selling_point": "S11",
+ "candidates": [
+  "whats-new + S11 + 'Did a shot start on the wrong frame?': the frame review sheet merged today (#74, `funkbox reel review`), shown on the demo ad's real sheet. CHOSEN: brand new since the last promo, no post has shown a review step, and it is visual proof by itself.",
+  "owner seed sd-0003 + S2 + 'No NVIDIA card? Time your machine first' with doctor --bench (F27): the best fit for the seed, but lint still blocks S2 today (the 2026-11-24-failed folder is within the last 4 briefs); it becomes legal tomorrow, 2026-11-28. Kept for then; seed left unused.",
+  "use-case + S8 + 'A Spotify Canvas loop that never jumps': Canvas loop makers are everywhere (freebeat, Kling, Dreamina, LoopCanvas on Product Hunt), but none of the pages are dated within 30 days, so a genre trend cannot be shown, and 11-15 already did 'find the seam'. Turned into today's product feedback instead.",
+  "use-case + S9 + 'AI logo to clean vectors' with image_trace (F24): many paid services vectorize AI-made logos, but the sources are undated listings and 11-20 used S9 a week ago."
+ ],
+ "trend": null,
+ "angle": "New since the last promo: funkbox's frame review (`funkbox reel review`) writes one sheet with the first and last frame of every shot of a render. The Short shows the real sheet funkbox wrote today for its own GLOWMOP demo ad, zooms into rows s1-s4, and points at a concrete thing the sheet makes visible: shot s3 opens with its caption mid-reveal (\"ME\"). It closes on the fact that every promo on this channel is itself checked by a second AI agent before it posts.",
+ "hook": "Did a shot start on the wrong frame?",
+ "novelty": "No post has shown a review step or a frame review sheet; this is the first promo about checking a render before posting, and the sheet is a real output generated in this run (examples/mimic rendered preview, via funkbox reel review).",
+ "claims": [
+  {
+   "text": "New in funkbox: frame review.",
+   "fact": "M-commits"
+  },
+  {
+   "text": "First and last frame of every shot, on one sheet (docs/reel.md: 'the first and last frame of each shot, and the final frame').",
+   "fact": "M-commits"
+  },
+  {
+   "text": "Shot s3 of the demo ad opens with its caption mid-reveal: \"ME\" (visible in the sheet on screen).",
+   "fact": "F15"
+  },
+  {
+   "text": "Every promo here is checked by a second AI agent.",
+   "fact": "F18"
+  },
+  {
+   "text": "Free, open source, runs locally.",
+   "fact": "F1, F2"
+  },
+  {
+   "text": "This Short rendered in under 60 seconds on a 4-core CPU with no GPU (YouTube description only).",
+   "fact": "M-render, M-machine"
+  },
+  {
+   "text": "The sheet on screen was made by funkbox's frame review from the demo ad's render (examples/mimic/preview.mp4); rows s1-s4 are crops of it.",
+   "fact": "M-commits, F18"
+  }
+ ]
+}

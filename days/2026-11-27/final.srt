@@ -1,0 +1,26 @@
+1
+00:00:00,167 --> 00:00:03,000
+Did a shot start
+on the wrong frame?
+
+2
+00:00:05,600 --> 00:00:09,000
+New in funkbox:
+frame review.
+
+3
+00:00:09,167 --> 00:00:12,000
+First and last frame
+of every shot,
+on one sheet.
+
+4
+00:00:12,167 --> 00:00:15,600
+Shot s3 opens with its
+caption mid-reveal: "ME".
+
+5
+00:00:15,767 --> 00:00:19,200
+Every promo here is
+checked by a second
+AI agent.
